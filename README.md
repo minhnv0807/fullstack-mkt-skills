@@ -341,6 +341,20 @@ git checkout -b feature/ten-skill-moi
 
 ---
 
+## Star History
+
+<a href="https://star-history.com/#minhnv0807/fullstack-mkt-skills&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=minhnv0807/fullstack-mkt-skills&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=minhnv0807/fullstack-mkt-skills&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=minhnv0807/fullstack-mkt-skills&type=Date" />
+ </picture>
+</a>
+
+Neu thay project huu ich, cho 1 sao de theo doi — giup repo xuat hien trong GitHub Trending.
+
+---
+
 ## License
 
 MIT — tu do su dung, chinh sua, phan phoi.
