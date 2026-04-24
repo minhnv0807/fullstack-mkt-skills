@@ -1,0 +1,67 @@
+name: Validate Skills
+
+on:
+  push:
+    branches: [master, main]
+    paths:
+      - 'skills/**'
+      - 'validate-skills.sh'
+  pull_request:
+    paths:
+      - 'skills/**'
+      - 'validate-skills.sh'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    name: Validate skills against Agent Skills Spec
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Make validator executable
+        run: chmod +x validate-skills.sh
+
+      - name: Run validator
+        run: ./validate-skills.sh
+
+      - name: Check skill file count
+        run: |
+          count=$(find skills -name "SKILL.md" -type f | wc -l)
+          echo "Found $count skills"
+          if [ "$count" -lt 20 ]; then
+            echo "ERROR: Expected at least 20 skills, found $count"
+            exit 1
+          fi
+
+      - name: Check marketplace.json is valid JSON
+        run: |
+          if ! python3 -c "import json; json.load(open('.claude-plugin/marketplace.json'))"; then
+            echo "ERROR: marketplace.json is not valid JSON"
+            exit 1
+          fi
+
+      - name: Check all marketplace skills exist
+        run: |
+          python3 <<'EOF'
+          import json, os, sys
+
+          with open('.claude-plugin/marketplace.json') as f:
+              data = json.load(f)
+
+          missing = []
+          for plugin in data.get('plugins', []):
+              for skill_path in plugin.get('skills', []):
+                  full_path = os.path.join(skill_path.lstrip('./'), 'SKILL.md')
+                  if not os.path.exists(full_path):
+                      missing.append(full_path)
+
+          if missing:
+              print(f"ERROR: {len(missing)} skills in marketplace.json not found:")
+              for m in missing:
+                  print(f"  - {m}")
+              sys.exit(1)
+
+          print(f"All marketplace skills found")
+          EOF

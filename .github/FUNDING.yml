@@ -1,0 +1,5 @@
+# Sponsor button config
+# Enables the "Sponsor" button on the GitHub repo page
+
+github: [minhnv0807]
+custom: ['https://opa.business']
