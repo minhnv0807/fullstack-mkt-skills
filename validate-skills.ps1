@@ -12,6 +12,10 @@ Write-Host ""
 
 Get-ChildItem -Path $SkillsDir -Directory | ForEach-Object {
     $skillName = $_.Name
+
+    # Skip non-skill directories
+    if ($skillName -eq "references") { return }
+
     $skillFile = Join-Path $_.FullName "SKILL.md"
     $errors = @()
     $warnings = @()

@@ -18,6 +18,10 @@ echo ""
 
 for skill_dir in "$SKILLS_DIR"/*/; do
     skill_name=$(basename "$skill_dir")
+
+    # Skip non-skill directories
+    [[ "$skill_name" == "references" ]] && continue
+
     skill_file="$skill_dir/SKILL.md"
     errors=()
     warnings=()
