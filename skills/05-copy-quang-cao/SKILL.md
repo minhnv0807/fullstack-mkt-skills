@@ -394,11 +394,11 @@ Bien the S2: Waitlist / cohort offer (FOMO nhe)
 
 1. **CANH BAO 1: Audience truoc khi ads.**
    - Khong nen chay ads tang follower < 500 follower huu co.
-   - Vi sao: chua co social proof, ads do't convert.
+   - Vi sao: chua co social proof, ads khong convert.
    - Fix: tang follower huu co qua 500 truoc, sau do moi ads.
 
 2. **CANH BAO 2: Niche xac dinh truoc khi ads.**
-   - Khong chay ads khi niche con mơ ho.
+   - Khong chay ads khi niche con mo ho.
    - Vi sao: target audience sai, burn ngan sach.
    - Fix: chay skill 23 personal-brand-strategy → niche ro rang truoc.
 
