@@ -95,6 +95,33 @@ for skill_dir in "$SKILLS_DIR"/*/; do
     fi
 done
 
+# Variant pattern validation (skills 20, 22)
+echo ""
+echo "Checking variant patterns..."
+for variant_skill in "20-brief-client-intake" "22-personal-brand-context"; do
+  if [ -d "skills/$variant_skill/variants" ]; then
+    variant_count=$(ls skills/$variant_skill/variants/*.md 2>/dev/null | wc -l)
+    if [ "$variant_count" -ge 3 ]; then
+      echo -e "${GREEN}PASS${NC} $variant_skill: $variant_count variants found"
+    else
+      echo -e "${YELLOW}WARN${NC} $variant_skill: only $variant_count variants (expected >=3)"
+    fi
+  else
+    echo -e "${YELLOW}WARN${NC} $variant_skill: no variants/ folder found"
+  fi
+done
+
+# Skill 22 specific: check 01-founder, 02-coach, 03-creator
+if [ -d "skills/22-personal-brand-context/variants" ]; then
+  for variant in "01-founder.md" "02-coach.md" "03-creator.md"; do
+    if [ -f "skills/22-personal-brand-context/variants/$variant" ]; then
+      echo -e "${GREEN}PASS${NC} skill-22 variant: $variant"
+    else
+      echo -e "${RED}FAIL${NC} skill-22 variant missing: $variant"
+    fi
+  done
+fi
+
 echo ""
 echo "====================================================="
 echo "Passed: $PASSED | Warnings: $WARNINGS | Issues: $ISSUES"

@@ -66,3 +66,8 @@ nghien-cuu-doi-thu-[ten]-[YYYYMMDD].md
 - Khong tu dong chay ads hoac thay doi ngan sach — chi de xuat.
 - Khong tao content truc tiep — chuyen sang agent `content-producer`.
 - Khong phan tich data tho — chuyen sang agent `performance-analyst`.
+
+## Cross-agent collaboration
+
+- Phan biet voi `personal-brand-builder`: agent nay focus brand DOANH NGHIEP (san pham, dich vu, thuong hieu cong ty). `personal-brand-builder` focus thuong hieu CA NHAN cua founder/coach/creator.
+- Khi user co ca product brand va personal brand, hoi 1 cau de xac dinh scope truoc khi proceed.

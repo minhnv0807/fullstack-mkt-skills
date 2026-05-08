@@ -85,6 +85,35 @@ Get-ChildItem -Path $SkillsDir -Directory | ForEach-Object {
     }
 }
 
+# Variant pattern validation (skills 20, 22)
+Write-Host ""
+Write-Host "Checking variant patterns..."
+foreach ($variant_skill in @("20-brief-client-intake", "22-personal-brand-context")) {
+  $variantsPath = "skills/$variant_skill/variants"
+  if (Test-Path $variantsPath) {
+    $variant_count = (Get-ChildItem $variantsPath -Filter "*.md").Count
+    if ($variant_count -ge 3) {
+      Write-Host "PASS $variant_skill`: $variant_count variants found" -ForegroundColor Green
+    } else {
+      Write-Host "WARN $variant_skill`: only $variant_count variants (expected >=3)" -ForegroundColor Yellow
+    }
+  } else {
+    Write-Host "WARN ${variant_skill}: no variants/ folder found" -ForegroundColor Yellow
+  }
+}
+
+# Skill 22 specific: check 01-founder, 02-coach, 03-creator
+if (Test-Path "skills/22-personal-brand-context/variants") {
+  foreach ($variant in @("01-founder.md", "02-coach.md", "03-creator.md")) {
+    $varPath = "skills/22-personal-brand-context/variants/$variant"
+    if (Test-Path $varPath) {
+      Write-Host "PASS skill-22 variant: $variant" -ForegroundColor Green
+    } else {
+      Write-Host "FAIL skill-22 variant missing: $variant" -ForegroundColor Red
+    }
+  }
+}
+
 Write-Host ""
 Write-Host "====================================================="
 Write-Host "Passed: $Passed | Warnings: $Warnings | Issues: $Issues"

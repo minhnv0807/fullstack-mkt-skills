@@ -41,11 +41,23 @@
     │                        INPUT GATE                                   │
     │              20 Brief Client Intake (20 nganh)                      │
     └────────────────────────────────────────────────────────────────────┘
+
+                    ┌─────────────────────────────────────┐
+                    │   PERSONAL BRAND + AI AVATAR (NEW)  │
+                    │                                     │
+                    │ 22 personal-brand-context (★)       │
+                    │ 23 personal-brand-strategy          │
+                    │ 24 ai-avatar-production (FLAGSHIP)  │
+                    │ 25 voice-clone-podcast              │
+                    │ 26 thought-leadership-content       │
+                    │ 27 personal-brand-monetize          │
+                    │ 28 community-building               │
+                    └─────────────────────────────────────┘
 ```
 
 ---
 
-## Bang tra nhanh — 22 Skills
+## Bang tra nhanh — 29 Skills
 
 | # | Skill | Lam gi | Khi nao dung | Output |
 |---|-------|--------|-------------|--------|
@@ -72,10 +84,17 @@
 | 19 | ab-test-setup | Thiet ke A/B test | Can test gia thuyet | Sample size + significance |
 | 20 | brief-client-intake | Form thu thap thong tin KH | Agency nhan KH moi | Brief 11 phan × 20 nganh |
 | 21 | audit-ads-performance | Audit Health Score 0-100 | Kiem tra tai khoan ads | 84 checkpoints + Quick Wins |
+| ★22 | personal-brand-context | Foundation personal brand (3 variants) | Bat dau personal brand | `.agents/personal-brand-context.md` |
+| 23 | personal-brand-strategy | Strategy 12 thang | Sau skill 22 | Strategy file |
+| 24 | ai-avatar-production | AI Avatar production deep dive | Can lam video AI | Pipeline + QA |
+| 25 | voice-clone-podcast | Audio AI | Can voiceover/podcast | Audio pipeline |
+| 26 | thought-leadership-content | Long-form text | Can viet bai chieu sau | 3 structures + repurpose |
+| 27 | personal-brand-monetize | Kiem tien tu personal brand | Sau khi co audience | Offer ladder + funnel |
+| 28 | community-building | Xay community | Can grow community | Blueprint 3-lop |
 
 ---
 
-## 4 Reference Files
+## 7 Reference Files
 
 | File | Noi dung | Dung boi skill |
 |------|---------|---------------|
@@ -83,10 +102,13 @@
 | `references/quality-gates-vn.md` | 10 hard rules khong bao gio vi pham | 03, 21 |
 | `references/mcp-ads-integration.md` | Huong dan ket noi MCP Meta/Google/TikTok | 03, 08, 21 |
 | `references/hook-formulas-vn.md` | 6 kieu hook + funnel mapping + platform limits + anti-patterns | 04, 05, 01 |
+| `references/ai-avatar-tools-vn.md` | So sanh tools AI Avatar (HeyGen/Synthesia/D-ID) + pricing VN | 24, 25 |
+| `references/ai-video-disclosure-vn.md` | Nghi dinh 147/2024/ND-CP — disclosure rules cho AI video | 24, 26 |
+| `references/personal-brand-playbook-vn.md` | Founder/Coach/Creator playbooks + content cadence | 22, 23, 26, 27, 28 |
 
 ---
 
-## 4 Workflow (Chuoi skill)
+## 7 Workflow (Chuoi skill)
 
 | Workflow | Skills | Khi nao | Thoi gian |
 |----------|--------|---------|-----------|
@@ -94,6 +116,9 @@
 | **campaign-launch** | 08 → 09 → 00 → 02 → 01+04+05 → 06 → 11+12 | Launch chien dich | 14-21 ngay |
 | **monthly-cycle** | 13 → 03 → 07 → 10 → 01 | Cuoi thang | 3-5 ngay |
 | **content-production** | Review 01 → 04 → Quay → 05 → Dang | Hang tuan | 5 ngay |
+| **personal-brand-launch** | 22 → 23 → 26 → 24 → 27 | Build personal brand tu 0 | 30-60 ngay |
+| **ai-avatar-batch** | 22 → 24 (×30) → 26 → 28 | Sx 30 video AI/thang | 7-10 ngay |
+| **monetize-personal-brand** | 27 → 28 → 14 → 18 | Kiem tien tu audience da co | 14-21 ngay |
 
 ---
 
@@ -128,7 +153,7 @@ User muon "Content hang thang"
 
 ---
 
-## 4 Agent (Vai tro chuyen biet)
+## 5 Agent (Vai tro chuyen biet)
 
 | Agent | Nhu "nhan vien" nao | Skills chinh | Khi nao dung |
 |-------|-------|-------------|-------------|
@@ -136,6 +161,7 @@ User muon "Content hang thang"
 | **content-producer** | Content Writer | 01, 04, 05, 06, 15 | Viet, quay, dung |
 | **performance-analyst** | Ads Manager | 03, 07, 10, 13, 19, 21 | Data, audit, report |
 | **channel-operator** | CRM Manager | 11, 12, 14, 18 | Setup kenh, automation |
+| **personal-brand-builder** | Personal Brand Coach | 22, 23, 24, 25, 26, 27, 28 | Build personal brand, AI avatar, community |
 
 ---
 
@@ -175,4 +201,24 @@ Ban muon lam gi?
 └─ "Dinh gia / Tam ly"
     ├─ Chien luoc gia → 17
     └─ Tam ly marketing → 16
+```
+
+---
+
+## Decision Tree — Personal Brand
+
+```
+User muon "Build personal brand"
+    │
+    ├─ Lan dau? → 22 personal-brand-context (foundation, ALWAYS first)
+    │
+    ├─ Co context roi → 23 personal-brand-strategy (next step)
+    │
+    ├─ Lam content → 26 (long-form) hoac 04 (Personal Brand Mode)
+    │
+    ├─ Tao AI Avatar → 24 (single) hoac workflow ai-avatar-batch (30 videos)
+    │
+    ├─ Kiem tien → 27 (offer ladder + funnel)
+    │
+    └─ Build community → 28 (Zalo/Telegram/Skool)
 ```

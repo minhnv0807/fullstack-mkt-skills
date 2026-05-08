@@ -5,14 +5,14 @@
     "url": "https://opa.business"
   },
   "metadata": {
-    "description": "Bo skill marketing toan dien cho AI agent — chien luoc, noi dung, hieu suat, van hanh. Thi truong Viet Nam 2025-2026.",
-    "version": "2.0.0",
+    "description": "Bo skill marketing toan dien cho AI agent — chien luoc, noi dung, hieu suat, van hanh, personal brand + AI avatar. Thi truong Viet Nam 2025-2026.",
+    "version": "2.4.0",
     "repository": "https://github.com/minhnv0807/fullstack-mkt-skills"
   },
   "plugins": [
     {
       "name": "fullstack-mkt-skills",
-      "description": "20 skills marketing toan dien cho thi truong Viet Nam — tu lap ke hoach, brief chien dich, viet script TikTok, copy quang cao, den phan tich hieu suat va email marketing. Tich hop voi Claude Code, Claude Pro, ChatGPT, Gemini, Copilot, Cursor. Dung foundation skill `product-marketing-context` de tranh lap lai thong tin.",
+      "description": "29 skills marketing toan dien (22 marketing SP + 7 personal brand) cho thi truong Viet Nam — tu lap ke hoach, brief chien dich, viet script TikTok, copy quang cao, den phan tich hieu suat, email marketing, personal brand strategy va AI avatar production. Tich hop voi Claude Code, Claude Pro, ChatGPT, Gemini, Copilot, Cursor. Dung foundation skill `product-marketing-context` va `22-personal-brand-context` de tranh lap lai thong tin.",
       "source": ".",
       "strict": false,
       "skills": [
@@ -36,7 +36,16 @@
         "./skills/16-marketing-psychology",
         "./skills/17-pricing-strategy",
         "./skills/18-referral-program",
-        "./skills/19-ab-test-setup"
+        "./skills/19-ab-test-setup",
+        "./skills/20-brief-client-intake",
+        "./skills/21-audit-ads-performance",
+        "./skills/22-personal-brand-context",
+        "./skills/23-personal-brand-strategy",
+        "./skills/24-ai-avatar-production",
+        "./skills/25-voice-clone-podcast",
+        "./skills/26-thought-leadership-content",
+        "./skills/27-personal-brand-monetize",
+        "./skills/28-community-building"
       ]
     }
   ]

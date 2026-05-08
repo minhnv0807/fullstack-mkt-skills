@@ -34,6 +34,9 @@ Mot so skill goi skill khac tu dong:
 - `00-ke-hoach-mkt` → goi `08-nghien-cuu-doi-thu` + `09-insight-khach-hang` + `10-tinh-kpi-nguoc`
 - `02-brief-chien-dich` → goi `05-copy-quang-cao` + `04-script-video` + `01-lich-noi-dung`
 - `07-bao-cao-marketing` → goi `03-danh-gia-hieu-suat` + `10-tinh-kpi-nguoc`
+- `22-personal-brand-context` → goi `23-personal-brand-strategy` + `24-ai-avatar-production` (Phase 1 typical)
+- `26-thought-leadership-content` doc context → `04-script-video` (Personal Brand Mode) → `01-lich-noi-dung`
+- `27-personal-brand-monetize` → `14-email-marketing` + `18-referral-program`
 
 ### Workflow
 
@@ -42,6 +45,9 @@ Workflow = chuoi skill chay lien tuc:
 - `campaign-launch` = 00 → 02 → 01 → 04 → 05 → 06 → 11
 - `monthly-cycle` = 13 → 03 → 07 → 01 → 10
 - `content-production` = 09 → 01 → 04 → 06
+- `personal-brand-launch` = 22 → 23 → 24 → 25 → 26 → 04(personal) → 27 → 28 → 14
+- `ai-avatar-batch` = 23 → 26 → 04(personal) → 25 → 24(batch) → 01
+- `personal-brand-monthly` = 13 → 03(personal) → 23 → 27 → 26 → 04(personal) → 07(personal)
 
 ## Cau truc skill
 
@@ -90,6 +96,16 @@ Khi user da ket noi MCP server cho nen tang quang cao, cac skill co the pull dat
 
 **Skills ho tro MCP:** 03, 07, 08, 10, 21
 
+## Personal Brand Mode (skill 04 + 05)
+
+Skills 04 (script video), 05 (copy quang cao) tu dong chuyen mode khi doc context file:
+- `.agents/product-marketing-context.md` only → Mode A (sales/conversion)
+- `.agents/personal-brand-context.md` only → Mode B (authority/trust)
+- Both → skill HOI 1 cau truoc khi viet
+- Neither → skill suggest tao context file truoc
+
+Khong can config thu cong — auto-detect.
+
 ## Agent chuyen biet
 
 | Agent | Vai tro | Skills chinh |
@@ -98,6 +114,7 @@ Khi user da ket noi MCP server cho nen tang quang cao, cac skill co the pull dat
 | content-producer | San xuat noi dung | 01, 04, 05, 06 |
 | performance-analyst | Phan tich hieu suat | 03, 07, 10, 13 |
 | channel-operator | Van hanh kenh | 11, 12, 14, 15 |
+| personal-brand-builder | Thuong hieu ca nhan + AI Avatar | 22, 23, 24, 25, 26, 27, 28 |
 
 ## Benchmark nhanh — Vietnam 2025–2026
 

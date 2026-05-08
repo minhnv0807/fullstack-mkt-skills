@@ -23,6 +23,44 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.4.0] - 2026-05-08
+
+### Added
+- **7 new skills (cluster Personal Brand + AI Avatar)**:
+  - `22-personal-brand-context` — Foundation skill with 3 variants (founder/coach/creator), creates `.agents/personal-brand-context.md`
+  - `23-personal-brand-strategy` — 12-month strategy (Ikigai niche selection, positioning statement, story arc, content pillars 4×7=28, authority ladder 5 stages, growth plan)
+  - `24-ai-avatar-production` — Flagship: 3-tier tools (Free/Pro/Enterprise), 4 workflows (single/translate/batch/hybrid), voice clone protocol, anti-detection FB/IG/TikTok VN, ethics & disclosure VN (Nghi dinh 147/2024), QA Score 100
+  - `25-voice-clone-podcast` — Audio AI (voiceover/podcast/audiobook), repurpose 1:10
+  - `26-thought-leadership-content` — Long-form text (3 structures: PAS-Insight/Story-Lesson-CTA/Hook-List-Reveal, 6 hooks, sentence rhythm engineering, repurpose 1:5)
+  - `27-personal-brand-monetize` — 3 funnel versions, pricing psychology, outreach inbound/outbound, brand deal negotiation, VN tax & legal 2026
+  - `28-community-building` — Platform comparison VN 2026 (Zalo/Telegram/FB/Skool/Mighty/Discord), 3-layer blueprint, onboarding 7-day, moderation playbook
+- **3 new references**:
+  - `references/ai-avatar-tools-vn.md` — 15 tools deep dive (HeyGen/Synthesia/D-ID/Captions/ElevenLabs/Vbee...)
+  - `references/voice-clone-prompts-vn.md` — 3 region samples (North/South/Central VN)
+  - `references/ai-video-disclosure-vn.md` — Nghi dinh 147/2024 compliance, 3-tier disclosure, 5 templates
+- **3 new workflows (newbie-friendly)**:
+  - `personal-brand-launch.md` — 30-day launch (4 weeks)
+  - `ai-avatar-batch.md` — 30 videos in 5 days, <$2/video
+  - `personal-brand-monthly.md` — Monthly review + adjust
+- **1 new agent**: `personal-brand-builder` — Combines skills 22-28
+- **Documentation**:
+  - `docs/personal-brand-guide.md` — 8-chapter cam nang (~715 lines)
+  - `docs/getting-started-personal-brand.md` — 5-min quickstart (~214 lines)
+  - `docs/release-notes/v2.4.0.md` — Bilingual release notes
+  - `examples/personal-brand-coach.md` — Sample output for fictional coach Linh
+
+### Changed
+- `04-script-video` — bumped 2.1.0 → 2.2.0: added Personal Brand Mode auto-detect via context file (4 personal brand hooks, 30s personal structure, 10-criteria QA score)
+- `05-copy-quang-cao` — bumped 2.2.0 → 2.3.0: added Personal Brand Mode for ads (6 variants for personal brand, 3 CANH BAO conditions)
+- `docs/workflow-guide.md` — added Personal Brand Workflows section + Mode A/B note
+
+### Backward Compatibility
+- **Zero breaking changes**: existing 22 skills (00-21) unchanged
+- Skills 04, 05 mode-switching is auto-detect: users with only `product-marketing-context.md` continue using Mode A (default), behavior identical to v2.3.0
+- All existing agent files (`mkt-strategist`, `content-producer`, `performance-analyst`) added 1-line differentiation note (cosmetic, no behavior change)
+
+---
+
 ## [2.3.0] — 2026-05-03
 
 ### Added
@@ -152,7 +190,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Minor (1.X.0):** New skill added, new major feature
 - **Patch (1.0.X):** Bug fixes, benchmark updates, syntax corrections
 
-[Unreleased]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.3.0...HEAD
+[Unreleased]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.4.0...HEAD
+[2.4.0]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.3.0...v2.4.0
 [2.3.0]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.2.0...v2.3.0
 [2.2.0]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.0.0...v2.1.0

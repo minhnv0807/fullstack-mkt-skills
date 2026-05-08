@@ -4,13 +4,18 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/v2.3-Plugin%20Ready-6d28d9?style=for-the-badge&labelColor=1e1033" alt="v2.3"/>
-  <img src="https://img.shields.io/badge/Skills-22-6d28d9?style=for-the-badge&labelColor=1e1033" alt="22 Skills"/>
-  <img src="https://img.shields.io/badge/Agents-4-be185d?style=for-the-badge&labelColor=1e1033" alt="4 Agents"/>
-  <img src="https://img.shields.io/badge/Workflows-4-0f766e?style=for-the-badge&labelColor=1e1033" alt="4 Workflows"/>
+  <img src="https://img.shields.io/badge/v2.4-Plugin%20Ready-6d28d9?style=for-the-badge&labelColor=1e1033" alt="v2.4"/>
+  <img src="https://img.shields.io/badge/Skills-29-6d28d9?style=for-the-badge&labelColor=1e1033" alt="29 Skills"/>
+  <img src="https://img.shields.io/badge/Agents-5-be185d?style=for-the-badge&labelColor=1e1033" alt="5 Agents"/>
+  <img src="https://img.shields.io/badge/Workflows-7-0f766e?style=for-the-badge&labelColor=1e1033" alt="7 Workflows"/>
   <img src="https://img.shields.io/badge/Market-Vietnam%202025--2026-f97316?style=for-the-badge&labelColor=1e1033" alt="Vietnam Market"/>
   <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&labelColor=1e1033" alt="MIT License"/>
 </p>
+
+> **🆕 v2.4.0 (2026-05-08)** — Personal Brand + AI Avatar Cluster.
+> 7 new skills, 1 agent, 3 workflows. Zero breaking changes.
+> [Read release notes →](docs/release-notes/v2.4.0.md) ·
+> [Quick start →](docs/getting-started-personal-brand.md)
 
 <p align="center">
   <a href="https://github.com/minhnv0807/fullstack-mkt-skills/stargazers"><img src="https://img.shields.io/github/stars/minhnv0807/fullstack-mkt-skills?style=flat-square&color=yellow" alt="Stars"/></a>
@@ -164,7 +169,7 @@ Copy `.md` files as Custom Instructions or context. Each file is a standalone pr
 
 ---
 
-## 22 Skills
+## 29 Skills (22 Marketing SP + 7 Personal Brand)
 
 <table>
 <tr><th>#</th><th>Skill</th><th>What it does</th><th>Category</th></tr>
@@ -283,11 +288,91 @@ Copy `.md` files as Custom Instructions or context. Each file is a standalone pr
 ![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square)
 
 </td></tr>
+<tr><td><code>22</code></td><td><a href="skills/22-personal-brand-context/SKILL.md"><b>Personal Brand Context</b></a> <sup>v2.4 ⭐</sup></td><td>Foundation skill for personal brand (3 variants: founder/coach/creator)</td><td>
+
+![Foundation](https://img.shields.io/badge/-Foundation-be185d?style=flat-square)
+
+</td></tr>
+<tr><td><code>23</code></td><td><a href="skills/23-personal-brand-strategy/SKILL.md"><b>Personal Brand Strategy</b></a> <sup>v2.4</sup></td><td>12-month strategy: niche + positioning + content pillars + authority ladder</td><td>
+
+![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
+
+</td></tr>
+<tr><td><code>24</code></td><td><a href="skills/24-ai-avatar-production/SKILL.md"><b>AI Avatar Production</b></a> <sup>v2.4 🎬</sup></td><td>Deep-dive AI Avatar (3-tier tools, 4 workflows, QA Score 100)</td><td>
+
+![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
+
+</td></tr>
+<tr><td><code>25</code></td><td><a href="skills/25-voice-clone-podcast/SKILL.md"><b>Voice Clone & Podcast</b></a> <sup>v2.4 🎙️</sup></td><td>Audio AI: voice clone, podcast, audiobook, 1:10 repurpose</td><td>
+
+![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
+
+</td></tr>
+<tr><td><code>26</code></td><td><a href="skills/26-thought-leadership-content/SKILL.md"><b>Thought Leadership Content</b></a> <sup>v2.4</sup></td><td>Long-form text: 3 structures, 6 hooks, 1:5 repurpose</td><td>
+
+![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
+
+</td></tr>
+<tr><td><code>27</code></td><td><a href="skills/27-personal-brand-monetize/SKILL.md"><b>Personal Brand Monetize</b></a> <sup>v2.4</sup></td><td>3 funnel versions + pricing psychology + VN tax 2026</td><td>
+
+![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
+
+</td></tr>
+<tr><td><code>28</code></td><td><a href="skills/28-community-building/SKILL.md"><b>Community Building</b></a> <sup>v2.4</sup></td><td>Zalo/Telegram/Skool blueprint + 3-layer community</td><td>
+
+![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
+
+</td></tr>
 </table>
 
 ---
 
-## 4 Agents
+## Personal Brand + AI Avatar Cluster (NEW v2.4.0)
+
+7 new skills for founder/coach/creator building personal brand with AI Avatar.
+
+### Cluster Diagram
+
+```mermaid
+graph TD
+    A[22 personal-brand-context ⭐] --> B[23 personal-brand-strategy]
+    B --> C[24 ai-avatar-production 🎬]
+    B --> D[26 thought-leadership-content]
+    C --> E[25 voice-clone-podcast]
+    B --> F[27 personal-brand-monetize]
+    F --> G[28 community-building]
+```
+
+### 30-Day Launch Timeline
+
+```mermaid
+gantt
+    title Personal Brand 30-Day Launch
+    dateFormat YYYY-MM-DD
+    section Week 1
+    Foundation (skill 22-23-24) :a1, 2026-01-01, 7d
+    section Week 2
+    First Content (skill 26-04) :a2, after a1, 7d
+    section Week 3
+    Amplify (engage + iterate)  :a3, after a2, 7d
+    section Week 4
+    Monetize (skill 27-28)      :a4, after a3, 7d
+```
+
+### 3-Tier Tools Matrix (Compact)
+
+| Tier | Cost/month | Tools | Best For |
+|------|-----------|-------|----------|
+| Free | $0 | Captions free, HeyGen trial | 1-5 videos/mo |
+| Pro | $30-100 | HeyGen Creator, ElevenLabs Pro | 10-30 videos/mo |
+| Enterprise | $200+ | Synthesia Enterprise, custom API | 30+ videos/mo |
+
+See: [examples/personal-brand-coach.md](examples/personal-brand-coach.md) ·
+[docs/getting-started-personal-brand.md](docs/getting-started-personal-brand.md)
+
+---
+
+## 5 Agents
 
 ```
                         ┌─────────────────────┐
@@ -304,11 +389,26 @@ Copy `.md` files as Custom Instructions or context. Each file is a standalone pr
     │ Content + Scripts │ │ Data + Reports  │ │ Channels+Landing│
     │ 01, 04, 05, 06    │ │ 03,07,10,13,19  │ │ 11,12,14,15,18  │
     └───────────────────┘ └─────────────────┘ └─────────────────┘
+
+                        ┌──────────────────────────┐
+                        │ PERSONAL BRAND BUILDER 🆕│
+                        │ Personal Brand + Avatar  │
+                        │ Skills: 22,23,24,25,     │
+                        │         26,27,28         │
+                        └──────────────────────────┘
 ```
+
+| Agent | Main Skills |
+|-------|-------------|
+| [MKT Strategist](agents/mkt-strategist.md) | 00, 02, 08, 09, 16, 17 |
+| [Content Producer](agents/content-producer.md) | 01, 04, 05, 06 |
+| [Performance Analyst](agents/performance-analyst.md) | 03, 07, 10, 13, 19 |
+| [Channel Operator](agents/channel-operator.md) | 11, 12, 14, 15, 18 |
+| [Personal Brand Builder](agents/personal-brand-builder.md) <sup>v2.4 NEW</sup> | 22, 23, 24, 25, 26, 27, 28 |
 
 ---
 
-## 4 Workflows
+## 7 Workflows
 
 ### Client Onboard — Agency (5-7 days) <sup>NEW</sup>
 ```
@@ -328,6 +428,21 @@ Copy `.md` files as Custom Instructions or context. Each file is a standalone pr
 ### Content Production (weekly)
 ```
 Review calendar → 04 Script → Film/Edit → 05 Ad copy → Schedule posts
+```
+
+### Personal Brand Launch (30 days) <sup>v2.4 NEW</sup>
+```
+22 Context → 23 Strategy → 24 AI Avatar → 26 Long-form → 27 Monetize → 28 Community
+```
+
+### AI Avatar Batch (5 days × 5 hours) <sup>v2.4 NEW</sup>
+```
+30 AI Avatar videos in 5 days, <$2/video — production line workflow
+```
+
+### Personal Brand Monthly (3-5 days) <sup>v2.4 NEW</sup>
+```
+13 Data → 03 Audit → 07 Report → review pillars → adjust personal brand
 ```
 
 ---
@@ -374,41 +489,66 @@ fullstack-mkt-skills/
 │   ├── ISSUE_TEMPLATE/              # Bug report + skill request
 │   └── PULL_REQUEST_TEMPLATE/       # New skill + skill update
 │
-├── skills/                          # 22 skills (folder per skill)
+├── skills/                          # 29 skills (folder per skill)
 │   ├── product-marketing-context/   # Foundation skill (★)
 │   │   └── SKILL.md
 │   ├── 00-ke-hoach-mkt/
 │   │   └── SKILL.md
-│   └── ... (20 more, up to 21-audit-ads-performance)
+│   ├── ... (skills 01-21 — Marketing SP cluster)
+│   ├── 22-personal-brand-context/   # NEW v2.4: Foundation with 3 variants
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   └── variants/
+│   │       ├── 01-founder.md
+│   │       ├── 02-coach.md
+│   │       └── 03-creator.md
+│   ├── 23-personal-brand-strategy/  # NEW v2.4
+│   ├── 24-ai-avatar-production/     # NEW v2.4: Flagship deep-dive
+│   ├── 25-voice-clone-podcast/      # NEW v2.4
+│   ├── 26-thought-leadership-content/ # NEW v2.4
+│   ├── 27-personal-brand-monetize/  # NEW v2.4
+│   └── 28-community-building/       # NEW v2.4
 │
 ├── references/                      # Shared references
 │   ├── benchmarks-vietnam.md
 │   ├── channel-system.md
 │   ├── content-angles.md
-│   ├── copy-frameworks-vn.md       # 6 copy frameworks (NEW)
+│   ├── copy-frameworks-vn.md       # 6 copy frameworks (v2.3)
 │   ├── kpi-formulas.md
-│   ├── mcp-ads-integration.md      # MCP server guide (NEW)
-│   ├── quality-gates-vn.md         # 10 hard rules (NEW)
-│   ├── hook-formulas-vn.md         # 6 hook types for VN (NEW)
+│   ├── mcp-ads-integration.md      # MCP server guide (v2.3)
+│   ├── quality-gates-vn.md         # 10 hard rules (v2.3)
+│   ├── hook-formulas-vn.md         # 6 hook types for VN (v2.3)
+│   ├── ai-avatar-tools-vn.md       # NEW v2.4
+│   ├── voice-clone-prompts-vn.md   # NEW v2.4
+│   ├── ai-video-disclosure-vn.md   # NEW v2.4
 │   └── tool-stack.md
 │
-├── workflows/                       # 4 multi-skill workflows
+├── workflows/                       # 7 multi-skill workflows
 │   ├── campaign-launch.md
-│   ├── client-onboard.md           # Agency workflow (NEW)
+│   ├── client-onboard.md           # Agency workflow (v2.3)
 │   ├── content-production.md
-│   └── monthly-cycle.md
+│   ├── monthly-cycle.md
+│   ├── personal-brand-launch.md    # NEW v2.4 (30-day)
+│   ├── ai-avatar-batch.md          # NEW v2.4 (5-day batch)
+│   └── personal-brand-monthly.md   # NEW v2.4 (review)
 │
 ├── docs/                            # Documentation
 │   ├── best-practices.md
-│   ├── faq.md                      # FAQ + troubleshooting (NEW)
+│   ├── faq.md                      # FAQ + troubleshooting (v2.3)
 │   ├── getting-started.md
-│   ├── mcp-setup-guide.md          # MCP setup guide (NEW)
-│   ├── skill-map.md                # System visualization (NEW)
-│   ├── update-guide.md             # Maintenance guide (NEW)
-│   └── workflow-guide.md           # Workflow selection (NEW)
+│   ├── mcp-setup-guide.md          # MCP setup guide (v2.3)
+│   ├── skill-map.md                # System visualization (v2.3)
+│   ├── update-guide.md             # Maintenance guide (v2.3)
+│   ├── workflow-guide.md           # Workflow selection (v2.3)
+│   ├── personal-brand-guide.md     # NEW v2.4 (8-chapter cam nang)
+│   ├── getting-started-personal-brand.md # NEW v2.4 (5-min quickstart)
+│   └── release-notes/
+│       └── v2.4.0.md               # NEW v2.4
 │
 ├── agents/                          # Agent personas
+│   └── personal-brand-builder.md   # NEW v2.4
 ├── examples/                        # Sample outputs
+│   └── personal-brand-coach.md     # NEW v2.4
 │
 ├── AGENTS.md                        # Universal agent spec
 ├── CLAUDE.md                        # Claude-specific config

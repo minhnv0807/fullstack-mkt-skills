@@ -230,3 +230,61 @@ Luu cac prompt hay dung nhat de paste nhanh:
 # Audit nhanh
 "Audit tai khoan Meta Ads. Health score cho 84 checkpoints."
 ```
+
+---
+
+## Personal Brand + AI Avatar (v2.4.0)
+
+### Q1: Cum personal brand khac gi marketing SP cu?
+
+A: Cum cu (skills 00-21) la marketing thuong hieu DOANH NGHIEP — ban hang san pham/dich vu. Cum moi (skills 22-28) la xay thuong hieu CA NHAN — founder/coach/creator build authority de monetize. Foundation file rieng (`.agents/personal-brand-context.md` thay vi `product-marketing-context.md`).
+
+### Q2: Skills 04, 05 hoat dong the nao trong Personal Brand Mode?
+
+A: Tu dong chuyen mode khi doc context file:
+- Co `.agents/product-marketing-context.md` only → Mode A (mac dinh, ban hang)
+- Co `.agents/personal-brand-context.md` only → Mode B (authority/trust)
+- Co ca 2 → skill HOI 1 cau de chon
+- Khong co file nao → skill goi y tao context file phu hop
+
+### Q3: Voice clone co an toan cho privacy khong?
+
+A: Co va khong:
+- Co: neu ban giu key + chi clone giong CHINH MINH + co consent form
+- Khong: neu clone giong nguoi khac, hoac key bi leak, hoac dung cho deepfake
+- Recommendation: dung tool co privacy-by-design (ElevenLabs Pro+, HeyGen Enterprise) thay vi free tier shared
+
+### Q4: Disclosure AI o VN bat buoc khi nao?
+
+A: Theo Nghi dinh 147/2024/ND-CP — BAT BUOC khi:
+1. Quang cao thuong mai (paid ads, sponsored, affiliate co tra tien)
+2. Content lien quan y te / tai chinh / phap luat
+3. Impersonate hoac tao impression la nguoi that nguoi noi
+NEN (khong bat buoc) cho content thuong khong tra tien.
+KHONG can cho test noi bo / draft / private group.
+Reference: `skills/references/ai-video-disclosure-vn.md`
+
+### Q5: ROI cua personal brand sau 30 ngay — ky vong gi?
+
+A: Realistic 30-day expectations:
+- Followers: 500-1500 (depends on niche + posting frequency)
+- Engagement: 3-5% rate
+- First offer: 1-3 sales (Founder/Coach), 0-1 brand deal (Creator)
+- Trust signal: 5-10 inbound DMs
+KHONG nen ky vong: viral, 10K followers, 6-figure revenue. Personal brand la marathon, khong phai sprint.
+
+### Q6: Time commitment thuc te — 1h/tuan du khong?
+
+A: Khong, 1h/tuan khong du. Realistic minimum:
+- Phase Foundation (tuan 1-2): 2-3 gio/ngay
+- Steady state: 5-10 gio/tuan (3-4 posts + engagement)
+- Power user: 10-20 gio/tuan (multi-platform + AI avatar batch)
+Neu ban co < 5 gio/tuan, focus 1 platform + 1-2 posts/tuan, khong scale.
+
+### Q7: Founder vs Creator strategy — overlap khong?
+
+A: Co overlap, nhung primary la khac:
+- Founder: build to bring B2B leads to COMPANY (output: deal pipeline)
+- Creator: build to monetize CONTENT directly (output: ads revenue + brand deals)
+- Overlap: ca 2 deu can content, story arc, audience growth
+- Recommendation: chon 1 PRIMARY identity (founder/creator/coach), secondary la output cua primary

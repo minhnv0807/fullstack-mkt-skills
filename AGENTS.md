@@ -86,6 +86,40 @@ File `.agents/product-marketing-context.md` chua:
 
 Skill khac kiem tra file nay truoc — neu co, lay thong tin san; neu khong, de xuat tao.
 
+## Pattern variants (Skill 20 + Skill 22)
+
+Skills su dung pattern variants:
+- `20-brief-client-intake` — 20 variants theo nganh hang
+- `22-personal-brand-context` — 3 variants theo nhom audience (founder/coach/creator)
+
+Cau truc:
+
+```
+skills/22-personal-brand-context/
+├── SKILL.md          ← Entrypoint + router
+├── README.md         ← Variant guide (decision tree)
+└── variants/
+    ├── 01-founder.md
+    ├── 02-coach.md
+    └── 03-creator.md
+```
+
+User chay skill chinh, skill load README → user chon variant → skill load variant template.
+
+## Pattern Mode-Switching (Skills 04, 05)
+
+Skill 04, 05 dung pattern context-aware mode:
+- Doc 1 hoac nhieu file `.agents/*.md`
+- Auto-detect mode dua tren context file ton tai
+- Output adapt theo mode
+
+Pattern dieu kien:
+1. Read both context files (skill checks existence)
+2. If only A → Mode A
+3. If only B → Mode B
+4. If both → Skill ASKS user
+5. If neither → Skill SUGGESTS creating context first
+
 ## Cai dat
 
 ### Claude Code (khuyen dung)

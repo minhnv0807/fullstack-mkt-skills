@@ -11,8 +11,8 @@
 | 01-lich-noi-dung | 2.1.0 | 2026-05-02 | content |
 | 02-brief-chien-dich | 2.0.0 | 2026-04-24 | strategy |
 | 03-danh-gia-hieu-suat | 2.2.0 | 2026-05-03 | performance |
-| 04-script-video | 2.1.0 | 2026-05-02 | content |
-| 05-copy-quang-cao | 2.2.0 | 2026-05-02 | content |
+| 04-script-video | 2.2.0 | 2026-05-08 | content |
+| 05-copy-quang-cao | 2.3.0 | 2026-05-08 | content |
 | 06-brief-ugc-egc | 2.0.0 | 2026-04-24 | content |
 | 07-bao-cao-marketing | 2.0.0 | 2026-04-24 | performance |
 | 08-nghien-cuu-doi-thu | 2.2.0 | 2026-05-03 | strategy |
@@ -29,8 +29,47 @@
 | 19-ab-test-setup | 1.0.0 | 2026-04-24 | performance |
 | 20-brief-client-intake | 1.0.0 | 2026-04-24 | operations |
 | 21-audit-ads-performance | 1.2.0 | 2026-05-03 | performance |
+| 22-personal-brand-context | 1.0.0 | 2026-05-08 | foundation |
+| 23-personal-brand-strategy | 1.0.0 | 2026-05-08 | strategy |
+| 24-ai-avatar-production | 1.0.0 | 2026-05-08 | content |
+| 25-voice-clone-podcast | 1.0.0 | 2026-05-08 | content |
+| 26-thought-leadership-content | 1.0.0 | 2026-05-08 | content |
+| 27-personal-brand-monetize | 1.0.0 | 2026-05-08 | strategy |
+| 28-community-building | 1.0.0 | 2026-05-08 | operations |
 
 ## Changelog
+
+### 2026-05-08 — v2.4.0
+
+**Personal Brand + AI Avatar cluster (7 new skills)**
+
+**New skills:**
+- `22-personal-brand-context` 1.0.0: Foundation, 3 variants (founder/coach/creator)
+- `23-personal-brand-strategy` 1.0.0: 12-month strategy + Ikigai niche + positioning
+- `24-ai-avatar-production` 1.0.0: Deep dive flagship — 3-tier tools (Free/Pro/Enterprise), 4 workflows (single/translate/batch/hybrid), voice clone, anti-detection FB/IG/TikTok VN, ethics & disclosure VN (Nghi dinh 147/2024)
+- `25-voice-clone-podcast` 1.0.0: Audio AI — voiceover/podcast/audiobook, repurpose 1:10
+- `26-thought-leadership-content` 1.0.0: Long-form text — 3 structures, 6 hooks, sentence rhythm, repurpose 1:5
+- `27-personal-brand-monetize` 1.0.0: 3 funnel versions, pricing psychology, outreach, brand deal, VN tax & legal 2026
+- `28-community-building` 1.0.0: Platform comparison VN 2026 (Zalo/Telegram/FB/Skool/Mighty/Discord), 3-layer blueprint, onboarding 7-day
+
+**Upgrades:**
+- `04-script-video` 2.1.0 → 2.2.0: Personal Brand Mode auto-detect (4 personal brand hooks, 30s structure, 10-criteria QA)
+- `05-copy-quang-cao` 2.2.0 → 2.3.0: Personal Brand Mode for ads (6 variants, 3 CANH BAO conditions)
+
+**New references:**
+- `references/ai-avatar-tools-vn.md` — 15 tools deep dive (HeyGen/Synthesia/D-ID/Captions/ElevenLabs/Vbee...)
+- `references/voice-clone-prompts-vn.md` — 3 region samples (North/South/Central VN)
+- `references/ai-video-disclosure-vn.md` — Nghi dinh 147/2024 compliance, 3-tier disclosure, 5 templates
+
+**New workflows:**
+- `personal-brand-launch.md` — 30-day launch (4 weeks)
+- `ai-avatar-batch.md` — 30 videos in 5 days, <$2/video
+- `personal-brand-monthly.md` — Monthly review + adjust
+
+**New agent:**
+- `personal-brand-builder` — Combines skills 22-28
+
+**Backward compatibility:** Zero breaking changes. Existing 22 skills (00-21) unchanged. Skills 04, 05 mode-switching is auto-detect.
 
 ### 2026-05-03 — v2.3.0
 
