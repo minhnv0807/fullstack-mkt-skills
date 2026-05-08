@@ -4,13 +4,18 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/v2.0-Plugin%20Ready-6d28d9?style=for-the-badge&labelColor=1e1033" alt="v2.0"/>
-  <img src="https://img.shields.io/badge/Skills-20-6d28d9?style=for-the-badge&labelColor=1e1033" alt="20 Skills"/>
-  <img src="https://img.shields.io/badge/Agents-4-be185d?style=for-the-badge&labelColor=1e1033" alt="4 Agents"/>
-  <img src="https://img.shields.io/badge/Workflows-3-0f766e?style=for-the-badge&labelColor=1e1033" alt="3 Workflows"/>
+  <img src="https://img.shields.io/badge/v2.4-Plugin%20Ready-6d28d9?style=for-the-badge&labelColor=1e1033" alt="v2.4"/>
+  <img src="https://img.shields.io/badge/Skills-29-6d28d9?style=for-the-badge&labelColor=1e1033" alt="29 Skills"/>
+  <img src="https://img.shields.io/badge/Agents-5-be185d?style=for-the-badge&labelColor=1e1033" alt="5 Agents"/>
+  <img src="https://img.shields.io/badge/Workflows-7-0f766e?style=for-the-badge&labelColor=1e1033" alt="7 Workflows"/>
   <img src="https://img.shields.io/badge/Market-Vietnam%202025--2026-f97316?style=for-the-badge&labelColor=1e1033" alt="Vietnam Market"/>
   <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&labelColor=1e1033" alt="MIT License"/>
 </p>
+
+> **🆕 v2.4.0 (2026-05-08)** — Cum Personal Brand + AI Avatar.
+> 7 skills moi, 1 agent, 3 workflows. Khong breaking changes.
+> [Xem release notes →](docs/release-notes/v2.4.0.md) ·
+> [Bat dau nhanh →](docs/getting-started-personal-brand.md)
 
 <h1 align="center">Fullstack Marketing Skills</h1>
 
@@ -143,7 +148,7 @@ Copy file `.md` lam Custom Instructions hoac context. Moi file la 1 prompt doc l
 
 ---
 
-## 20 Skills
+## 29 Skills (22 Marketing SP + 7 Personal Brand)
 
 <table>
 <tr><th>#</th><th>Skill</th><th>Lam gi</th><th>Category</th></tr>
@@ -247,16 +252,106 @@ Copy file `.md` lam Custom Instructions hoac context. Moi file la 1 prompt doc l
 ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
 </td></tr>
-<tr><td><code>19</code></td><td><a href="skills/19-ab-test-setup/SKILL.md"><b>A/B Test Setup</b></a> <sup>NEW</sup></td><td>Sample size + 8 what-to-test + significance analysis</td><td>
+<tr><td><code>19</code></td><td><a href="skills/19-ab-test-setup/SKILL.md"><b>A/B Test Setup</b></a></td><td>Sample size + 8 what-to-test + significance analysis</td><td>
 
 ![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square)
+
+</td></tr>
+<tr><td><code>20</code></td><td><a href="skills/20-brief-client-intake/SKILL.md"><b>Brief Client Intake</b></a> <sup>v2.3</sup></td><td>Form intake 20 nganh + brief 11 phan cho agency</td><td>
+
+![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
+
+</td></tr>
+<tr><td><code>21</code></td><td><a href="skills/21-audit-ads-performance/SKILL.md"><b>Audit Ads Performance</b></a> <sup>v2.3</sup></td><td>84 checkpoint + Health Score (0-100) + Quality Gates</td><td>
+
+![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square)
+
+</td></tr>
+<tr><td><code>22</code></td><td><a href="skills/22-personal-brand-context/SKILL.md"><b>Personal Brand Context</b></a> <sup>v2.4 ⭐</sup></td><td>Foundation skill cho personal brand (3 variants: founder/coach/creator)</td><td>
+
+![Foundation](https://img.shields.io/badge/-Foundation-be185d?style=flat-square)
+
+</td></tr>
+<tr><td><code>23</code></td><td><a href="skills/23-personal-brand-strategy/SKILL.md"><b>Personal Brand Strategy</b></a> <sup>v2.4</sup></td><td>Chien luoc 12 thang: niche + positioning + content pillars + authority ladder</td><td>
+
+![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
+
+</td></tr>
+<tr><td><code>24</code></td><td><a href="skills/24-ai-avatar-production/SKILL.md"><b>AI Avatar Production</b></a> <sup>v2.4 🎬</sup></td><td>Deep-dive AI Avatar (3 tier tool, 4 workflow, QA Score 100)</td><td>
+
+![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
+
+</td></tr>
+<tr><td><code>25</code></td><td><a href="skills/25-voice-clone-podcast/SKILL.md"><b>Voice Clone & Podcast</b></a> <sup>v2.4 🎙️</sup></td><td>Audio AI: voice clone, podcast, audiobook, repurpose 1:10</td><td>
+
+![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
+
+</td></tr>
+<tr><td><code>26</code></td><td><a href="skills/26-thought-leadership-content/SKILL.md"><b>Thought Leadership Content</b></a> <sup>v2.4</sup></td><td>Long-form text: 3 cau truc, 6 hook, repurpose 1:5</td><td>
+
+![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
+
+</td></tr>
+<tr><td><code>27</code></td><td><a href="skills/27-personal-brand-monetize/SKILL.md"><b>Personal Brand Monetize</b></a> <sup>v2.4</sup></td><td>3 phien ban funnel + pricing psychology + thue VN 2026</td><td>
+
+![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
+
+</td></tr>
+<tr><td><code>28</code></td><td><a href="skills/28-community-building/SKILL.md"><b>Community Building</b></a> <sup>v2.4</sup></td><td>Blueprint Zalo/Telegram/Skool + cong dong 3 lop</td><td>
+
+![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
 </td></tr>
 </table>
 
 ---
 
-## 4 Agents
+## Cum Personal Brand + AI Avatar (NEW v2.4.0)
+
+7 skill moi cho founder/coach/creator xay dung personal brand voi AI Avatar.
+
+### Cluster Diagram
+
+```mermaid
+graph TD
+    A[22 personal-brand-context ⭐] --> B[23 personal-brand-strategy]
+    B --> C[24 ai-avatar-production 🎬]
+    B --> D[26 thought-leadership-content]
+    C --> E[25 voice-clone-podcast]
+    B --> F[27 personal-brand-monetize]
+    F --> G[28 community-building]
+```
+
+### Timeline 30 ngay launch
+
+```mermaid
+gantt
+    title Personal Brand 30-Day Launch
+    dateFormat YYYY-MM-DD
+    section Week 1
+    Foundation (skill 22-23-24) :a1, 2026-01-01, 7d
+    section Week 2
+    First Content (skill 26-04) :a2, after a1, 7d
+    section Week 3
+    Amplify (engage + iterate)  :a3, after a2, 7d
+    section Week 4
+    Monetize (skill 27-28)      :a4, after a3, 7d
+```
+
+### Ma tran tool 3 tang (rut gon)
+
+| Tier | Chi phi/thang | Tool | Phu hop |
+|------|---------------|------|---------|
+| Free | $0 | Captions free, HeyGen trial | 1-5 video/thang |
+| Pro | $30-100 | HeyGen Creator, ElevenLabs Pro | 10-30 video/thang |
+| Enterprise | $200+ | Synthesia Enterprise, custom API | 30+ video/thang |
+
+Xem them: [examples/personal-brand-coach.md](examples/personal-brand-coach.md) ·
+[docs/getting-started-personal-brand.md](docs/getting-started-personal-brand.md)
+
+---
+
+## 5 Agents
 
 ```
                         ┌─────────────────────┐
@@ -272,6 +367,13 @@ Copy file `.md` lam Custom Instructions hoac context. Moi file la 1 prompt doc l
     │ Noi dung + Script │ │ Data + Bao cao  │ │ Kenh + Landing  │
     │ Skills: 01,04,05,06│ │ 03,07,10,13,19 │ │ 11,12,14,15,18 │
     └───────────────────┘ └─────────────────┘ └─────────────────┘
+
+                        ┌──────────────────────────┐
+                        │ PERSONAL BRAND BUILDER 🆕│
+                        │ Personal Brand + Avatar  │
+                        │ Skills: 22,23,24,25,     │
+                        │         26,27,28         │
+                        └──────────────────────────┘
 ```
 
 | Agent | Skills chinh |
@@ -280,10 +382,16 @@ Copy file `.md` lam Custom Instructions hoac context. Moi file la 1 prompt doc l
 | [Content Producer](agents/content-producer.md) | 01, 04, 05, 06 |
 | [Performance Analyst](agents/performance-analyst.md) | 03, 07, 10, 13, 19 |
 | [Channel Operator](agents/channel-operator.md) | 11, 12, 14, 15, 18 |
+| [Personal Brand Builder](agents/personal-brand-builder.md) <sup>v2.4 NEW</sup> | 22, 23, 24, 25, 26, 27, 28 |
 
 ---
 
-## 3 Workflows
+## 7 Workflows
+
+### Client Onboard — Agency (5-7 ngay) <sup>v2.3</sup>
+```
+20 Brief Intake → 09 Insight → 08 Doi thu → 10 KPI → 00 Ke hoach → 02 Brief → 01 Lich
+```
 
 ### Campaign Launch (14-21 ngay)
 ```
@@ -298,6 +406,21 @@ Copy file `.md` lam Custom Instructions hoac context. Moi file la 1 prompt doc l
 ### Content Production (hang tuan)
 ```
 Review lich → 04 Script → Quay/Dung → 05 Copy ads → Len lich dang
+```
+
+### Personal Brand Launch (30 ngay) <sup>v2.4 NEW</sup>
+```
+22 Context → 23 Strategy → 24 AI Avatar → 26 Long-form → 27 Monetize → 28 Community
+```
+
+### AI Avatar Batch (5 ngay × 5 gio) <sup>v2.4 NEW</sup>
+```
+30 video AI Avatar trong 5 ngay, <$2/video — workflow san xuat day chuyen
+```
+
+### Personal Brand Monthly (3-5 ngay) <sup>v2.4 NEW</sup>
+```
+13 Data → 03 Audit → 07 Report → review pillars → dieu chinh personal brand
 ```
 
 ---
@@ -344,25 +467,61 @@ fullstack-mkt-skills/
 │   ├── ISSUE_TEMPLATE/              # Bug report + skill request
 │   └── PULL_REQUEST_TEMPLATE/       # New skill + skill update
 │
-├── skills/                          # 20 skills (folder per skill)
+├── skills/                          # 29 skills (folder per skill)
 │   ├── product-marketing-context/   # Foundation skill (★)
 │   │   └── SKILL.md
 │   ├── 00-ke-hoach-mkt/
 │   │   └── SKILL.md
 │   ├── 01-lich-noi-dung/
 │   │   └── SKILL.md
-│   └── ... (18 more)
+│   ├── ... (skill 02-21 — cum Marketing SP)
+│   ├── 22-personal-brand-context/   # NEW v2.4: Foundation co 3 variants
+│   │   ├── SKILL.md
+│   │   ├── README.md
+│   │   └── variants/
+│   │       ├── 01-founder.md
+│   │       ├── 02-coach.md
+│   │       └── 03-creator.md
+│   ├── 23-personal-brand-strategy/  # NEW v2.4
+│   ├── 24-ai-avatar-production/     # NEW v2.4: Flagship deep-dive
+│   ├── 25-voice-clone-podcast/      # NEW v2.4
+│   ├── 26-thought-leadership-content/ # NEW v2.4
+│   ├── 27-personal-brand-monetize/  # NEW v2.4
+│   └── 28-community-building/       # NEW v2.4
 │
 ├── references/                      # Shared references
 │   ├── benchmarks-vietnam.md
 │   ├── channel-system.md
 │   ├── content-angles.md
+│   ├── copy-frameworks-vn.md       # 6 copy framework (v2.3)
 │   ├── kpi-formulas.md
+│   ├── mcp-ads-integration.md      # MCP server guide (v2.3)
+│   ├── quality-gates-vn.md         # 10 hard rules (v2.3)
+│   ├── hook-formulas-vn.md         # 6 hook type cho VN (v2.3)
+│   ├── ai-avatar-tools-vn.md       # NEW v2.4
+│   ├── voice-clone-prompts-vn.md   # NEW v2.4
+│   ├── ai-video-disclosure-vn.md   # NEW v2.4
 │   └── tool-stack.md
 │
-├── workflows/                       # Multi-skill workflows
+├── workflows/                       # 7 multi-skill workflows
+│   ├── campaign-launch.md
+│   ├── client-onboard.md           # Agency workflow (v2.3)
+│   ├── content-production.md
+│   ├── monthly-cycle.md
+│   ├── personal-brand-launch.md    # NEW v2.4 (30 ngay)
+│   ├── ai-avatar-batch.md          # NEW v2.4 (batch 5 ngay)
+│   └── personal-brand-monthly.md   # NEW v2.4 (review)
+│
 ├── agents/                          # Agent personas
+│   └── personal-brand-builder.md   # NEW v2.4
 ├── examples/                        # Sample outputs
+│   └── personal-brand-coach.md     # NEW v2.4
+│
+├── docs/                            # Documentation
+│   ├── personal-brand-guide.md     # NEW v2.4 (8-chapter cam nang)
+│   ├── getting-started-personal-brand.md # NEW v2.4 (5-min quickstart)
+│   └── release-notes/
+│       └── v2.4.0.md               # NEW v2.4
 │
 ├── AGENTS.md                        # Universal agent spec
 ├── CLAUDE.md                        # Claude-specific config
