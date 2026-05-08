@@ -22,8 +22,17 @@ Ban dang o tinh huong nao?
 ├─ Hang tuan can san xuat content
 │   └─ ✅ content-production (lap lai moi tuan)
 │
-└─ Ads dang chay kem, can fix gap
-    └─ ❌ Khong can workflow — chay skill 03 hoac 21 truc tiep
+├─ Ads dang chay kem, can fix gap
+│   └─ ❌ Khong can workflow — chay skill 03 hoac 21 truc tiep
+│
+├─ Muon launch personal brand (founder/coach/creator)
+│   └─ ✅ personal-brand-launch (30 ngay)
+│
+├─ Can san xuat 30 video AI Avatar / 5 ngay
+│   └─ ✅ ai-avatar-batch (5 ngay × 5 gio)
+│
+└─ Cuoi thang, review + adjust personal brand
+    └─ ✅ personal-brand-monthly (3 ngay) — co o Phase 3
 ```
 
 ---
@@ -184,6 +193,58 @@ Thang 2+ (Duy tri):
   Ngay 28:  monthly-cycle
   Khi can:  03 hoac 21 (khi ads co van de)
 ```
+
+---
+
+## Personal Brand Workflows (NEW v2.4.0)
+
+3 workflow moi cho founder/coach/creator xay personal brand voi AI Avatar.
+
+### 5. Personal Brand Launch (30 ngay)
+
+```
+Thoi gian: 30 ngay (4 tuan)
+Dung khi:  Founder/Coach/Creator launch personal brand tu con so 0
+Output:    Profile day du, 10+ bai dang, 500+ followers, 1 offer published
+```
+
+**Luong chay:**
+```
+Tuan 1 (Foundation)    Tuan 2 (Content)       Tuan 3 (Amplify)       Tuan 4 (Monetize)
+22 → 23 → 24 → 26  →  04(personal) → 25  →  Engage + 26 + 04  →  27 → 05(personal) → 28
+```
+
+Chi tiet: `workflows/personal-brand-launch.md`
+
+### 6. AI Avatar Batch (5 ngay × 25 gio)
+
+```
+Thoi gian: 5 ngay (lam viec full-time)
+Dung khi:  Can dump 30 video AI Avatar / thang
+Output:    30 videos AI Avatar voi disclosure compliance
+Cost:      <$2/video
+```
+
+**Luong chay:**
+```
+Day 1: 26 → 04   Day 2: ElevenLabs   Day 3-4: HeyGen render   Day 5: QA + schedule
+Script batch     Voice batch          Avatar render             Distribution
+```
+
+Chi tiet: `workflows/ai-avatar-batch.md`
+
+### 7. Personal Brand Monthly (Phase 3 — coming soon)
+
+Review + adjust personal brand strategy hang thang. Se ra mat o Phase 3 (skill 27-28 + workflow).
+
+---
+
+## Phan biet Mode A vs Mode B (skill 04, 05)
+
+Skills 04, 05 tu dong chuyen Mode khi doc context file:
+- **Mode A** (mac dinh): chi co `.agents/product-marketing-context.md` → output content/copy ban hang
+- **Mode B** (Personal Brand): chi co `.agents/personal-brand-context.md` → output content/copy build authority
+- Co ca 2: skill se HOI 1 cau truoc khi viet
 
 ---
 

@@ -2,7 +2,7 @@
 name: 04-script-video
 description: Viet script video ngan cho TikTok, Reels, YouTube Shorts — 2 ban A/B, co hook, CTA, huong dan quay chi tiet
 metadata:
-  version: 2.1.0
+  version: 2.2.0
   category: content
 triggers:
   - "viet script"
@@ -12,6 +12,10 @@ triggers:
   - "script UGC"
   - "script Reels"
   - "kich ban quay"
+  - "viet script personal brand"
+  - "script ca nhan TikTok"
+  - "story video"
+  - "viet video LinkedIn ca nhan"
 output: file .md gom 2 ban script A/B, bang timestamp, hook, CTA, huong dan quay, caption, hashtag, viral score
 related:
   - 05-copy-quang-cao
@@ -22,6 +26,21 @@ related:
 ---
 
 # Script Video
+
+## Buoc 0: Kiem tra context file
+
+Truoc khi viet script, doc ca 2 file (neu ton tai):
+
+1. `.agents/product-marketing-context.md`   (marketing san pham)
+2. `.agents/personal-brand-context.md`      (personal brand)
+
+Quyet dinh mode:
+- Chi co `product-marketing-context.md` → **MODE A** (mac dinh, hanh vi cu — sections ben duoi)
+- Chi co `personal-brand-context.md` → **MODE B** (Personal Brand Mode — section "Personal Brand Mode" ben duoi)
+- Co ca 2 → **HOI 1 cau**: "Ban dang viet video ban san pham hay xay personal brand?"
+- Khong co → De xuat tao context phu hop (chay skill `product-marketing-context` hoac `22-personal-brand-context` truoc)
+
+---
 
 ## Thu thap thong tin
 
@@ -114,6 +133,64 @@ Khi user cung cap link video tham khao (TikTok, Reels, YouTube Shorts):
 6. **Khong dung nhac nen co ban quyen** — chi dung nhac trending hoac royalty-free.
 7. **Toi da 2 diem chinh** — 3 diem = qua nhieu, nguoi xem khong nho.
 8. **Khong ket luan ho** — de su that/so lieu tu noi len.
+
+---
+
+## Personal Brand Mode
+
+> Mode nay tu dong kich hoat khi co `.agents/personal-brand-context.md`. Doc context file truoc — lay: niche, audience ca nhan, story arc, brand voice.
+
+### Khac biet cot loi voi mode SP (MODE A)
+
+| Yeu to | Mode A (San pham) | Mode B (Personal brand) |
+|--------|-------------------|------------------------|
+| Goal video | Sell / Convert | Build trust + Authority |
+| Hook angle | Pain point san pham | Personal experience / Industry insight |
+| CTA | "Inbox/Comment" mua hang | Soft CTA: "Ban nghi sao?", "Follow them" |
+| Story | Customer story | Founder/Coach story (chinh ban) |
+| Trust signal | Reviews, USP | Personal track record, contrarian view |
+| Tone | Selling-focused | Conversational, vulnerable, authoritative |
+
+### 4 hook personal brand (khac 5 hook san pham)
+
+| # | Loai hook | Cong thuc | Vi du VN |
+|---|-----------|-----------|---------|
+| 1 | Personal confession | Mo dau bang loi sai / that bai cua chinh ban | "Toi da mat 200 trieu vi sai 1 quyet dinh tuan truoc. Day la bai hoc." |
+| 2 | Contrarian take | Phan bac dieu da so tin | "Moi nguoi noi nen scale nhanh. Toi da nay scale cham — va day la ly do." |
+| 3 | Behind the scene | Cho thay phan it nguoi thay | "Toi 5h sang khi build startup nay. Day la what no one tells you." |
+| 4 | Industry truth | Kien thuc nganh khong ai noi | "Sau 10 nam lam tu van, day la 3 dieu agency khong bao gio noi voi ban." |
+
+### Cau truc script Personal Brand 30s
+
+| Time | Noi dung | Goal |
+|------|----------|------|
+| 0-3s | Hook personal brand (1 trong 4 loai tren) | Stop scroll bang ca nhan |
+| 3-10s | Setup: ai noi, hoan canh | Establish credibility |
+| 10-22s | Insight chinh / story turning point | Deliver value |
+| 22-28s | Lesson hoc duoc / framework | Pay off the hook |
+| 28-30s | Soft CTA: "Ban tung gap chua?", "Follow them" | Build community, NOT sell |
+
+### QA Score Personal Brand (10 tieu chi)
+
+Khac voi QA san pham. 10 tieu chi × 10 diem:
+1. Authenticity (co bua dat khong?)
+2. Personal vulnerability (co share that bai/loi sai?)
+3. Industry insight (co kien thuc moi nguoi can?)
+4. Hook personal angle (1 trong 4 loai tren)
+5. Story arc clear (setup → turning point → lesson)
+6. Brand voice consistency (match `personal-brand-context.md`)
+7. Soft CTA appropriate (KHONG hard sell)
+8. Disclosure neu dung AI avatar
+9. Niche relevance (khop voi niche dang chon)
+10. Repurpose-able (co cat ra short clip duoc khong?)
+
+Score guide: 90+ Xuat sac, 70-89 Tot, 50-69 Can fix, <50 Lam lai.
+
+### Khi nao KHONG dung Personal Brand Mode
+
+- User chi co product context, KHONG co personal brand context → dung mode A
+- Video ads chay tien (ad copy ban hang) → dung skill 05 thay
+- Tutorial / how-to thuan tuy → mode A van phu hop
 
 ---
 
