@@ -23,6 +23,54 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.5.0] - 2026-05-08
+
+### Added
+- **30 new global skills (cluster Global Marketing + Personal Brand)**:
+  - Foundation: `product-marketing-context-global` (4 region variants: US/EU/SEA/LATAM)
+  - Marketing universal (16): skills 00-21 minus 22-28 minus the 6 with variants
+  - Marketing with variants (6): skills 03 (perf-eval), 10 (reverse-kpi), 11 (channel-setup), 14 (email-marketing), 17 (pricing), 18 (referral), 21 (ads-audit) — each with US/EU/SEA/LATAM variants
+  - PB foundation: `22-personal-brand-context-global` (4 region variants, each covers founder/coach/creator)
+  - PB universal (4): skills 23, 25, 26, 28
+  - PB variants (2): skills 24 (ai-avatar — disclosure law per region), 27 (monetize — tax/legal per region)
+  - **Flagship**: `29-dropshipping-mastery-global` (12 sections, US/EU focus, 10 ads/week pipeline)
+- **7 new references** in `skills-global/references/`:
+  - `global-platforms-comparison.md` — 10 platforms × 4 regions matrix
+  - `global-legal-compliance.md` — GDPR/CCPA/CAN-SPAM/TCPA/PDPA/LGPD comprehensive
+  - `global-currency-pricing.md` — currency psychology + VAT/GST/Sales tax
+  - `dropshipping-tools-global.md` — 15+ tools deep-dive
+  - `ai-video-disclosure-global.md` — FTC/EU AI Act/regional disclosure
+  - `voice-clone-prompts-global.md` — US/UK/AU/SEA accent samples
+  - `hook-formulas-global.md` — 6 hook types × 5 English examples
+- **8 new workflows (newbie-friendly)** in `workflows-global/`:
+  - Marketing: client-onboard, campaign-launch, monthly-cycle, content-production, dropshipping-launch
+  - Personal Brand: personal-brand-launch, ai-avatar-batch, personal-brand-monthly
+- **5 new docs** in `docs/`:
+  - `getting-started-global.md` — 5-min quickstart
+  - `global-region-guide.md` — "Which region am I?"
+  - `dropshipping-guide.md` — 8-chapter handbook
+  - `apac-roadmap.md` — v2.6.0 plan
+  - `release-notes/v2.5.0.md` — bilingual release notes
+- **2 new examples**:
+  - `personal-brand-coach-global.md` — Sample coach output
+  - `dropshipping-store-global.md` — Sample dropshipping launch
+
+### Changed
+- **5 agents** now universal mode (auto-detect VN/Global cluster):
+  - `mkt-strategist`, `content-producer`, `performance-analyst`, `channel-operator`, `personal-brand-builder`
+  - Detection: reads `.agents/*-context*.md` files
+  - Behavior: identical to v2.4.0 if only VN context exists
+- README.md and README.vi.md updated for v2.5.0 (60 skills, 5 universal agents, 15 workflows)
+- CLAUDE.md, AGENTS.md updated with universal mode docs
+
+### Backward Compatibility
+- **Zero breaking changes**: VN cluster (`skills/` — 29 skills) UNCHANGED
+- All existing agents continue to work in VN-only mode without any config
+- Existing workflows preserved
+- Foundation files (`.agents/product-marketing-context.md`, `.agents/personal-brand-context.md`) unchanged
+
+---
+
 ## [2.4.0] - 2026-05-08
 
 ### Added
@@ -190,7 +238,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Minor (1.X.0):** New skill added, new major feature
 - **Patch (1.0.X):** Bug fixes, benchmark updates, syntax corrections
 
-[Unreleased]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.4.0...HEAD
+[Unreleased]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.5.0...HEAD
+[2.5.0]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.4.0...v2.5.0
 [2.4.0]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.3.0...v2.4.0
 [2.3.0]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.2.0...v2.3.0
 [2.2.0]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.1.0...v2.2.0
