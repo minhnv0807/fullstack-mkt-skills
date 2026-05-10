@@ -4,13 +4,18 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/v2.4-Plugin%20Ready-6d28d9?style=for-the-badge&labelColor=1e1033" alt="v2.4"/>
-  <img src="https://img.shields.io/badge/Skills-29-6d28d9?style=for-the-badge&labelColor=1e1033" alt="29 Skills"/>
+  <img src="https://img.shields.io/badge/v2.5-Global%20Ready-6d28d9?style=for-the-badge&labelColor=1e1033" alt="v2.5"/>
+  <img src="https://img.shields.io/badge/Skills-60-6d28d9?style=for-the-badge&labelColor=1e1033" alt="60 Skills"/>
   <img src="https://img.shields.io/badge/Agents-5-be185d?style=for-the-badge&labelColor=1e1033" alt="5 Agents"/>
-  <img src="https://img.shields.io/badge/Workflows-7-0f766e?style=for-the-badge&labelColor=1e1033" alt="7 Workflows"/>
+  <img src="https://img.shields.io/badge/Workflows-15-0f766e?style=for-the-badge&labelColor=1e1033" alt="15 Workflows"/>
   <img src="https://img.shields.io/badge/Market-Vietnam%202025--2026-f97316?style=for-the-badge&labelColor=1e1033" alt="Vietnam Market"/>
   <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&labelColor=1e1033" alt="MIT License"/>
 </p>
+
+> **🌍 v2.5.0 (2026-05-08)** — Cum Marketing Toan Cau.
+> 30 skills global moi (US/EU/SEA/LATAM), Dropshipping flagship, 5 agents universal. Zero breaking changes.
+> [Xem release notes →](docs/release-notes/v2.5.0.md) ·
+> [Bat dau nhanh →](docs/getting-started-global.md)
 
 > **🆕 v2.4.0 (2026-05-08)** — Cum Personal Brand + AI Avatar.
 > 7 skills moi, 1 agent, 3 workflows. Khong breaking changes.
@@ -148,7 +153,9 @@ Copy file `.md` lam Custom Instructions hoac context. Moi file la 1 prompt doc l
 
 ---
 
-## 29 Skills (22 Marketing SP + 7 Personal Brand)
+## 60 Skills (29 VN + 30 Global + 1 foundation moi cum)
+
+### Cum VN (29 skills)
 
 <table>
 <tr><th>#</th><th>Skill</th><th>Lam gi</th><th>Category</th></tr>
@@ -351,13 +358,96 @@ Xem them: [examples/personal-brand-coach.md](examples/personal-brand-coach.md) �
 
 ---
 
-## 5 Agents
+### Cum Global (30 skills)
+
+<table>
+<tr><th>#</th><th>Skill</th><th>Lam gi</th><th>Category</th></tr>
+<tr><td><b>★</b></td><td><a href="skills-global/product-marketing-context-global/SKILL.md"><b>Product Marketing Context Global</b></a></td><td><b>Foundation</b> — context theo region + tien te + thue + luat privacy</td><td>
+
+![Foundation](https://img.shields.io/badge/-Foundation-be185d?style=flat-square)
+
+</td></tr>
+<tr><td><code>00–21</code></td><td><a href="skills-global/"><b>Marketing 22 skills (global)</b></a></td><td>Mirror VN 00–21 voi suffix <code>-global</code> — plan, lich, brief, audit, copy, KPI, kenh, A/B, intake, audit ads</td><td>
+
+![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square) ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square) ![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square) ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
+
+</td></tr>
+<tr><td><code>22–28</code></td><td><a href="skills-global/"><b>Personal Brand 7 skills (global)</b></a></td><td>Mirror VN 22–28 voi suffix <code>-global</code> — context, strategy, AI Avatar, voice clone, thought leadership, monetize, community</td><td>
+
+![Foundation](https://img.shields.io/badge/-Foundation-be185d?style=flat-square) ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square) ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square) ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
+
+</td></tr>
+<tr><td><code>29</code></td><td><a href="skills-global/29-dropshipping-mastery-global/SKILL.md"><b>Dropshipping Mastery</b></a> <sup>v2.5 🚀</sup></td><td><b>Flagship</b> — Shopify + supplier sourcing + winning products + global ads</td><td>
+
+![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
+
+</td></tr>
+</table>
+
+---
+
+## Cum Global (NEW v2.5.0)
+
+30 skill moi cho marketer, founder, dropshipper hoat dong tren **US / EU / SEA / LATAM** — tien te, thue, luat privacy (GDPR/CCPA/PDPA/LGPD), va tool stack theo region.
+
+### Cluster Diagram
+
+```mermaid
+graph TD
+    G[★ product-marketing-context-global] --> M[Marketing 00–21 global]
+    G --> P[Personal Brand 22–28 global]
+    G --> D[29 dropshipping-mastery-global 🚀]
+    M --> US[US region]
+    M --> EU[EU region]
+    M --> SEA[SEA region]
+    M --> LATAM[LATAM region]
+    P --> US
+    P --> EU
+    P --> SEA
+    P --> LATAM
+    D --> US
+    D --> EU
+    D --> SEA
+    D --> LATAM
+```
+
+### Tong quan 4 region
+
+| Region | Tien te | Privacy | Kenh chinh | Ghi chu |
+|--------|---------|---------|------------|---------|
+| **US** | USD | CCPA / luat tung bang | Meta, Google, TikTok, YouTube | Klaviyo + Shopify la stack mac dinh |
+| **EU** | EUR / GBP | GDPR | Meta, Google, TikTok, LinkedIn | VAT/OSS, cookie consent bat buoc |
+| **SEA** | IDR / THB / SGD / PHP | PDPA (theo nuoc) | TikTok Shop, Shopee, Lazada, Meta | Mobile-first, COD pho bien |
+| **LATAM** | BRL / MXN / ARS | LGPD (BR) | Meta, TikTok, MercadoLibre, WhatsApp | Lam phat cao - can hedge FX |
+
+### Dropshipping flagship (skill 29)
+
+Playbook dropshipping end-to-end: chon niche → validate winning product → sourcing supplier (CJ/Spocket/Zendrop) → setup Shopify → chay quang cao Meta/TikTok global → SOP fulfillment → scale len $10K/thang+. Co 4 model scaling theo region.
+
+### Ma tran tool 3 tang (Global)
+
+| Tier | Chi phi/thang | Stack | Phu hop |
+|------|---------------|-------|---------|
+| Free | $0 | Shopify trial, Meta free, Canva free | Giai doan validate |
+| Pro | $200-500 | Shopify Basic, Klaviyo, Meta + TikTok ads | Store $1K-10K/thang |
+| Enterprise | $1000+ | Shopify Plus, Klaviyo, Triple Whale, agency creatives | Store $10K+/thang |
+
+Xem them: [examples/personal-brand-coach-global.md](examples/personal-brand-coach-global.md) ·
+[examples/dropshipping-store-global.md](examples/dropshipping-store-global.md) ·
+[docs/getting-started-global.md](docs/getting-started-global.md) ·
+[docs/dropshipping-guide.md](docs/dropshipping-guide.md)
+
+---
+
+## 5 Agents (Universal mode — VN + Global)
+
+> **Cap nhat v2.5:** Tat ca 5 agent gio chay o **universal mode** — tu dong nhan dien project la VN hay Global va route den skill tuong ung (`00-...` hoac `00-...-global`).
 
 ```
                         ┌─────────────────────┐
                         │   MKT STRATEGIST    │
                         │ Ke hoach + Chien luoc│
-                        │ Skills: 00,02,08,09,16,17│
+                        │ VN + Global routing │
                         └─────────┬───────────┘
                                   │
               ┌───────────────────┼───────────────────┐
@@ -365,63 +455,77 @@ Xem them: [examples/personal-brand-coach.md](examples/personal-brand-coach.md) �
     ┌─────────▼─────────┐ ┌──────▼──────────┐ ┌──────▼──────────┐
     │ CONTENT PRODUCER  │ │ PERF. ANALYST   │ │ CHANNEL OPERATOR│
     │ Noi dung + Script │ │ Data + Bao cao  │ │ Kenh + Landing  │
-    │ Skills: 01,04,05,06│ │ 03,07,10,13,19 │ │ 11,12,14,15,18 │
+    │ Universal         │ │ Universal       │ │ Universal       │
     └───────────────────┘ └─────────────────┘ └─────────────────┘
 
                         ┌──────────────────────────┐
-                        │ PERSONAL BRAND BUILDER 🆕│
+                        │ PERSONAL BRAND BUILDER   │
                         │ Personal Brand + Avatar  │
-                        │ Skills: 22,23,24,25,     │
-                        │         26,27,28         │
+                        │ Universal (VN + Global)  │
                         └──────────────────────────┘
 ```
 
-| Agent | Skills chinh |
-|-------|--------------|
-| [MKT Strategist](agents/mkt-strategist.md) | 00, 02, 08, 09, 16, 17 |
-| [Content Producer](agents/content-producer.md) | 01, 04, 05, 06 |
-| [Performance Analyst](agents/performance-analyst.md) | 03, 07, 10, 13, 19 |
-| [Channel Operator](agents/channel-operator.md) | 11, 12, 14, 15, 18 |
-| [Personal Brand Builder](agents/personal-brand-builder.md) <sup>v2.4 NEW</sup> | 22, 23, 24, 25, 26, 27, 28 |
+| Agent | Mode | Skills chinh (VN / Global) |
+|-------|------|----------------------------|
+| [MKT Strategist](agents/mkt-strategist.md) | Universal <sup>v2.5</sup> | 00, 02, 08, 09, 16, 17 (+ mirror `-global`) |
+| [Content Producer](agents/content-producer.md) | Universal <sup>v2.5</sup> | 01, 04, 05, 06 (+ mirror `-global`) |
+| [Performance Analyst](agents/performance-analyst.md) | Universal <sup>v2.5</sup> | 03, 07, 10, 13, 19 (+ mirror `-global`) |
+| [Channel Operator](agents/channel-operator.md) | Universal <sup>v2.5</sup> | 11, 12, 14, 15, 18 (+ mirror `-global`) |
+| [Personal Brand Builder](agents/personal-brand-builder.md) | Universal <sup>v2.5</sup> | 22, 23, 24, 25, 26, 27, 28 (+ mirror `-global`) |
 
 ---
 
-## 7 Workflows
+## 15 Workflows (7 VN + 8 Global)
 
-### Client Onboard — Agency (5-7 ngay) <sup>v2.3</sup>
+### Workflow VN (7)
+
+#### Client Onboard — Agency (5-7 ngay) <sup>v2.3</sup>
 ```
 20 Brief Intake → 09 Insight → 08 Doi thu → 10 KPI → 00 Ke hoach → 02 Brief → 01 Lich
 ```
 
-### Campaign Launch (14-21 ngay)
+#### Campaign Launch (14-21 ngay)
 ```
 08 Doi thu → 09 Insight → 00 Ke hoach → 02 Brief → 01+04+05 Content → 06 UGC → 11+12 Kenh
 ```
 
-### Monthly Cycle (3-5 ngay)
+#### Monthly Cycle (3-5 ngay)
 ```
 13 Data → 03 Danh gia → 07 Bao cao → 10 KPI moi → 01 Lich moi
 ```
 
-### Content Production (hang tuan)
+#### Content Production (hang tuan)
 ```
 Review lich → 04 Script → Quay/Dung → 05 Copy ads → Len lich dang
 ```
 
-### Personal Brand Launch (30 ngay) <sup>v2.4 NEW</sup>
+#### Personal Brand Launch (30 ngay) <sup>v2.4 NEW</sup>
 ```
 22 Context → 23 Strategy → 24 AI Avatar → 26 Long-form → 27 Monetize → 28 Community
 ```
 
-### AI Avatar Batch (5 ngay × 5 gio) <sup>v2.4 NEW</sup>
+#### AI Avatar Batch (5 ngay × 5 gio) <sup>v2.4 NEW</sup>
 ```
 30 video AI Avatar trong 5 ngay, <$2/video — workflow san xuat day chuyen
 ```
 
-### Personal Brand Monthly (3-5 ngay) <sup>v2.4 NEW</sup>
+#### Personal Brand Monthly (3-5 ngay) <sup>v2.4 NEW</sup>
 ```
 13 Data → 03 Audit → 07 Report → review pillars → dieu chinh personal brand
 ```
+
+### Workflow Global (8) <sup>v2.5 NEW</sup>
+
+| Workflow | Thoi gian | Pipeline |
+|----------|-----------|----------|
+| [client-onboard-global](workflows-global/client-onboard-global.md) | 5-7 ngay | 20 Intake → 09 Insight → 08 Doi thu → 10 KPI → 00 Plan → 02 Brief → 01 Lich (global) |
+| [campaign-launch-global](workflows-global/campaign-launch-global.md) | 14-21 ngay | 08 → 09 → 00 → 02 → 01+04+05 Content → 06 UGC → 11+12 Kenh (global) |
+| [monthly-cycle-global](workflows-global/monthly-cycle-global.md) | 3-5 ngay | 13 Data → 03 Audit → 07 Report → 10 KPI moi → 01 Lich moi (global) |
+| [content-production-global](workflows-global/content-production-global.md) | hang tuan | Review lich → 04 → 05 → schedule (global, 4 region) |
+| [dropshipping-launch-global](workflows-global/dropshipping-launch-global.md) <sup>🚀</sup> | 14-30 ngay | Niche → validate product → store → ads → fulfillment → scale |
+| [personal-brand-launch-global](workflows-global/personal-brand-launch-global.md) | 30 ngay | 22 Context → 23 Strategy → 24 AI Avatar → 26 Long-form → 27 Monetize → 28 Community (global) |
+| [ai-avatar-batch-global](workflows-global/ai-avatar-batch-global.md) | 5 ngay × 5h | 30 video batch trong 5 ngay, da ngon ngu (EN/ES/PT/ID/TH) |
+| [personal-brand-monthly-global](workflows-global/personal-brand-monthly-global.md) | 3-5 ngay | 13 Data → 03 Audit → 07 Report → review pillars → dieu chinh (global) |
 
 ---
 
@@ -467,7 +571,7 @@ fullstack-mkt-skills/
 │   ├── ISSUE_TEMPLATE/              # Bug report + skill request
 │   └── PULL_REQUEST_TEMPLATE/       # New skill + skill update
 │
-├── skills/                          # 29 skills (folder per skill)
+├── skills/                          # 29 skill VN (folder per skill)
 │   ├── product-marketing-context/   # Foundation skill (★)
 │   │   └── SKILL.md
 │   ├── 00-ke-hoach-mkt/
@@ -475,19 +579,26 @@ fullstack-mkt-skills/
 │   ├── 01-lich-noi-dung/
 │   │   └── SKILL.md
 │   ├── ... (skill 02-21 — cum Marketing SP)
-│   ├── 22-personal-brand-context/   # NEW v2.4: Foundation co 3 variants
+│   ├── 22-personal-brand-context/   # v2.4: Foundation co 3 variants
 │   │   ├── SKILL.md
 │   │   ├── README.md
 │   │   └── variants/
 │   │       ├── 01-founder.md
 │   │       ├── 02-coach.md
 │   │       └── 03-creator.md
-│   ├── 23-personal-brand-strategy/  # NEW v2.4
-│   ├── 24-ai-avatar-production/     # NEW v2.4: Flagship deep-dive
-│   ├── 25-voice-clone-podcast/      # NEW v2.4
-│   ├── 26-thought-leadership-content/ # NEW v2.4
-│   ├── 27-personal-brand-monetize/  # NEW v2.4
-│   └── 28-community-building/       # NEW v2.4
+│   ├── 23-personal-brand-strategy/  # v2.4
+│   ├── 24-ai-avatar-production/     # v2.4: Flagship deep-dive
+│   ├── 25-voice-clone-podcast/      # v2.4
+│   ├── 26-thought-leadership-content/ # v2.4
+│   ├── 27-personal-brand-monetize/  # v2.4
+│   └── 28-community-building/       # v2.4
+│
+├── skills-global/                   # NEW v2.5.0 — 30 skill global
+│   ├── product-marketing-context-global/    # Foundation (★)
+│   ├── 00-21 marketing skills (global)      # Mirror VN voi suffix -global
+│   ├── 22-28 personal brand skills (global) # Mirror VN voi suffix -global
+│   ├── 29-dropshipping-mastery-global/      # NEW v2.5 flagship (🚀)
+│   └── references/                          # 7 reference global
 │
 ├── references/                      # Shared references
 │   ├── benchmarks-vietnam.md
@@ -498,30 +609,47 @@ fullstack-mkt-skills/
 │   ├── mcp-ads-integration.md      # MCP server guide (v2.3)
 │   ├── quality-gates-vn.md         # 10 hard rules (v2.3)
 │   ├── hook-formulas-vn.md         # 6 hook type cho VN (v2.3)
-│   ├── ai-avatar-tools-vn.md       # NEW v2.4
-│   ├── voice-clone-prompts-vn.md   # NEW v2.4
-│   ├── ai-video-disclosure-vn.md   # NEW v2.4
+│   ├── ai-avatar-tools-vn.md       # v2.4
+│   ├── voice-clone-prompts-vn.md   # v2.4
+│   ├── ai-video-disclosure-vn.md   # v2.4
 │   └── tool-stack.md
 │
-├── workflows/                       # 7 multi-skill workflows
+├── workflows/                       # 7 workflow VN
 │   ├── campaign-launch.md
 │   ├── client-onboard.md           # Agency workflow (v2.3)
 │   ├── content-production.md
 │   ├── monthly-cycle.md
-│   ├── personal-brand-launch.md    # NEW v2.4 (30 ngay)
-│   ├── ai-avatar-batch.md          # NEW v2.4 (batch 5 ngay)
-│   └── personal-brand-monthly.md   # NEW v2.4 (review)
+│   ├── personal-brand-launch.md    # v2.4 (30 ngay)
+│   ├── ai-avatar-batch.md          # v2.4 (batch 5 ngay)
+│   └── personal-brand-monthly.md   # v2.4 (review)
 │
-├── agents/                          # Agent personas
-│   └── personal-brand-builder.md   # NEW v2.4
+├── workflows-global/                # NEW v2.5.0 — 8 workflow global
+│   ├── client-onboard-global.md
+│   ├── campaign-launch-global.md
+│   ├── monthly-cycle-global.md
+│   ├── content-production-global.md
+│   ├── dropshipping-launch-global.md       # 🚀 flagship workflow
+│   ├── personal-brand-launch-global.md
+│   ├── ai-avatar-batch-global.md
+│   └── personal-brand-monthly-global.md
+│
+├── agents/                          # Agent personas (universal trong v2.5)
+│   └── personal-brand-builder.md   # v2.4
 ├── examples/                        # Sample outputs
-│   └── personal-brand-coach.md     # NEW v2.4
+│   ├── personal-brand-coach.md     # v2.4
+│   ├── personal-brand-coach-global.md      # NEW v2.5
+│   └── dropshipping-store-global.md        # NEW v2.5
 │
 ├── docs/                            # Documentation
-│   ├── personal-brand-guide.md     # NEW v2.4 (8-chapter cam nang)
-│   ├── getting-started-personal-brand.md # NEW v2.4 (5-min quickstart)
+│   ├── personal-brand-guide.md     # v2.4 (8-chapter cam nang)
+│   ├── getting-started-personal-brand.md # v2.4 (5-min quickstart)
+│   ├── getting-started-global.md   # NEW v2.5
+│   ├── global-region-guide.md      # NEW v2.5
+│   ├── dropshipping-guide.md       # NEW v2.5
+│   ├── apac-roadmap.md             # NEW v2.5
 │   └── release-notes/
-│       └── v2.4.0.md               # NEW v2.4
+│       ├── v2.4.0.md
+│       └── v2.5.0.md               # NEW v2.5
 │
 ├── AGENTS.md                        # Universal agent spec
 ├── CLAUDE.md                        # Claude-specific config

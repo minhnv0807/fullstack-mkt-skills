@@ -106,6 +106,28 @@ skills/22-personal-brand-context/
 
 User chay skill chinh, skill load README → user chon variant → skill load variant template.
 
+### Pattern variants — Skill 22 Global (NEW)
+
+Skill 22-personal-brand-context-global uses 4 REGION variants (US/EU/SEA/LATAM) instead of 3 audience variants like VN.
+
+Cau truc:
+
+```
+skills-global/22-personal-brand-context-global/
+├── SKILL.md          ← Entrypoint + router
+├── README.md         ← Region variant guide
+└── variants/
+    ├── 01-us.md      ← Covers founder + coach + creator (US)
+    ├── 02-eu.md      ← Covers founder + coach + creator (EU)
+    ├── 03-sea.md     ← Covers founder + coach + creator (SEA)
+    └── 04-latam.md   ← Covers founder + coach + creator (LATAM)
+```
+
+Difference from VN skill 22:
+- VN: 3 audience variants (founder/coach/creator separately)
+- Global: 4 region variants (each contains 3 audience inside)
+- Reason: persona universal but currency/platforms/regulations differ per region
+
 ## Pattern Mode-Switching (Skills 04, 05)
 
 Skill 04, 05 dung pattern context-aware mode:
@@ -119,6 +141,26 @@ Pattern dieu kien:
 3. If only B → Mode B
 4. If both → Skill ASKS user
 5. If neither → Skill SUGGESTS creating context first
+
+## Pattern: Cluster Auto-Detect Mode (v2.5.0+)
+
+Pattern used in v2.5.0 to handle 2 clusters (VN + Global) in same agents:
+
+```
+Agent reads `.agents/`:
+- `product-marketing-context.md` → MODE VN
+- `product-marketing-context-global.md` → MODE GLOBAL
+- Both → ASK 1 question
+- None → SUGGEST creating context
+```
+
+Same pattern for personal brand:
+- `personal-brand-context.md` → MODE VN PB
+- `personal-brand-context-global.md` → MODE GLOBAL PB
+
+This pattern allows ONE agent to serve BOTH clusters without code duplication.
+
+Used by: 5 agents (mkt-strategist, content-producer, performance-analyst, channel-operator, personal-brand-builder).
 
 ## Cai dat
 

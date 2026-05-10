@@ -53,11 +53,33 @@
                     │ 27 personal-brand-monetize          │
                     │ 28 community-building               │
                     └─────────────────────────────────────┘
+
+      ════════════════════════════════════════════════════════════════════
+      ║              GLOBAL CLUSTER (v2.5.0) — skills-global/             ║
+      ║                                                                   ║
+      ║       ┌─────────────────────────────────────────────────┐         ║
+      ║       │  PRODUCT MARKETING CONTEXT GLOBAL (★)            │         ║
+      ║       │  4 region variants: US / EU / SEA / LATAM        │         ║
+      ║       └─────────────────────┬───────────────────────────┘         ║
+      ║                             │                                     ║
+      ║   ┌──────────────┬──────────┴──────────┬──────────────┐           ║
+      ║   │ Marketing    │ Personal Brand      │ Dropshipping │           ║
+      ║   │ Global       │ Global              │ Flagship     │           ║
+      ║   │ (00-21 EN)   │ (22-28 EN)          │ (29)         │           ║
+      ║   │              │ 22 PB context (★)    │ 30-day       │           ║
+      ║   │ 22 marketing │ + 4 region variants  │ launch       │           ║
+      ║   │ skills       │ 7 personal brand     │ playbook     │           ║
+      ║   │              │ skills              │              │           ║
+      ║   └──────────────┴─────────────────────┴──────────────┘           ║
+      ║                                                                   ║
+      ║   Skills with 4 region variants (US/EU/SEA/LATAM):                ║
+      ║   foundation, 03, 10, 11, 14, 17, 18, 21, 22, 24, 27              ║
+      ════════════════════════════════════════════════════════════════════
 ```
 
 ---
 
-## Bang tra nhanh — 29 Skills
+## Bang tra nhanh — 60 Skills (29 VN + 30 Global + 1 foundation per cluster)
 
 | # | Skill | Lam gi | Khi nao dung | Output |
 |---|-------|--------|-------------|--------|
@@ -94,7 +116,62 @@
 
 ---
 
-## 7 Reference Files
+## Global Cluster (v2.5.0) — 30 Skills + 1 Foundation
+
+> **Path:** `skills-global/` — International English, multi-region (US/EU/SEA/LATAM).
+> **Use when:** Marketing cho thi truong nuoc ngoai, dropshipping, audience quoc te.
+
+### Marketing Global (skills 00-21, 22 skills)
+
+| # | Skill | Region variants | Khi nao dung |
+|---|-------|----------------|-------------|
+| ★ | product-marketing-context-global | 4 (US/EU/SEA/LATAM) | Foundation cho global marketing |
+| 00 | marketing-plan-global | — | Ke hoach marketing global |
+| 01 | content-calendar-global | — | Lich noi dung quoc te |
+| 02 | campaign-brief-global | — | Brief chien dich quoc te |
+| 03 | performance-eval-global | 4 regions | Danh gia hieu suat theo region |
+| 04 | script-video-global | — | Script video tieng Anh |
+| 05 | ad-copy-global | — | Copy quang cao quoc te |
+| 06 | ugc-egc-brief-global | — | Brief UGC quoc te |
+| 07 | marketing-report-global | — | Bao cao marketing quoc te |
+| 08 | competitor-research-global | — | Phan tich doi thu quoc te |
+| 09 | customer-insight-global | — | Persona quoc te |
+| 10 | reverse-kpi-global | 4 regions | KPI nguoc theo region |
+| 11 | channel-setup-global | 4 regions | Setup kenh quoc te |
+| 12 | landing-page-brief-global | — | Brief LP quoc te |
+| 13 | data-analysis-global | — | Phan tich data quoc te |
+| 14 | email-marketing-global | 4 regions | Email global (GDPR/CAN-SPAM) |
+| 15 | social-listening-global | — | Listening da ngon ngu |
+| 16 | marketing-psychology-global | — | Tam ly cross-cultural |
+| 17 | pricing-strategy-global | 4 regions | Pricing USD/EUR/etc. |
+| 18 | referral-program-global | 4 regions | Referral quoc te |
+| 19 | ab-test-setup-global | — | A/B test quoc te |
+| 20 | client-intake-brief-global | — | Intake form quoc te |
+| 21 | ads-audit-global | 4 regions | Audit ads quoc te |
+
+### Personal Brand Global (skills 22-28, 7 skills)
+
+| # | Skill | Region variants | Khi nao dung |
+|---|-------|----------------|-------------|
+| ★22 | personal-brand-context-global | 4 (US/EU/SEA/LATAM) | Foundation personal brand quoc te |
+| 23 | personal-brand-strategy-global | — | Strategy 12 thang quoc te |
+| 24 | ai-avatar-production-global | 4 regions | AI Avatar quoc te (FTC/GDPR) |
+| 25 | voice-clone-podcast-global | — | Audio AI quoc te |
+| 26 | thought-leadership-content-global | — | Long-form English |
+| 27 | personal-brand-monetize-global | 4 regions | Monetize USD/EUR |
+| 28 | community-building-global | — | Community Discord/Circle |
+
+### Dropshipping Flagship (skill 29)
+
+| # | Skill | Khi nao dung |
+|---|-------|-------------|
+| 29 | dropshipping-mastery-global | **FLAGSHIP v2.5.0** — Pipeline 12 phan: product research → supplier sourcing → Shopify setup → ad creative → scaling. Market US ~$128B (2025). |
+
+---
+
+## 14 Reference Files
+
+### VN Cluster (7 references)
 
 | File | Noi dung | Dung boi skill |
 |------|---------|---------------|
@@ -106,9 +183,23 @@
 | `references/ai-video-disclosure-vn.md` | Nghi dinh 147/2024/ND-CP — disclosure rules cho AI video | 24, 26 |
 | `references/personal-brand-playbook-vn.md` | Founder/Coach/Creator playbooks + content cadence | 22, 23, 26, 27, 28 |
 
+### Global Cluster (7 references)
+
+| File | Noi dung | Dung boi skill |
+|------|---------|---------------|
+| `skills-global/references/hook-formulas-global.md` | Hook formulas tieng Anh + cross-cultural variants | 04, 05 global |
+| `skills-global/references/global-currency-pricing.md` | Pricing USD/EUR/GBP + multi-currency strategies | 17 global |
+| `skills-global/references/global-platforms-comparison.md` | Meta/Google/TikTok/X/LinkedIn benchmarks 4 regions | 03, 11, 21 global |
+| `skills-global/references/global-legal-compliance.md` | GDPR/CCPA/FTC/CAN-SPAM legal compliance | 14, 18, 24 global |
+| `skills-global/references/ai-video-disclosure-global.md` | FTC AI disclosure + EU AI Act + SEA/LATAM rules | 24, 26 global |
+| `skills-global/references/voice-clone-prompts-global.md` | Voice clone prompts EN + multi-language | 25 global |
+| `skills-global/references/dropshipping-tools-global.md` | Shopify/Spocket/AutoDS + supplier directory | 29 global |
+
 ---
 
-## 7 Workflow (Chuoi skill)
+## 15 Workflows (7 VN + 8 Global)
+
+### VN Workflows (7)
 
 | Workflow | Skills | Khi nao | Thoi gian |
 |----------|--------|---------|-----------|
@@ -119,6 +210,19 @@
 | **personal-brand-launch** | 22 → 23 → 26 → 24 → 27 | Build personal brand tu 0 | 30-60 ngay |
 | **ai-avatar-batch** | 22 → 24 (×30) → 26 → 28 | Sx 30 video AI/thang | 7-10 ngay |
 | **monetize-personal-brand** | 27 → 28 → 14 → 18 | Kiem tien tu audience da co | 14-21 ngay |
+
+### Global Workflows (8, v2.5.0)
+
+| Workflow | Skills | Khi nao | Thoi gian |
+|----------|--------|---------|-----------|
+| **client-onboard-global** | 20 → 09 → 08 → 10 → 00 → 02 → 01 (global) | Agency nhan KH quoc te | 5-7 ngay |
+| **campaign-launch-global** | 08 → 09 → 00 → 02 → 01+04+05 → 06 → 11+12 (global) | Launch quoc te | 14-21 ngay |
+| **monthly-cycle-global** | 13 → 03 → 07 → 10 → 01 (global) | Cuoi thang global | 3-5 ngay |
+| **content-production-global** | 01 → 04 → 05 (global) | Content quoc te hang tuan | 5 ngay |
+| **personal-brand-launch-global** | 22 → 23 → 26 → 24 → 27 (global) | PB quoc te tu 0 | 30-60 ngay |
+| **ai-avatar-batch-global** | 22 → 24 (×30) → 26 → 28 (global) | 30 AI Avatar quoc te | 7-10 ngay |
+| **personal-brand-monthly-global** | 27 → 28 → 14 → 18 (global) | PB monthly quoc te | 14-21 ngay |
+| **dropshipping-launch-global** | 29 (12 phases) | 30-day dropship launch | 30 ngay |
 
 ---
 
@@ -153,15 +257,21 @@ User muon "Content hang thang"
 
 ---
 
-## 5 Agent (Vai tro chuyen biet)
+## 5 Agent (Vai tro chuyen biet) — Universal Mode (v2.5.0)
+
+> **Universal Mode:** Tu v2.5.0, ca 5 agents tu dong nhan dien cluster qua `.agents/` directory.
+> - `product-marketing-context.md` ton tai → VN mode (skills/)
+> - `product-marketing-context-global.md` ton tai → Global mode (skills-global/)
+> - Ca 2 ton tai → agent HOI user chon cluster
+> - Khong co file nao → agent goi y tao foundation file
 
 | Agent | Nhu "nhan vien" nao | Skills chinh | Khi nao dung |
 |-------|-------|-------------|-------------|
-| **mkt-strategist** | Marketing Manager | 00, 02, 08, 09, 16, 17 | Plan, research, dinh vi |
-| **content-producer** | Content Writer | 01, 04, 05, 06, 15 | Viet, quay, dung |
-| **performance-analyst** | Ads Manager | 03, 07, 10, 13, 19, 21 | Data, audit, report |
-| **channel-operator** | CRM Manager | 11, 12, 14, 18 | Setup kenh, automation |
-| **personal-brand-builder** | Personal Brand Coach | 22, 23, 24, 25, 26, 27, 28 | Build personal brand, AI avatar, community |
+| **mkt-strategist** | Marketing Manager | 00, 02, 08, 09, 16, 17 (VN/Global) | Plan, research, dinh vi |
+| **content-producer** | Content Writer | 01, 04, 05, 06, 15 (VN/Global) | Viet, quay, dung |
+| **performance-analyst** | Ads Manager | 03, 07, 10, 13, 19, 21 (VN/Global) | Data, audit, report |
+| **channel-operator** | CRM Manager | 11, 12, 14, 18 (VN/Global) | Setup kenh, automation |
+| **personal-brand-builder** | Personal Brand Coach | 22-28 (VN/Global) | Build personal brand, AI avatar, community |
 
 ---
 
@@ -222,3 +332,48 @@ User muon "Build personal brand"
     │
     └─ Build community → 28 (Zalo/Telegram/Skool)
 ```
+
+---
+
+## Decision Tree — Global Cluster (v2.5.0)
+
+```mermaid
+flowchart TD
+    A[User wants Global marketing or Dropshipping] --> B{What use case?}
+    B -->|Marketing quoc te| C[Run product-marketing-context-global<br/>foundation skill]
+    B -->|Personal brand quoc te| D[Run 22-personal-brand-context-global<br/>foundation skill]
+    B -->|Dropshipping| E[Run skill 29-dropshipping-mastery-global<br/>FLAGSHIP]
+
+    C --> F{Choose region}
+    D --> F
+    F -->|US| G[01-us variant]
+    F -->|EU| H[02-eu variant - GDPR]
+    F -->|SEA| I[03-sea variant]
+    F -->|LATAM| J[04-latam variant]
+
+    G --> K[Continue with global skills 00-28]
+    H --> K
+    I --> K
+    J --> K
+
+    E --> L[Workflow dropshipping-launch-global<br/>30-day playbook]
+    L --> M[Phase 1-4: Research → Sourcing → Shopify → Launch ads]
+```
+
+**Quick path:**
+- **User wants "Global marketing"** → Run `product-marketing-context-global` (foundation) → Choose region (US/EU/SEA/LATAM) → Continue with global skills
+- **User wants "Dropshipping"** → Run skill `29-dropshipping-mastery-global` (flagship) → Workflow `dropshipping-launch-global` (30-day)
+
+---
+
+## VN vs Global — Khi nao chon cai nao?
+
+| Tieu chi | VN Cluster (skills/) | Global Cluster (skills-global/) |
+|----------|---------------------|-------------------------------|
+| Thi truong | Vietnam | US/EU/SEA/LATAM |
+| Ngon ngu | Tieng Viet | International English |
+| Tien te | VND | USD/EUR/GBP/region |
+| Compliance | Nghi dinh 147/2024 (VN) | GDPR/CCPA/FTC/CAN-SPAM |
+| Platforms | Zalo, Shopee VN, TikTok VN | Discord, Stripe, Shopify, Klaviyo |
+| Benchmarks | VN 2025-2026 | Region-specific 2025-2026 |
+| Foundation | `product-marketing-context` | `product-marketing-context-global` (4 regions) |

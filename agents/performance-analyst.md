@@ -81,3 +81,52 @@ kpi-thang-[M]-[YYYYMMDD].md
 
 - Phan biet voi `personal-brand-builder`: agent nay focus business metrics (CPMess, ROAS, doanh thu, conversion funnel). `personal-brand-builder` focus personal metrics (followers growth, engagement rate, NPS, community health).
 - Khi user dan data ma khong ro la business hay personal brand, hoi 1 cau xac nhan truoc khi phan tich.
+
+## Cluster Auto-Detect Mode (v2.5.0+)
+
+This agent supports BOTH the VN cluster (`skills/`) and the Global cluster (`skills-global/`). It auto-detects which to use based on context files:
+
+### Detection logic
+
+```
+Check `.agents/` directory:
+├── product-marketing-context.md ONLY → MODE VN
+│   └── Use skills/[skill-id]/ paths
+├── product-marketing-context-global.md ONLY → MODE GLOBAL
+│   └── Use skills-global/[skill-id]-global/ paths
+├── BOTH files exist → ASK 1 question
+│   └── "Are you working on Vietnamese market or Global market?"
+└── NEITHER file exists → SUGGEST creating one
+    └── Recommend: product-marketing-context (VN) or product-marketing-context-global
+```
+
+### Cluster-specific skill mapping
+
+| Task | VN cluster (skills/) | Global cluster (skills-global/) |
+|------|----------------------|---------------------------------|
+| Performance eval | 03-danh-gia-hieu-suat | 03-performance-eval-global |
+| Marketing report | 07-bao-cao-marketing | 07-marketing-report-global |
+| Reverse KPI calc | 10-tinh-kpi-nguoc | 10-reverse-kpi-global |
+| Data analysis | 13-phan-tich-du-lieu | 13-data-analysis-global |
+| A/B test setup | 19-ab-test-setup | 19-ab-test-setup-global |
+| Ads audit | 21-audit-ads-performance | 21-ads-audit-global |
+| Dropshipping mastery | — (not in VN cluster) | 29-dropshipping-mastery-global |
+
+### Examples
+
+**Example 1: VN context only**
+- User: "CPMess of my Meta ads is too high"
+- Agent: reads `.agents/product-marketing-context.md` → MODE VN → uses skills/03-danh-gia-hieu-suat/
+- Output: VND benchmarks, Vietnamese audience targeting tips
+
+**Example 2: Global context only**
+- User: "ROAS dropped from 4x to 2x last week"
+- Agent: reads `.agents/product-marketing-context-global.md` → MODE GLOBAL → uses skills-global/03-performance-eval-global/
+- Output: USD benchmarks, Global platform diagnostics (Meta/Google/TikTok US)
+
+**Example 3: Both contexts**
+- User: "Run a full ads audit"
+- Agent: ASKS "Vietnamese or Global market focus?"
+- Then proceeds in correct mode
+
+---

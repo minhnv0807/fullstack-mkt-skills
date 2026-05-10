@@ -2,6 +2,13 @@
 
 > **Muc dich:** Giup ban chon DUNG workflow thay vi chay tung skill roi rac.
 > Workflow = chuoi skill tu dong chay lien tuc, output skill truoc la input skill sau.
+> **15 Workflows (7 VN + 8 Global)** — v2.5.0 added 8 global workflows.
+
+> **Agents auto-detect mode (v2.5.0):** Tat ca 5 agents tu dong nhan dien cluster qua `.agents/` directory.
+> - `product-marketing-context.md` → VN mode
+> - `product-marketing-context-global.md` → Global mode
+> - Ca 2 → agent HOI user chon
+> - Khong co → agent goi y tao foundation file phu hop
 
 ---
 
@@ -10,29 +17,46 @@
 ```
 Ban dang o tinh huong nao?
 │
-├─ Agency vua nhan khach hang moi
-│   └─ ✅ client-onboard (5-7 ngay)
+├─ Thi truong Viet Nam?
+│   ├─ Agency vua nhan khach hang moi
+│   │   └─ ✅ client-onboard (5-7 ngay)
+│   │
+│   ├─ Chuan bi launch san pham / chien dich moi
+│   │   └─ ✅ campaign-launch (14-21 ngay)
+│   │
+│   ├─ Cuoi thang, can bao cao + ke hoach thang moi
+│   │   └─ ✅ monthly-cycle (3-5 ngay)
+│   │
+│   ├─ Hang tuan can san xuat content
+│   │   └─ ✅ content-production (lap lai moi tuan)
+│   │
+│   ├─ Ads dang chay kem, can fix gap
+│   │   └─ ❌ Khong can workflow — chay skill 03 hoac 21 truc tiep
+│   │
+│   ├─ Muon launch personal brand (founder/coach/creator)
+│   │   └─ ✅ personal-brand-launch (30 ngay)
+│   │
+│   ├─ Can san xuat 30 video AI Avatar / 5 ngay
+│   │   └─ ✅ ai-avatar-batch (5 ngay × 5 gio)
+│   │
+│   └─ Cuoi thang, review + adjust personal brand
+│       └─ ✅ personal-brand-monthly (3 ngay)
 │
-├─ Chuan bi launch san pham / chien dich moi
-│   └─ ✅ campaign-launch (14-21 ngay)
-│
-├─ Cuoi thang, can bao cao + ke hoach thang moi
-│   └─ ✅ monthly-cycle (3-5 ngay)
-│
-├─ Hang tuan can san xuat content
-│   └─ ✅ content-production (lap lai moi tuan)
-│
-├─ Ads dang chay kem, can fix gap
-│   └─ ❌ Khong can workflow — chay skill 03 hoac 21 truc tiep
-│
-├─ Muon launch personal brand (founder/coach/creator)
-│   └─ ✅ personal-brand-launch (30 ngay)
-│
-├─ Can san xuat 30 video AI Avatar / 5 ngay
-│   └─ ✅ ai-avatar-batch (5 ngay × 5 gio)
-│
-└─ Cuoi thang, review + adjust personal brand
-    └─ ✅ personal-brand-monthly (3 ngay) — co o Phase 3
+└─ Thi truong quoc te (US/EU/SEA/LATAM)?
+    ├─ Agency nhan KH quoc te
+    │   └─ ✅ client-onboard-global (5-7 ngay)
+    │
+    ├─ Launch chien dich quoc te
+    │   └─ ✅ campaign-launch-global (14-21 ngay)
+    │
+    ├─ Build personal brand quoc te
+    │   └─ ✅ personal-brand-launch-global (30 ngay)
+    │
+    ├─ Launch dropshipping store
+    │   └─ ✅ dropshipping-launch-global (30 ngay) — FLAGSHIP
+    │
+    └─ Monthly cycle quoc te
+        └─ ✅ monthly-cycle-global (3-5 ngay)
 ```
 
 ---
@@ -257,3 +281,103 @@ Skills 04, 05 tu dong chuyen Mode khi doc context file:
 | Bao cao (07) khong co data analysis (13) | Thu thap data truoc → Bao cao sau |
 | Moi thang chi chay 01 (lich ND) | Chay ca monthly-cycle: 13 → 03 → 07 → 10 → 01 |
 | Tao campaign tren Ads Manager khong co brief | Brief (02) truoc → Setup ads sau |
+
+---
+
+## Global Workflows (v2.5.0)
+
+8 workflow moi cho thi truong quoc te (US/EU/SEA/LATAM). File goc trong `workflows-global/`.
+
+### 8. Client Onboard Global (Agency quoc te)
+
+```
+Thoi gian: 5-7 ngay
+Dung khi:  Agency nhan khach hang quoc te (B2B/B2C)
+Output:    Brief + Plan trong tieng Anh, USD/EUR pricing
+Skills:    20 → 09 → 08 → 10 → 00 → 02 → 01 (all global)
+```
+Chi tiet: `workflows-global/client-onboard-global.md`
+
+### 9. Campaign Launch Global (Launch quoc te)
+
+```
+Thoi gian: 14-21 ngay
+Dung khi:  Launch SP/dich vu tren thi truong US/EU/SEA/LATAM
+Output:    10+ file .md tieng Anh, region-specific
+Skills:    08 → 09 → 00 → 02 → 01+04+05 → 06 → 11+12 (all global)
+```
+Chi tiet: `workflows-global/campaign-launch-global.md`
+
+### 10. Monthly Cycle Global (Bao cao thang quoc te)
+
+```
+Thoi gian: 3-5 ngay
+Dung khi:  Monthly review cho campaign quoc te
+Output:    Report + KPI + content calendar tieng Anh
+Skills:    13 → 03 → 07 → 10 → 01 (all global)
+```
+Chi tiet: `workflows-global/monthly-cycle-global.md`
+
+### 11. Content Production Global
+
+```
+Thoi gian: Hang tuan
+Dung khi:  San xuat content tieng Anh hang tuan
+Output:    Script + Copy tieng Anh san sang dang
+Skills:    01 → 04 → 05 (global, Mode A/B auto-detect)
+```
+Chi tiet: `workflows-global/content-production-global.md`
+
+### 12. Personal Brand Launch Global (30 ngay)
+
+```
+Thoi gian: 30 ngay
+Dung khi:  Founder/Coach/Creator launch PB quoc te tu 0
+Output:    Profile + 10+ posts + 500-1500 followers
+Skills:    22 → 23 → 26 → 24 → 27 (all global)
+```
+Chi tiet: `workflows-global/personal-brand-launch-global.md`
+
+### 13. AI Avatar Batch Global (30 videos / 5 ngay)
+
+```
+Thoi gian: 5 ngay × 5 gio
+Dung khi:  Dump 30 AI Avatar videos tieng Anh
+Output:    30 videos + FTC/EU AI Act disclosure compliance
+Skills:    22 → 24 (×30) → 26 → 28 (all global)
+```
+Chi tiet: `workflows-global/ai-avatar-batch-global.md`
+
+### 14. Personal Brand Monthly Global
+
+```
+Thoi gian: 3-5 ngay
+Dung khi:  Monthly review + adjust PB quoc te
+Output:    Report + adjustments + next-month plan
+Skills:    27 → 28 → 14 → 18 (all global)
+```
+Chi tiet: `workflows-global/personal-brand-monthly-global.md`
+
+### 15. Dropshipping Launch Global (FLAGSHIP)
+
+```
+Thoi gian: 30 ngay (4 tuan)
+Dung khi:  Launch dropshipping store on Shopify
+Output:    Live store + winning product + scaling ad creative
+Skill:     29-dropshipping-mastery-global (12 phases)
+```
+**Phases:** Research → Sourcing → Shopify setup → Product page → Ad creative → Launch → Optimize → Scale → Retention → Reorder strategy → Brand build → Exit prep
+
+Chi tiet: `workflows-global/dropshipping-launch-global.md`
+
+---
+
+## VN vs Global — Khi nao chon?
+
+| Tieu chi | VN Workflows | Global Workflows |
+|----------|-------------|------------------|
+| Thi truong | Vietnam | US / EU / SEA / LATAM |
+| Foundation file | `.agents/product-marketing-context.md` | `.agents/product-marketing-context-global.md` |
+| Tien te | VND | USD / EUR / region |
+| Compliance | Nghi dinh 147/2024 | GDPR / CCPA / FTC / CAN-SPAM |
+| Tien co the chay | Caller mode tu dong (xem header) | Caller mode tu dong (xem header) |

@@ -5,14 +5,14 @@
     "url": "https://opa.business"
   },
   "metadata": {
-    "description": "Bo skill marketing toan dien cho AI agent — chien luoc, noi dung, hieu suat, van hanh, personal brand + AI avatar. Thi truong Viet Nam 2025-2026.",
-    "version": "2.4.0",
+    "description": "Bo skill marketing toan dien cho AI agent — 60 skills (29 VN + 30 Global + 1 foundation per cluster). Chien luoc, noi dung, hieu suat, van hanh, personal brand, AI avatar, dropshipping. Thi truong Viet Nam 2025-2026 + Global (US/EU/SEA/LATAM).",
+    "version": "2.5.0",
     "repository": "https://github.com/minhnv0807/fullstack-mkt-skills"
   },
   "plugins": [
     {
       "name": "fullstack-mkt-skills",
-      "description": "29 skills marketing toan dien (22 marketing SP + 7 personal brand) cho thi truong Viet Nam — tu lap ke hoach, brief chien dich, viet script TikTok, copy quang cao, den phan tich hieu suat, email marketing, personal brand strategy va AI avatar production. Tich hop voi Claude Code, Claude Pro, ChatGPT, Gemini, Copilot, Cursor. Dung foundation skill `product-marketing-context` va `22-personal-brand-context` de tranh lap lai thong tin.",
+      "description": "60 skills marketing toan dien (29 VN + 30 Global + 1 foundation per cluster) — tu lap ke hoach, brief chien dich, viet script TikTok, copy quang cao, den phan tich hieu suat, email marketing, personal brand strategy, AI avatar production, va dropshipping mastery. Ho tro 4 regions (US/EU/SEA/LATAM) + VN. Tich hop voi Claude Code, Claude Pro, ChatGPT, Gemini, Copilot, Cursor. Dung foundation skills `product-marketing-context`, `22-personal-brand-context` (VN) va `product-marketing-context-global`, `22-personal-brand-context-global` (Global) de tranh lap lai thong tin.",
       "source": ".",
       "strict": false,
       "skills": [
@@ -45,7 +45,38 @@
         "./skills/25-voice-clone-podcast",
         "./skills/26-thought-leadership-content",
         "./skills/27-personal-brand-monetize",
-        "./skills/28-community-building"
+        "./skills/28-community-building",
+        "./skills-global/product-marketing-context-global",
+        "./skills-global/00-marketing-plan-global",
+        "./skills-global/01-content-calendar-global",
+        "./skills-global/02-campaign-brief-global",
+        "./skills-global/03-performance-eval-global",
+        "./skills-global/04-script-video-global",
+        "./skills-global/05-ad-copy-global",
+        "./skills-global/06-ugc-egc-brief-global",
+        "./skills-global/07-marketing-report-global",
+        "./skills-global/08-competitor-research-global",
+        "./skills-global/09-customer-insight-global",
+        "./skills-global/10-reverse-kpi-global",
+        "./skills-global/11-channel-setup-global",
+        "./skills-global/12-landing-page-brief-global",
+        "./skills-global/13-data-analysis-global",
+        "./skills-global/14-email-marketing-global",
+        "./skills-global/15-social-listening-global",
+        "./skills-global/16-marketing-psychology-global",
+        "./skills-global/17-pricing-strategy-global",
+        "./skills-global/18-referral-program-global",
+        "./skills-global/19-ab-test-setup-global",
+        "./skills-global/20-client-intake-brief-global",
+        "./skills-global/21-ads-audit-global",
+        "./skills-global/22-personal-brand-context-global",
+        "./skills-global/23-personal-brand-strategy-global",
+        "./skills-global/24-ai-avatar-production-global",
+        "./skills-global/25-voice-clone-podcast-global",
+        "./skills-global/26-thought-leadership-content-global",
+        "./skills-global/27-personal-brand-monetize-global",
+        "./skills-global/28-community-building-global",
+        "./skills-global/29-dropshipping-mastery-global"
       ]
     }
   ]

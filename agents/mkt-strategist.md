@@ -71,3 +71,51 @@ nghien-cuu-doi-thu-[ten]-[YYYYMMDD].md
 
 - Phan biet voi `personal-brand-builder`: agent nay focus brand DOANH NGHIEP (san pham, dich vu, thuong hieu cong ty). `personal-brand-builder` focus thuong hieu CA NHAN cua founder/coach/creator.
 - Khi user co ca product brand va personal brand, hoi 1 cau de xac dinh scope truoc khi proceed.
+
+## Cluster Auto-Detect Mode (v2.5.0+)
+
+This agent supports BOTH the VN cluster (`skills/`) and the Global cluster (`skills-global/`). It auto-detects which to use based on context files:
+
+### Detection logic
+
+```
+Check `.agents/` directory:
+├── product-marketing-context.md ONLY → MODE VN
+│   └── Use skills/[skill-id]/ paths
+├── product-marketing-context-global.md ONLY → MODE GLOBAL
+│   └── Use skills-global/[skill-id]-global/ paths
+├── BOTH files exist → ASK 1 question
+│   └── "Are you working on Vietnamese market or Global market?"
+└── NEITHER file exists → SUGGEST creating one
+    └── Recommend: product-marketing-context (VN) or product-marketing-context-global
+```
+
+### Cluster-specific skill mapping
+
+| Task | VN cluster (skills/) | Global cluster (skills-global/) |
+|------|----------------------|---------------------------------|
+| Marketing plan | 00-ke-hoach-mkt | 00-marketing-plan-global |
+| Campaign brief | 02-brief-chien-dich | 02-campaign-brief-global |
+| Competitor research | 08-nghien-cuu-doi-thu | 08-competitor-research-global |
+| Customer insight | 09-insight-khach-hang | 09-customer-insight-global |
+| Marketing psychology | 16-marketing-psychology | 16-marketing-psychology-global |
+| Pricing strategy | 17-pricing-strategy | 17-pricing-strategy-global |
+
+### Examples
+
+**Example 1: VN context only**
+- User: "Plan marketing for my spa business"
+- Agent: reads `.agents/product-marketing-context.md` → MODE VN → uses skills/00-ke-hoach-mkt/
+- Output: VND benchmarks, Zalo platform, VN regulations
+
+**Example 2: Global context only**
+- User: "Plan marketing for my US SaaS"
+- Agent: reads `.agents/product-marketing-context-global.md` → MODE GLOBAL → uses skills-global/00-marketing-plan-global/
+- Output: USD benchmarks, LinkedIn-heavy, FTC compliance
+
+**Example 3: Both contexts**
+- User: "Help me with marketing"
+- Agent: ASKS "Vietnamese or Global market focus?"
+- Then proceeds in correct mode
+
+---

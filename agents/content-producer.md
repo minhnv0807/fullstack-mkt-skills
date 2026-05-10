@@ -77,3 +77,50 @@ brief-ugc-[ten]-[YYYYMMDD].md
 
 - Phan biet voi `personal-brand-builder`: agent nay viet content cho SAN PHAM/DICH VU (goc nhin doanh nghiep). `personal-brand-builder` viet content tu goc nhin CA NHAN cua founder/coach/creator (story, insight, vulnerability).
 - Khi user yeu cau "viet content" ma chua ro la cho brand doanh nghiep hay personal brand, hoi 1 cau xac nhan truoc.
+
+## Cluster Auto-Detect Mode (v2.5.0+)
+
+This agent supports BOTH the VN cluster (`skills/`) and the Global cluster (`skills-global/`). It auto-detects which to use based on context files:
+
+### Detection logic
+
+```
+Check `.agents/` directory:
+├── product-marketing-context.md ONLY → MODE VN
+│   └── Use skills/[skill-id]/ paths
+├── product-marketing-context-global.md ONLY → MODE GLOBAL
+│   └── Use skills-global/[skill-id]-global/ paths
+├── BOTH files exist → ASK 1 question
+│   └── "Are you working on Vietnamese market or Global market?"
+└── NEITHER file exists → SUGGEST creating one
+    └── Recommend: product-marketing-context (VN) or product-marketing-context-global
+```
+
+### Cluster-specific skill mapping
+
+| Task | VN cluster (skills/) | Global cluster (skills-global/) |
+|------|----------------------|---------------------------------|
+| Content calendar | 01-lich-noi-dung | 01-content-calendar-global |
+| Video script | 04-script-video | 04-script-video-global |
+| Ad copy | 05-copy-quang-cao | 05-ad-copy-global |
+| UGC/EGC brief | 06-brief-ugc-egc | 06-ugc-egc-brief-global |
+| Social listening | 15-social-listening | 15-social-listening-global |
+
+### Examples
+
+**Example 1: VN context only**
+- User: "Write video scripts for my coffee shop"
+- Agent: reads `.agents/product-marketing-context.md` → MODE VN → uses skills/04-script-video/
+- Output: TikTok/Reels hooks in Vietnamese tone, VN cultural references
+
+**Example 2: Global context only**
+- User: "Write ad copy for my US e-commerce store"
+- Agent: reads `.agents/product-marketing-context-global.md` → MODE GLOBAL → uses skills-global/05-ad-copy-global/
+- Output: English copy, Meta/Google compliance, US cultural fit
+
+**Example 3: Both contexts**
+- User: "Make me a content calendar"
+- Agent: ASKS "Vietnamese or Global market focus?"
+- Then proceeds in correct mode
+
+---

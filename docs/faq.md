@@ -288,3 +288,58 @@ A: Co overlap, nhung primary la khac:
 - Creator: build to monetize CONTENT directly (output: ads revenue + brand deals)
 - Overlap: ca 2 deu can content, story arc, audience growth
 - Recommendation: chon 1 PRIMARY identity (founder/creator/coach), secondary la output cua primary
+
+---
+
+## Global Cluster (v2.5.0)
+
+### Q1: How is global cluster different from VN cluster?
+
+A: VN cluster (`skills/`) for Vietnam market with VN benchmarks/platforms/regulations (Zalo, Shopee VN, Nghi dinh 147/2024). Global cluster (`skills-global/`) for international markets with USD/EUR currencies, US/EU/SEA/LATAM regions, GDPR/FTC compliance. Both clusters share the same skill structure but differ in content, references, and compliance rules.
+
+### Q2: How do agents auto-detect which cluster to use?
+
+A: They read `.agents/` directory:
+- `product-marketing-context.md` → VN mode (skills/)
+- `product-marketing-context-global.md` → Global mode (skills-global/)
+- Both files → ask user to choose
+- None → suggest creating foundation file
+
+This is the new Universal Mode introduced in v2.5.0 — same 5 agents work for both clusters.
+
+### Q3: Can I use both VN and Global clusters together?
+
+A: Yes — useful for businesses operating in both markets (e.g., a Vietnamese SaaS expanding to SEA/US). Agents will ask which cluster when both `.agents/` context files exist. You can also run skill-by-skill from either cluster manually.
+
+### Q4: Why did skill 22 use 4 region variants in global instead of 3 audience variants like VN?
+
+A: Persona (founder/coach/creator) is universal globally — same archetype works in US/EU/SEA/LATAM. But currency, platforms, and regulations differ massively per region (e.g., GDPR vs CCPA, USD vs EUR, Discord vs Telegram). Region variants are higher-impact than audience variants for the global cluster.
+
+### Q5: What is special about skill 29 dropshipping-mastery-global?
+
+A: It is the FLAGSHIP skill of v2.5.0 — comprehensive 12-section dropshipping pipeline (product research → supplier sourcing → Shopify setup → ad creative → scaling). Dropshipping is huge in US (~$128B market 2025). Comes with a 30-day workflow (`dropshipping-launch-global`) and reference file `dropshipping-tools-global.md` covering Shopify/Spocket/AutoDS/CJ Dropshipping.
+
+### Q6: Why no APAC region in v2.5.0?
+
+A: YAGNI principle — start with 4 regions (US/EU/SEA/LATAM), validate market demand, then add APAC in v2.6.0 if confirmed (criteria: 5+ APAC issues OR 1000 stars). Detailed rationale in `docs/apac-roadmap.md`. SEA variant covers Singapore/Indonesia/Thailand/Vietnam/Philippines/Malaysia, which is the largest APAC sub-region.
+
+### Q7: Are global skills bilingual?
+
+A: Skills themselves are International English. Release notes are bilingual VN+EN (see `docs/release-notes/`). Project README is bilingual (`README.md` + `README.vi.md`). This keeps skills technically simple while making documentation accessible to VN users adopting global skills.
+
+### Q8: How do I migrate from v2.4.0 to v2.5.0?
+
+A: No migration needed. v2.5.0 is non-breaking:
+- VN cluster (`skills/`) is unchanged
+- Global cluster (`skills-global/`) is OPT-IN — create `.agents/product-marketing-context-global.md` to activate
+- No existing skills modified, no APIs changed
+
+Just `git pull` and start using global skills when you need them.
+
+### Q9: Which region should I use if I sell to multiple regions?
+
+A: Pick the largest market first (typically US for most products — biggest English-speaking, highest spend power). Add other regions over time. Use `docs/global-region-guide.md` for detailed market size, compliance, and benchmark comparison per region. Recommended order for most products: US → EU → SEA → LATAM.
+
+### Q10: What about Vietnam market — still supported?
+
+A: Yes! VN cluster is unchanged and continues to be the recommended choice for Vietnam-specific marketing. v2.5.0 adds Global as a SECOND option, not a replacement. VN cluster will continue to receive updates (e.g., new VN regulations, platform changes) independent of global cluster.

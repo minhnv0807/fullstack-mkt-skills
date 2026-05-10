@@ -1,7 +1,6 @@
 # Validate skills against Agent Skills Specification
 # Reference: https://agentskills.io/specification.md
 
-$SkillsDir = "skills"
 $Issues = 0
 $Warnings = 0
 $Passed = 0
@@ -10,6 +9,13 @@ Write-Host "Validating Skills Against Agent Skills Specification" -ForegroundCol
 Write-Host "=====================================================" -ForegroundColor Cyan
 Write-Host ""
 
+# Auto-discover both clusters: VN (skills/) and Global (skills-global/)
+$SkillDirs = @()
+if (Test-Path "skills") { $SkillDirs += "skills" }
+if (Test-Path "skills-global") { $SkillDirs += "skills-global" }
+
+foreach ($SkillsDir in $SkillDirs) {
+Write-Host "--- Cluster: $SkillsDir ---" -ForegroundColor Cyan
 Get-ChildItem -Path $SkillsDir -Directory | ForEach-Object {
     $skillName = $_.Name
 
@@ -84,6 +90,7 @@ Get-ChildItem -Path $SkillsDir -Directory | ForEach-Object {
         $script:Passed++
     }
 }
+}
 
 # Variant pattern validation (skills 20, 22)
 Write-Host ""
@@ -110,6 +117,52 @@ if (Test-Path "skills/22-personal-brand-context/variants") {
       Write-Host "PASS skill-22 variant: $variant" -ForegroundColor Green
     } else {
       Write-Host "FAIL skill-22 variant missing: $variant" -ForegroundColor Red
+    }
+  }
+}
+
+# Variant pattern validation for global cluster
+Write-Host ""
+Write-Host "Checking global variant patterns..."
+
+# Foundation
+if (Test-Path "skills-global/product-marketing-context-global/variants") {
+  $count = (Get-ChildItem "skills-global/product-marketing-context-global/variants" -Filter "*.md").Count
+  if ($count -ge 4) {
+    Write-Host "PASS foundation-global: $count variants" -ForegroundColor Green
+  } else {
+    Write-Host "WARN foundation-global: only $count variants" -ForegroundColor Yellow
+  }
+}
+
+# Skill 22 PB foundation
+if (Test-Path "skills-global/22-personal-brand-context-global/variants") {
+  $count = (Get-ChildItem "skills-global/22-personal-brand-context-global/variants" -Filter "*.md").Count
+  if ($count -ge 4) {
+    Write-Host "PASS skill-22-global: $count variants" -ForegroundColor Green
+  }
+}
+
+# Skills with variants: 03, 10, 11, 14, 17, 18, 21, 24, 27 global
+foreach ($skill in @("03-performance-eval-global", "10-reverse-kpi-global", "11-channel-setup-global", "14-email-marketing-global", "17-pricing-strategy-global", "18-referral-program-global", "21-ads-audit-global", "24-ai-avatar-production-global", "27-personal-brand-monetize-global")) {
+  $variantsPath = "skills-global/$skill/variants"
+  if (Test-Path $variantsPath) {
+    $count = (Get-ChildItem $variantsPath -Filter "*.md").Count
+    if ($count -ge 4) {
+      Write-Host "PASS ${skill}: $count variants" -ForegroundColor Green
+    }
+  }
+}
+
+# Required region variants check (US/EU/SEA/LATAM)
+foreach ($skill in @("product-marketing-context-global", "22-personal-brand-context-global", "03-performance-eval-global", "10-reverse-kpi-global", "11-channel-setup-global", "14-email-marketing-global", "17-pricing-strategy-global", "18-referral-program-global", "21-ads-audit-global", "24-ai-avatar-production-global", "27-personal-brand-monetize-global")) {
+  $variantsPath = "skills-global/$skill/variants"
+  if (Test-Path $variantsPath) {
+    foreach ($variant in @("01-us.md", "02-eu.md", "03-sea.md", "04-latam.md")) {
+      $varPath = "$variantsPath/$variant"
+      if (-not (Test-Path $varPath)) {
+        Write-Host "FAIL ${skill} missing variant: ${variant}" -ForegroundColor Red
+      }
     }
   }
 }

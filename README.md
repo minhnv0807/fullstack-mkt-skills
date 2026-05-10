@@ -4,13 +4,18 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/v2.4-Plugin%20Ready-6d28d9?style=for-the-badge&labelColor=1e1033" alt="v2.4"/>
-  <img src="https://img.shields.io/badge/Skills-29-6d28d9?style=for-the-badge&labelColor=1e1033" alt="29 Skills"/>
+  <img src="https://img.shields.io/badge/v2.5-Global%20Ready-6d28d9?style=for-the-badge&labelColor=1e1033" alt="v2.5"/>
+  <img src="https://img.shields.io/badge/Skills-60-6d28d9?style=for-the-badge&labelColor=1e1033" alt="60 Skills"/>
   <img src="https://img.shields.io/badge/Agents-5-be185d?style=for-the-badge&labelColor=1e1033" alt="5 Agents"/>
-  <img src="https://img.shields.io/badge/Workflows-7-0f766e?style=for-the-badge&labelColor=1e1033" alt="7 Workflows"/>
+  <img src="https://img.shields.io/badge/Workflows-15-0f766e?style=for-the-badge&labelColor=1e1033" alt="15 Workflows"/>
   <img src="https://img.shields.io/badge/Market-Vietnam%202025--2026-f97316?style=for-the-badge&labelColor=1e1033" alt="Vietnam Market"/>
   <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&labelColor=1e1033" alt="MIT License"/>
 </p>
+
+> **🌍 v2.5.0 (2026-05-08)** — Global Marketing Cluster.
+> 30 new global skills (US/EU/SEA/LATAM), Dropshipping flagship, 5 agents now universal. Zero breaking changes.
+> [Read release notes →](docs/release-notes/v2.5.0.md) ·
+> [Quick start →](docs/getting-started-global.md)
 
 > **🆕 v2.4.0 (2026-05-08)** — Personal Brand + AI Avatar Cluster.
 > 7 new skills, 1 agent, 3 workflows. Zero breaking changes.
@@ -169,7 +174,9 @@ Copy `.md` files as Custom Instructions or context. Each file is a standalone pr
 
 ---
 
-## 29 Skills (22 Marketing SP + 7 Personal Brand)
+## 60 Skills (29 VN + 30 Global + 1 foundation per cluster)
+
+### VN Cluster (29 skills)
 
 <table>
 <tr><th>#</th><th>Skill</th><th>What it does</th><th>Category</th></tr>
@@ -372,14 +379,96 @@ See: [examples/personal-brand-coach.md](examples/personal-brand-coach.md) ·
 
 ---
 
-## 5 Agents
+### Global Cluster (30 skills)
+
+<table>
+<tr><th>#</th><th>Skill</th><th>What it does</th><th>Category</th></tr>
+<tr><td><b>★</b></td><td><a href="skills-global/product-marketing-context-global/SKILL.md"><b>Product Marketing Context Global</b></a></td><td><b>Foundation</b> — global region + currency + tax + privacy law context</td><td>
+
+![Foundation](https://img.shields.io/badge/-Foundation-be185d?style=flat-square)
+
+</td></tr>
+<tr><td><code>00–21</code></td><td><a href="skills-global/"><b>Marketing 22 skills (global)</b></a></td><td>Mirror VN 00–21 with <code>-global</code> suffix — plan, calendar, brief, audit, copy, KPI, channels, A/B, intake, ads audit</td><td>
+
+![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square) ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square) ![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square) ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
+
+</td></tr>
+<tr><td><code>22–28</code></td><td><a href="skills-global/"><b>Personal Brand 7 skills (global)</b></a></td><td>Mirror VN 22–28 with <code>-global</code> suffix — context, strategy, AI Avatar, voice clone, thought leadership, monetize, community</td><td>
+
+![Foundation](https://img.shields.io/badge/-Foundation-be185d?style=flat-square) ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square) ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square) ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
+
+</td></tr>
+<tr><td><code>29</code></td><td><a href="skills-global/29-dropshipping-mastery-global/SKILL.md"><b>Dropshipping Mastery</b></a> <sup>v2.5 🚀</sup></td><td><b>Flagship</b> — Shopify + supplier sourcing + winning products + global ads</td><td>
+
+![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
+
+</td></tr>
+</table>
+
+---
+
+## Global Cluster (NEW v2.5.0)
+
+30 new skills for marketers, founders, and dropshippers operating across **US / EU / SEA / LATAM** — currency, tax, privacy (GDPR/CCPA/PDPA/LGPD), and platform stacks per region.
+
+### Cluster Diagram
+
+```mermaid
+graph TD
+    G[★ product-marketing-context-global] --> M[Marketing 00–21 global]
+    G --> P[Personal Brand 22–28 global]
+    G --> D[29 dropshipping-mastery-global 🚀]
+    M --> US[US region]
+    M --> EU[EU region]
+    M --> SEA[SEA region]
+    M --> LATAM[LATAM region]
+    P --> US
+    P --> EU
+    P --> SEA
+    P --> LATAM
+    D --> US
+    D --> EU
+    D --> SEA
+    D --> LATAM
+```
+
+### 4-Region Overview
+
+| Region | Currency | Privacy | Top Channels | Notes |
+|--------|----------|---------|--------------|-------|
+| **US** | USD | CCPA / state laws | Meta, Google, TikTok, YouTube | Klaviyo + Shopify default stack |
+| **EU** | EUR / GBP | GDPR | Meta, Google, TikTok, LinkedIn | VAT/OSS, cookie consent mandatory |
+| **SEA** | IDR / THB / SGD / PHP | PDPA (varies) | TikTok Shop, Shopee, Lazada, Meta | Mobile-first, COD common |
+| **LATAM** | BRL / MXN / ARS | LGPD (BR) | Meta, TikTok, MercadoLibre, WhatsApp | High inflation FX hedging |
+
+### Dropshipping Flagship (skill 29)
+
+End-to-end dropshipping playbook: niche selection → winning product validation → supplier sourcing (CJ/Spocket/Zendrop) → Shopify setup → global Meta/TikTok ads → fulfillment SOP → scaling to $10K/mo+. Includes 4 region-specific scaling models.
+
+### 3-Tier Tools Matrix (Global)
+
+| Tier | Cost/month | Stack | Best For |
+|------|-----------|-------|----------|
+| Free | $0 | Shopify trial, Meta free, Canva free | Validation phase |
+| Pro | $200-500 | Shopify Basic, Klaviyo, Meta + TikTok ads | $1K-10K/mo stores |
+| Enterprise | $1000+ | Shopify Plus, Klaviyo, Triple Whale, agency creatives | $10K+/mo stores |
+
+See: [examples/personal-brand-coach-global.md](examples/personal-brand-coach-global.md) ·
+[examples/dropshipping-store-global.md](examples/dropshipping-store-global.md) ·
+[docs/getting-started-global.md](docs/getting-started-global.md) ·
+[docs/dropshipping-guide.md](docs/dropshipping-guide.md)
+
+---
+
+## 5 Agents (Universal mode — VN + Global)
+
+> **v2.5 update:** All 5 agents now operate in **universal mode** — they auto-detect whether the project context is VN or Global and route to the matching skills (`00-...` or `00-...-global`).
 
 ```
                         ┌─────────────────────┐
                         │   MKT STRATEGIST    │
                         │ Planning + Strategy │
-                        │ Skills: 00,02,08,09,│
-                        │         16,17       │
+                        │ VN + Global routing │
                         └─────────┬───────────┘
                                   │
               ┌───────────────────┼───────────────────┐
@@ -387,63 +476,77 @@ See: [examples/personal-brand-coach.md](examples/personal-brand-coach.md) ·
     ┌─────────▼─────────┐ ┌──────▼──────────┐ ┌──────▼──────────┐
     │ CONTENT PRODUCER  │ │ PERF. ANALYST   │ │ CHANNEL OPERATOR│
     │ Content + Scripts │ │ Data + Reports  │ │ Channels+Landing│
-    │ 01, 04, 05, 06    │ │ 03,07,10,13,19  │ │ 11,12,14,15,18  │
+    │ Universal         │ │ Universal       │ │ Universal       │
     └───────────────────┘ └─────────────────┘ └─────────────────┘
 
                         ┌──────────────────────────┐
-                        │ PERSONAL BRAND BUILDER 🆕│
+                        │ PERSONAL BRAND BUILDER   │
                         │ Personal Brand + Avatar  │
-                        │ Skills: 22,23,24,25,     │
-                        │         26,27,28         │
+                        │ Universal (VN + Global)  │
                         └──────────────────────────┘
 ```
 
-| Agent | Main Skills |
-|-------|-------------|
-| [MKT Strategist](agents/mkt-strategist.md) | 00, 02, 08, 09, 16, 17 |
-| [Content Producer](agents/content-producer.md) | 01, 04, 05, 06 |
-| [Performance Analyst](agents/performance-analyst.md) | 03, 07, 10, 13, 19 |
-| [Channel Operator](agents/channel-operator.md) | 11, 12, 14, 15, 18 |
-| [Personal Brand Builder](agents/personal-brand-builder.md) <sup>v2.4 NEW</sup> | 22, 23, 24, 25, 26, 27, 28 |
+| Agent | Mode | Main Skills (VN / Global) |
+|-------|------|---------------------------|
+| [MKT Strategist](agents/mkt-strategist.md) | Universal <sup>v2.5</sup> | 00, 02, 08, 09, 16, 17 (+ `-global` mirrors) |
+| [Content Producer](agents/content-producer.md) | Universal <sup>v2.5</sup> | 01, 04, 05, 06 (+ `-global` mirrors) |
+| [Performance Analyst](agents/performance-analyst.md) | Universal <sup>v2.5</sup> | 03, 07, 10, 13, 19 (+ `-global` mirrors) |
+| [Channel Operator](agents/channel-operator.md) | Universal <sup>v2.5</sup> | 11, 12, 14, 15, 18 (+ `-global` mirrors) |
+| [Personal Brand Builder](agents/personal-brand-builder.md) | Universal <sup>v2.5</sup> | 22, 23, 24, 25, 26, 27, 28 (+ `-global` mirrors) |
 
 ---
 
-## 7 Workflows
+## 15 Workflows (7 VN + 8 Global)
 
-### Client Onboard — Agency (5-7 days) <sup>NEW</sup>
+### VN Workflows (7)
+
+#### Client Onboard — Agency (5-7 days) <sup>NEW</sup>
 ```
 20 Brief Intake → 09 Insights → 08 Competitors → 10 KPIs → 00 Plan → 02 Brief → 01 Calendar
 ```
 
-### Campaign Launch (14-21 days)
+#### Campaign Launch (14-21 days)
 ```
 08 Competitors → 09 Insights → 00 Plan → 02 Brief → 01+04+05 Content → 06 UGC → 11+12 Channels
 ```
 
-### Monthly Cycle (3-5 days)
+#### Monthly Cycle (3-5 days)
 ```
 13 Data → 03 Audit → 07 Report → 10 New KPIs → 01 New Calendar
 ```
 
-### Content Production (weekly)
+#### Content Production (weekly)
 ```
 Review calendar → 04 Script → Film/Edit → 05 Ad copy → Schedule posts
 ```
 
-### Personal Brand Launch (30 days) <sup>v2.4 NEW</sup>
+#### Personal Brand Launch (30 days) <sup>v2.4 NEW</sup>
 ```
 22 Context → 23 Strategy → 24 AI Avatar → 26 Long-form → 27 Monetize → 28 Community
 ```
 
-### AI Avatar Batch (5 days × 5 hours) <sup>v2.4 NEW</sup>
+#### AI Avatar Batch (5 days × 5 hours) <sup>v2.4 NEW</sup>
 ```
 30 AI Avatar videos in 5 days, <$2/video — production line workflow
 ```
 
-### Personal Brand Monthly (3-5 days) <sup>v2.4 NEW</sup>
+#### Personal Brand Monthly (3-5 days) <sup>v2.4 NEW</sup>
 ```
 13 Data → 03 Audit → 07 Report → review pillars → adjust personal brand
 ```
+
+### Global Workflows (8) <sup>v2.5 NEW</sup>
+
+| Workflow | Duration | Pipeline |
+|----------|----------|----------|
+| [client-onboard-global](workflows-global/client-onboard-global.md) | 5-7 days | 20 Intake → 09 Insights → 08 Competitors → 10 KPIs → 00 Plan → 02 Brief → 01 Calendar (global) |
+| [campaign-launch-global](workflows-global/campaign-launch-global.md) | 14-21 days | 08 → 09 → 00 → 02 → 01+04+05 Content → 06 UGC → 11+12 Channels (global) |
+| [monthly-cycle-global](workflows-global/monthly-cycle-global.md) | 3-5 days | 13 Data → 03 Audit → 07 Report → 10 New KPIs → 01 New Calendar (global) |
+| [content-production-global](workflows-global/content-production-global.md) | weekly | Review calendar → 04 → 05 → schedule (global, 4 regions) |
+| [dropshipping-launch-global](workflows-global/dropshipping-launch-global.md) <sup>🚀</sup> | 14-30 days | Niche → product validation → store → ads → fulfillment → scale |
+| [personal-brand-launch-global](workflows-global/personal-brand-launch-global.md) | 30 days | 22 Context → 23 Strategy → 24 AI Avatar → 26 Long-form → 27 Monetize → 28 Community (global) |
+| [ai-avatar-batch-global](workflows-global/ai-avatar-batch-global.md) | 5 days × 5h | 30 videos batch in 5 days, multi-language (EN/ES/PT/ID/TH) |
+| [personal-brand-monthly-global](workflows-global/personal-brand-monthly-global.md) | 3-5 days | 13 Data → 03 Audit → 07 Report → review pillars → adjust (global) |
 
 ---
 
@@ -489,7 +592,7 @@ fullstack-mkt-skills/
 │   ├── ISSUE_TEMPLATE/              # Bug report + skill request
 │   └── PULL_REQUEST_TEMPLATE/       # New skill + skill update
 │
-├── skills/                          # 29 skills (folder per skill)
+├── skills/                          # 29 VN skills (folder per skill)
 │   ├── product-marketing-context/   # Foundation skill (★)
 │   │   └── SKILL.md
 │   ├── 00-ke-hoach-mkt/
@@ -523,14 +626,31 @@ fullstack-mkt-skills/
 │   ├── ai-video-disclosure-vn.md   # NEW v2.4
 │   └── tool-stack.md
 │
-├── workflows/                       # 7 multi-skill workflows
+├── skills-global/                   # NEW v2.5.0 — 30 global skills
+│   ├── product-marketing-context-global/    # Foundation (★)
+│   ├── 00-21 marketing skills (global)      # Mirror VN with -global suffix
+│   ├── 22-28 personal brand skills (global) # Mirror VN with -global suffix
+│   ├── 29-dropshipping-mastery-global/      # NEW v2.5 flagship (🚀)
+│   └── references/                          # 7 global references
+│
+├── workflows/                       # 7 VN workflows
 │   ├── campaign-launch.md
 │   ├── client-onboard.md           # Agency workflow (v2.3)
 │   ├── content-production.md
 │   ├── monthly-cycle.md
-│   ├── personal-brand-launch.md    # NEW v2.4 (30-day)
-│   ├── ai-avatar-batch.md          # NEW v2.4 (5-day batch)
-│   └── personal-brand-monthly.md   # NEW v2.4 (review)
+│   ├── personal-brand-launch.md    # v2.4 (30-day)
+│   ├── ai-avatar-batch.md          # v2.4 (5-day batch)
+│   └── personal-brand-monthly.md   # v2.4 (review)
+│
+├── workflows-global/                # NEW v2.5.0 — 8 global workflows
+│   ├── client-onboard-global.md
+│   ├── campaign-launch-global.md
+│   ├── monthly-cycle-global.md
+│   ├── content-production-global.md
+│   ├── dropshipping-launch-global.md       # 🚀 flagship workflow
+│   ├── personal-brand-launch-global.md
+│   ├── ai-avatar-batch-global.md
+│   └── personal-brand-monthly-global.md
 │
 ├── docs/                            # Documentation
 │   ├── best-practices.md
@@ -540,15 +660,22 @@ fullstack-mkt-skills/
 │   ├── skill-map.md                # System visualization (v2.3)
 │   ├── update-guide.md             # Maintenance guide (v2.3)
 │   ├── workflow-guide.md           # Workflow selection (v2.3)
-│   ├── personal-brand-guide.md     # NEW v2.4 (8-chapter cam nang)
-│   ├── getting-started-personal-brand.md # NEW v2.4 (5-min quickstart)
+│   ├── personal-brand-guide.md     # v2.4 (8-chapter cam nang)
+│   ├── getting-started-personal-brand.md # v2.4 (5-min quickstart)
+│   ├── getting-started-global.md   # NEW v2.5
+│   ├── global-region-guide.md      # NEW v2.5
+│   ├── dropshipping-guide.md       # NEW v2.5
+│   ├── apac-roadmap.md             # NEW v2.5
 │   └── release-notes/
-│       └── v2.4.0.md               # NEW v2.4
+│       ├── v2.4.0.md
+│       └── v2.5.0.md               # NEW v2.5
 │
-├── agents/                          # Agent personas
-│   └── personal-brand-builder.md   # NEW v2.4
+├── agents/                          # Agent personas (universal in v2.5)
+│   └── personal-brand-builder.md   # v2.4
 ├── examples/                        # Sample outputs
-│   └── personal-brand-coach.md     # NEW v2.4
+│   ├── personal-brand-coach.md     # v2.4
+│   ├── personal-brand-coach-global.md      # NEW v2.5
+│   └── dropshipping-store-global.md        # NEW v2.5
 │
 ├── AGENTS.md                        # Universal agent spec
 ├── CLAUDE.md                        # Claude-specific config

@@ -49,6 +49,18 @@ Workflow = chuoi skill chay lien tuc:
 - `ai-avatar-batch` = 23 → 26 → 04(personal) → 25 → 24(batch) → 01
 - `personal-brand-monthly` = 13 → 03(personal) → 23 → 27 → 26 → 04(personal) → 07(personal)
 
+### Global Workflows (v2.5.0)
+
+Workflows phuc vu cluster Global (skills-global/):
+- `client-onboard-global` = 20 → 09 → 08 → 10 → 00 → 02 → 01 (all global)
+- `campaign-launch-global` = 08 → 09 → 00 → 02 → 01 + 04 + 05 → 06 → 11 + 12 (all global)
+- `monthly-cycle-global` = 13 → 03 → 07 → 10 → 01 (all global)
+- `content-production-global` = 01 review → 04 → 05 → 06 (all global)
+- `personal-brand-launch-global` = 22 → 23 → 24 → 26 → 04(personal) → 25 → 27 → 05(personal) → 28 → 14 (all global)
+- `ai-avatar-batch-global` = 26 → 04(personal) → ElevenLabs → HeyGen → 24(batch) → 01 (global)
+- `personal-brand-monthly-global` = 13 → 03 → 23 → 27 → 26 → 04(personal) → 07 → 28 → 14 (all global)
+- `dropshipping-launch-global` = 29 → 12 → 04 → 05 → 21 → 13 → 17 (all global)
+
 ## Cau truc skill
 
 ```markdown
@@ -106,9 +118,23 @@ Skills 04 (script video), 05 (copy quang cao) tu dong chuyen mode khi doc contex
 
 Khong can config thu cong — auto-detect.
 
+## Agents Universal Mode (v2.5.0+)
+
+5 agents (mkt-strategist, content-producer, performance-analyst, channel-operator, personal-brand-builder) tu dong detect cluster (VN vs Global) dua tren `.agents/` context files:
+- `product-marketing-context.md` only → MODE VN (skills/)
+- `product-marketing-context-global.md` only → MODE GLOBAL (skills-global/)
+- Both → ASK 1 question
+- None → SUGGEST creating context
+
+Khong can manual config. Cung pattern ap dung cho Personal Brand:
+- `personal-brand-context.md` → MODE VN PB
+- `personal-brand-context-global.md` → MODE GLOBAL PB
+
 ## Agent chuyen biet
 
-| Agent | Vai tro | Skills chinh |
+Tat ca 5 agents la **universal** (v2.5.0+) — phuc vu CA hai cluster VN va Global thong qua auto-detect mode.
+
+| Agent | Vai tro | Skills chinh (VN / Global) |
 |-------|---------|-------------|
 | mkt-strategist | Chien luoc tong | 00, 02, 08, 09, 10 |
 | content-producer | San xuat noi dung | 01, 04, 05, 06 |

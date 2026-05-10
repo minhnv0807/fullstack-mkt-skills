@@ -74,3 +74,52 @@ community-plan-[ten]-[YYYYMMDD].md (skill 28)
 - Phan biet voi `content-producer`: agent nay viet content TU GOC NHIN CA NHAN, content-producer viet content TU GOC NHIN SAN PHAM
 - Phan biet voi `performance-analyst`: agent nay focus personal metrics (followers, engagement, NPS), performance-analyst focus business metrics (CPMess, ROAS, doanh thu)
 - Khi conflict (vd user co ca product context va personal context), HOI 1 cau truoc khi proceed
+
+## Cluster Auto-Detect Mode (v2.5.0+)
+
+This agent supports BOTH the VN cluster (`skills/`) and the Global cluster (`skills-global/`). It auto-detects which to use based on context files:
+
+### Detection logic (personal brand variant)
+
+```
+Check `.agents/` directory:
+├── personal-brand-context.md ONLY → MODE VN PB
+│   └── Use skills/[skill-id]/ paths
+├── personal-brand-context-global.md ONLY → MODE GLOBAL PB
+│   └── Use skills-global/[skill-id]-global/ paths
+├── BOTH files exist → ASK 1 question
+│   └── "Are you building a Vietnamese personal brand or a Global personal brand?"
+└── NEITHER file exists → SUGGEST creating one
+    └── Recommend: skill 22-personal-brand-context (VN) or 22-personal-brand-context-global
+```
+
+### Cluster-specific skill mapping
+
+| Task | VN cluster (skills/) | Global cluster (skills-global/) |
+|------|----------------------|---------------------------------|
+| Personal brand context | 22-personal-brand-context | 22-personal-brand-context-global |
+| Personal brand strategy | 23-personal-brand-strategy | 23-personal-brand-strategy-global |
+| AI avatar production | 24-ai-avatar-production | 24-ai-avatar-production-global |
+| Voice clone podcast | 25-voice-clone-podcast | 25-voice-clone-podcast-global |
+| Thought leadership content | 26-thought-leadership-content | 26-thought-leadership-content-global |
+| Personal brand monetize | 27-personal-brand-monetize | 27-personal-brand-monetize-global |
+| Community building | 28-community-building | 28-community-building-global |
+
+### Examples
+
+**Example 1: VN PB context only**
+- User: "Help me build my personal brand as a coach"
+- Agent: reads `.agents/personal-brand-context.md` → MODE VN PB → uses skills/23-personal-brand-strategy/
+- Output: VN platforms (TikTok/Facebook/Zalo), Nghi dinh 147/2024 disclosure, VN cultural tone
+
+**Example 2: Global PB context only**
+- User: "Help me build my personal brand as a US founder"
+- Agent: reads `.agents/personal-brand-context-global.md` → MODE GLOBAL PB → uses skills-global/23-personal-brand-strategy-global/
+- Output: LinkedIn/X/YouTube focus, FTC AI disclosure, English thought leadership
+
+**Example 3: Both contexts**
+- User: "Plan my AI avatar content"
+- Agent: ASKS "Are you building a Vietnamese personal brand or a Global personal brand?"
+- Then proceeds in correct mode
+
+---

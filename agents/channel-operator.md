@@ -78,3 +78,50 @@ social-listening-report-[YYYYMMDD].md
 - Khong viet content dai — chuyen sang `content-producer`.
 - Khong lap chien luoc — chuyen sang `mkt-strategist`.
 - Khong code landing page — chi viet brief cho developer.
+
+## Cluster Auto-Detect Mode (v2.5.0+)
+
+This agent supports BOTH the VN cluster (`skills/`) and the Global cluster (`skills-global/`). It auto-detects which to use based on context files:
+
+### Detection logic
+
+```
+Check `.agents/` directory:
+├── product-marketing-context.md ONLY → MODE VN
+│   └── Use skills/[skill-id]/ paths
+├── product-marketing-context-global.md ONLY → MODE GLOBAL
+│   └── Use skills-global/[skill-id]-global/ paths
+├── BOTH files exist → ASK 1 question
+│   └── "Are you working on Vietnamese market or Global market?"
+└── NEITHER file exists → SUGGEST creating one
+    └── Recommend: product-marketing-context (VN) or product-marketing-context-global
+```
+
+### Cluster-specific skill mapping
+
+| Task | VN cluster (skills/) | Global cluster (skills-global/) |
+|------|----------------------|---------------------------------|
+| Channel setup | 11-thiet-lap-kenh | 11-channel-setup-global |
+| Landing page brief | 12-brief-landing-page | 12-landing-page-brief-global |
+| Email marketing | 14-email-marketing | 14-email-marketing-global |
+| Referral program | 18-referral-program | 18-referral-program-global |
+| Client intake | 20-brief-client-intake | 20-client-intake-brief-global |
+
+### Examples
+
+**Example 1: VN context only**
+- User: "Set up Zalo OA for my F&B brand"
+- Agent: reads `.agents/product-marketing-context.md` → MODE VN → uses skills/11-thiet-lap-kenh/
+- Output: Zalo-specific checklist, VN tracking norms (UTM + Zalo Notification API)
+
+**Example 2: Global context only**
+- User: "Set up email marketing for my US SaaS launch"
+- Agent: reads `.agents/product-marketing-context-global.md` → MODE GLOBAL → uses skills-global/14-email-marketing-global/
+- Output: Mailchimp/Klaviyo/HubSpot setup, CAN-SPAM/GDPR compliance, US sender norms
+
+**Example 3: Both contexts**
+- User: "Brief a landing page"
+- Agent: ASKS "Vietnamese or Global market focus?"
+- Then proceeds in correct mode
+
+---

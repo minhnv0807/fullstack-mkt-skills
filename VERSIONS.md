@@ -36,8 +36,104 @@
 | 26-thought-leadership-content | 1.0.0 | 2026-05-08 | content |
 | 27-personal-brand-monetize | 1.0.0 | 2026-05-08 | strategy |
 | 28-community-building | 1.0.0 | 2026-05-08 | operations |
+| product-marketing-context-global | 1.0.0 | 2026-05-08 | foundation (global) |
+| 00-marketing-plan-global | 1.0.0 | 2026-05-08 | strategy (global) |
+| 01-content-calendar-global | 1.0.0 | 2026-05-08 | content (global) |
+| 02-campaign-brief-global | 1.0.0 | 2026-05-08 | strategy (global) |
+| 03-performance-eval-global | 1.0.0 | 2026-05-08 | performance (global) |
+| 04-script-video-global | 1.0.0 | 2026-05-08 | content (global) |
+| 05-ad-copy-global | 1.0.0 | 2026-05-08 | content (global) |
+| 06-ugc-egc-brief-global | 1.0.0 | 2026-05-08 | content (global) |
+| 07-marketing-report-global | 1.0.0 | 2026-05-08 | performance (global) |
+| 08-competitor-research-global | 1.0.0 | 2026-05-08 | strategy (global) |
+| 09-customer-insight-global | 1.0.0 | 2026-05-08 | strategy (global) |
+| 10-reverse-kpi-global | 1.0.0 | 2026-05-08 | performance (global) |
+| 11-channel-setup-global | 1.0.0 | 2026-05-08 | operations (global) |
+| 12-landing-page-brief-global | 1.0.0 | 2026-05-08 | operations (global) |
+| 13-data-analysis-global | 1.0.0 | 2026-05-08 | operations (global) |
+| 14-email-marketing-global | 1.0.0 | 2026-05-08 | operations (global) |
+| 15-social-listening-global | 1.0.0 | 2026-05-08 | content (global) |
+| 16-marketing-psychology-global | 1.0.0 | 2026-05-08 | strategy (global) |
+| 17-pricing-strategy-global | 1.0.0 | 2026-05-08 | strategy (global) |
+| 18-referral-program-global | 1.0.0 | 2026-05-08 | operations (global) |
+| 19-ab-test-setup-global | 1.0.0 | 2026-05-08 | performance (global) |
+| 20-client-intake-brief-global | 1.0.0 | 2026-05-08 | operations (global) |
+| 21-ads-audit-global | 1.0.0 | 2026-05-08 | performance (global) |
+| 22-personal-brand-context-global | 1.0.0 | 2026-05-08 | foundation (global) |
+| 23-personal-brand-strategy-global | 1.0.0 | 2026-05-08 | strategy (global) |
+| 24-ai-avatar-production-global | 1.0.0 | 2026-05-08 | content (global) |
+| 25-voice-clone-podcast-global | 1.0.0 | 2026-05-08 | content (global) |
+| 26-thought-leadership-content-global | 1.0.0 | 2026-05-08 | content (global) |
+| 27-personal-brand-monetize-global | 1.0.0 | 2026-05-08 | strategy (global) |
+| 28-community-building-global | 1.0.0 | 2026-05-08 | operations (global) |
+| 29-dropshipping-mastery-global | 1.0.0 | 2026-05-08 | strategy (global) — FLAGSHIP |
 
 ## Changelog
+
+### 2026-05-08 — v2.5.0
+
+**Global cluster — 30 new skills (Global Marketing + Personal Brand + Dropshipping flagship)**
+
+**New global skills (31 entries — 1 foundation + 30 numbered):**
+- `product-marketing-context-global` 1.0.0: Foundation, 4 region variants (US/EU/SEA/LATAM)
+- `00-marketing-plan-global` 1.0.0: Universal English
+- `01-content-calendar-global` 1.0.0: Universal
+- `02-campaign-brief-global` 1.0.0: Universal
+- `03-performance-eval-global` 1.0.0: 4 region variants (benchmarks)
+- `04-script-video-global` 1.0.0: Universal
+- `05-ad-copy-global` 1.0.0: Universal + Dropshipping Mode
+- `06-ugc-egc-brief-global` 1.0.0: Universal
+- `07-marketing-report-global` 1.0.0: Universal
+- `08-competitor-research-global` 1.0.0: Universal
+- `09-customer-insight-global` 1.0.0: Universal
+- `10-reverse-kpi-global` 1.0.0: 4 variants (currency)
+- `11-channel-setup-global` 1.0.0: 4 variants (platforms)
+- `12-landing-page-brief-global` 1.0.0: Universal + Dropshipping Mode
+- `13-data-analysis-global` 1.0.0: Universal
+- `14-email-marketing-global` 1.0.0: 4 variants (legal — GDPR/CCPA/CAN-SPAM/PDPA/LGPD)
+- `15-social-listening-global` 1.0.0: Universal
+- `16-marketing-psychology-global` 1.0.0: Universal
+- `17-pricing-strategy-global` 1.0.0: 4 variants (currency psychology + VAT/GST/Sales tax)
+- `18-referral-program-global` 1.0.0: 4 variants (anti-spam law per region)
+- `19-ab-test-setup-global` 1.0.0: Universal
+- `20-client-intake-brief-global` 1.0.0: Universal (no industry variants v2.5)
+- `21-ads-audit-global` 1.0.0: 4 variants (benchmarks) + Dropshipping audit
+- `22-personal-brand-context-global` 1.0.0: Foundation PB, 4 region variants (each covers founder/coach/creator)
+- `23-personal-brand-strategy-global` 1.0.0: Universal
+- `24-ai-avatar-production-global` 1.0.0: 4 variants (disclosure law — FTC/EU AI Act/regional)
+- `25-voice-clone-podcast-global` 1.0.0: Universal
+- `26-thought-leadership-content-global` 1.0.0: Universal
+- `27-personal-brand-monetize-global` 1.0.0: 4 variants (tax/legal per region)
+- `28-community-building-global` 1.0.0: Universal
+- `29-dropshipping-mastery-global` 1.0.0: FLAGSHIP, 12 sections, US/EU focus, 10 ads/week pipeline
+
+**Changed (5 agents → universal mode):**
+- `mkt-strategist`, `content-producer`, `performance-analyst`, `channel-operator`, `personal-brand-builder`
+- Auto-detect VN/Global cluster by reading `.agents/*-context*.md` files
+- Behavior identical to v2.4.0 if only VN context exists
+- (No version field on agents — documented in AGENTS.md)
+
+**New references (7):**
+- `global-platforms-comparison.md` — 10 platforms × 4 regions matrix
+- `global-legal-compliance.md` — GDPR/CCPA/CAN-SPAM/TCPA/PDPA/LGPD
+- `global-currency-pricing.md` — currency psychology + tax frameworks
+- `dropshipping-tools-global.md` — 15+ tools deep-dive
+- `ai-video-disclosure-global.md` — FTC/EU AI Act/regional disclosure
+- `voice-clone-prompts-global.md` — US/UK/AU/SEA accent samples
+- `hook-formulas-global.md` — 6 hook types × 5 English examples
+
+**New workflows (8):**
+- Marketing: client-onboard, campaign-launch, monthly-cycle, content-production, dropshipping-launch
+- Personal Brand: personal-brand-launch, ai-avatar-batch, personal-brand-monthly
+
+**New docs (5):**
+- `docs/getting-started-global.md` — 5-min quickstart
+- `docs/global-region-guide.md` — "Which region am I?"
+- `docs/dropshipping-guide.md` — 8-chapter handbook
+- `docs/apac-roadmap.md` — v2.6.0 plan
+- `docs/release-notes/v2.5.0.md` — bilingual release notes
+
+**Backward compatibility:** Zero breaking changes. VN cluster (`skills/` — 29 skills) UNCHANGED. All existing agents work in VN-only mode without config.
 
 ### 2026-05-08 — v2.4.0
 
