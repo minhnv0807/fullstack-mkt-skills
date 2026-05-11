@@ -35,7 +35,7 @@ Hoan thanh 10 muc nay TRUOC khi bat dau Ngay 1:
 - [ ] Co mic co ban de ghi am (tai nghe iPhone ok cho giai doan dau)
 - [ ] Co ngan sach cho tool (toi thieu $0 — free tier cac tool AI)
 - [ ] Co 2-3 gio/ngay trong 30 ngay toi (cam ket truoc)
-- [ ] Da cai Claude Code plugin `fullstack-mkt-skills`
+- [ ] Da cai Claude Code plugin `ai-business-skills`
 - [ ] Da doc `docs/getting-started-personal-brand.md`
 - [ ] Da xac dinh nhom cua minh: Founder / Coach / Creator
 - [ ] Da co y tuong so bo ve niche (khong can chinh xac — skill 22 se giup tinh chinh)
@@ -411,7 +411,7 @@ Review progress va cho 3 dieu chinh can lam NGAY trong tuan toi.
 ### Docs tham khao
 
 - `docs/getting-started-personal-brand.md` — Cam nang 8 chuong cho nguoi moi
-- `skills/22-personal-brand-context/README.md` — Huong dan skill 22 chi tiet
+- `modules/personal-branding/vi/22-personal-brand-context/README.md` — Huong dan skill 22 chi tiet
 - `skills/references/mcp-ads-integration.md` — Ket noi MCP ads (khi san sang chay ads)
 
 ### Video demo

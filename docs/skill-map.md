@@ -55,7 +55,7 @@
                     └─────────────────────────────────────┘
 
       ════════════════════════════════════════════════════════════════════
-      ║              GLOBAL CLUSTER (v2.5.0) — skills-global/             ║
+      ║              GLOBAL CLUSTER (v2.5.0) — skills/en/             ║
       ║                                                                   ║
       ║       ┌─────────────────────────────────────────────────┐         ║
       ║       │  PRODUCT MARKETING CONTEXT GLOBAL (★)            │         ║
@@ -118,7 +118,7 @@
 
 ## Global Cluster (v2.5.0) — 30 Skills + 1 Foundation
 
-> **Path:** `skills-global/` — International English, multi-region (US/EU/SEA/LATAM).
+> **Path:** `skills/en/` — International English, multi-region (US/EU/SEA/LATAM).
 > **Use when:** Marketing cho thi truong nuoc ngoai, dropshipping, audience quoc te.
 
 ### Marketing Global (skills 00-21, 22 skills)
@@ -187,13 +187,13 @@
 
 | File | Noi dung | Dung boi skill |
 |------|---------|---------------|
-| `skills-global/references/hook-formulas-global.md` | Hook formulas tieng Anh + cross-cultural variants | 04, 05 global |
-| `skills-global/references/global-currency-pricing.md` | Pricing USD/EUR/GBP + multi-currency strategies | 17 global |
-| `skills-global/references/global-platforms-comparison.md` | Meta/Google/TikTok/X/LinkedIn benchmarks 4 regions | 03, 11, 21 global |
-| `skills-global/references/global-legal-compliance.md` | GDPR/CCPA/FTC/CAN-SPAM legal compliance | 14, 18, 24 global |
-| `skills-global/references/ai-video-disclosure-global.md` | FTC AI disclosure + EU AI Act + SEA/LATAM rules | 24, 26 global |
-| `skills-global/references/voice-clone-prompts-global.md` | Voice clone prompts EN + multi-language | 25 global |
-| `skills-global/references/dropshipping-tools-global.md` | Shopify/Spocket/AutoDS + supplier directory | 29 global |
+| `skills/en/references/hook-formulas-global.md` | Hook formulas tieng Anh + cross-cultural variants | 04, 05 global |
+| `skills/en/references/global-currency-pricing.md` | Pricing USD/EUR/GBP + multi-currency strategies | 17 global |
+| `skills/en/references/global-platforms-comparison.md` | Meta/Google/TikTok/X/LinkedIn benchmarks 4 regions | 03, 11, 21 global |
+| `skills/en/references/global-legal-compliance.md` | GDPR/CCPA/FTC/CAN-SPAM legal compliance | 14, 18, 24 global |
+| `skills/en/references/ai-video-disclosure-global.md` | FTC AI disclosure + EU AI Act + SEA/LATAM rules | 24, 26 global |
+| `skills/en/references/voice-clone-prompts-global.md` | Voice clone prompts EN + multi-language | 25 global |
+| `skills/en/references/dropshipping-tools-global.md` | Shopify/Spocket/AutoDS + supplier directory | 29 global |
 
 ---
 
@@ -261,7 +261,7 @@ User muon "Content hang thang"
 
 > **Universal Mode:** Tu v2.5.0, ca 5 agents tu dong nhan dien cluster qua `.agents/` directory.
 > - `product-marketing-context.md` ton tai → VN mode (skills/)
-> - `product-marketing-context-global.md` ton tai → Global mode (skills-global/)
+> - `product-marketing-context-global.md` ton tai → Global mode (skills/en/)
 > - Ca 2 ton tai → agent HOI user chon cluster
 > - Khong co file nao → agent goi y tao foundation file
 
@@ -368,7 +368,7 @@ flowchart TD
 
 ## VN vs Global — Khi nao chon cai nao?
 
-| Tieu chi | VN Cluster (skills/) | Global Cluster (skills-global/) |
+| Tieu chi | VN Cluster (skills/) | Global Cluster (skills/en/) |
 |----------|---------------------|-------------------------------|
 | Thi truong | Vietnam | US/EU/SEA/LATAM |
 | Ngon ngu | Tieng Viet | International English |

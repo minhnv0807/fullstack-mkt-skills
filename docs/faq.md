@@ -136,7 +136,7 @@ Luu vao thu muc hien tai hoac thu muc ban chi dinh.
 ls ~/.claude/skills/marketing/
 
 # Neu trong → cai lai
-cd fullstack-mkt-skills
+cd ai-business-skills
 ./install.sh --global    # macOS/Linux
 .\install.ps1 -Global    # Windows
 
@@ -295,13 +295,13 @@ A: Co overlap, nhung primary la khac:
 
 ### Q1: How is global cluster different from VN cluster?
 
-A: VN cluster (`skills/`) for Vietnam market with VN benchmarks/platforms/regulations (Zalo, Shopee VN, Nghi dinh 147/2024). Global cluster (`skills-global/`) for international markets with USD/EUR currencies, US/EU/SEA/LATAM regions, GDPR/FTC compliance. Both clusters share the same skill structure but differ in content, references, and compliance rules.
+A: VN cluster (`skills/`) for Vietnam market with VN benchmarks/platforms/regulations (Zalo, Shopee VN, Nghi dinh 147/2024). Global cluster (`skills/en/`) for international markets with USD/EUR currencies, US/EU/SEA/LATAM regions, GDPR/FTC compliance. Both clusters share the same skill structure but differ in content, references, and compliance rules.
 
 ### Q2: How do agents auto-detect which cluster to use?
 
 A: They read `.agents/` directory:
 - `product-marketing-context.md` → VN mode (skills/)
-- `product-marketing-context-global.md` → Global mode (skills-global/)
+- `product-marketing-context-global.md` → Global mode (skills/en/)
 - Both files → ask user to choose
 - None → suggest creating foundation file
 
@@ -331,7 +331,7 @@ A: Skills themselves are International English. Release notes are bilingual VN+E
 
 A: No migration needed. v2.5.0 is non-breaking:
 - VN cluster (`skills/`) is unchanged
-- Global cluster (`skills-global/`) is OPT-IN — create `.agents/product-marketing-context-global.md` to activate
+- Global cluster (`skills/en/`) is OPT-IN — create `.agents/product-marketing-context-global.md` to activate
 - No existing skills modified, no APIs changed
 
 Just `git pull` and start using global skills when you need them.

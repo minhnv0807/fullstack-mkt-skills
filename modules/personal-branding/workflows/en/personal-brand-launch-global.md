@@ -37,7 +37,7 @@ Complete these 10 items BEFORE Day 1:
 - [ ] Basic mic (Apple EarPods OK to start; Shure MV7 / Blue Yeti for upgrade)
 - [ ] Tool budget allocated (start with $0 free tiers; expect $50-150/month at scale)
 - [ ] 2-3 hours/day blocked for next 30 days (commit upfront, no exceptions)
-- [ ] Claude Code plugin `fullstack-mkt-skills` installed
+- [ ] Claude Code plugin `ai-business-skills` installed
 - [ ] Read `docs/getting-started-personal-brand-global.md`
 - [ ] Identified your archetype: Founder / Coach / Creator
 - [ ] Rough niche idea (doesn't need to be precise — skill 22 sharpens it)
@@ -444,8 +444,8 @@ Review progress and provide 3 specific actions for next week.
 ### Reference docs
 
 - `docs/getting-started-personal-brand-global.md` — 8-chapter newbie playbook
-- `skills-global/22-personal-brand-context-global/SKILL.md` — Skill 22 detailed walkthrough
-- `skills-global/references/mcp-ads-integration.md` — MCP ads setup (when ready to scale)
+- `modules/personal-branding/en/22-personal-brand-context-global/SKILL.md` — Skill 22 detailed walkthrough
+- `skills/en/references/mcp-ads-integration.md` — MCP ads setup (when ready to scale)
 
 ### YouTube tutorial
 

@@ -512,8 +512,8 @@ Net margin (after all costs): 5-15% is typical for healthy dropshipping. 20%+ is
 ## Resources
 
 - Skill: `/skill 29-dropshipping-mastery-global` — distilled tactical playbook (chapters 3-5 deep)
-- Workflow: `workflows-global/dropshipping-launch-global.md` — 30-day launch plan
+- Workflow: `modules/dropshipping/workflows/en/dropshipping-launch-global.md` — 30-day launch plan
 - Region guide: `docs/global-region-guide.md` — pick US, EU, SEA, or LATAM variant first
 - Quickstart: `docs/getting-started-global.md` — install + foundation skill in 5 minutes
 
-Questions? Open an issue: [github.com/minhnv0807/fullstack-mkt-skills/issues](https://github.com/minhnv0807/fullstack-mkt-skills/issues)
+Questions? Open an issue: [github.com/minhnv0807/ai-business-skills/issues](https://github.com/minhnv0807/ai-business-skills/issues)

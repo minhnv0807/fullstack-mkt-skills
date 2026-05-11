@@ -11,7 +11,7 @@
 | Benchmark lech thuc te >20% | `references/benchmarks-vietnam.md` + bang benchmark trong CLAUDE.md | Moi 6 thang |
 | Meta/TikTok thay doi policy | `references/quality-gates-vn.md` + skill 05, 21 | Khi co thong bao |
 | MCP server moi / deprecated | `references/mcp-ads-integration.md` | Moi 3 thang |
-| Them nganh moi cho brief intake | `skills/20-brief-client-intake/variants/` | Khi co yeu cau |
+| Them nganh moi cho brief intake | `skills/vi/20-brief-client-intake/variants/` | Khi co yeu cau |
 | Copy frameworks moi | `references/copy-frameworks-vn.md` | Moi nam |
 | Skill output khong con phu hop | Skill SKILL.md tuong ung | Khi phat hien |
 

@@ -108,15 +108,15 @@ Tiet kiem **70% thoi gian** moi cuoc hoi thoai.
 
 ```bash
 # Trong Claude Code
-/plugin marketplace add minhnv0807/fullstack-mkt-skills
-/plugin install fullstack-mkt-skills
+/plugin marketplace add minhnv0807/ai-business-skills
+/plugin install ai-business-skills
 ```
 
 ### Option 2: Clone + Install
 
 ```bash
-git clone https://github.com/minhnv0807/fullstack-mkt-skills.git
-cd fullstack-mkt-skills
+git clone https://github.com/minhnv0807/ai-business-skills.git
+cd ai-business-skills
 ```
 
 <table>
@@ -273,47 +273,47 @@ Copy file `.md` lam Custom Instructions hoac context. Moi file la 1 prompt doc l
 ![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square)
 
 </td></tr>
-<tr><td><code>20</code></td><td><a href="skills/20-brief-client-intake/SKILL.md"><b>Brief Client Intake</b></a> <sup>v2.3</sup></td><td>Form intake 20 nganh + brief 11 phan cho agency</td><td>
+<tr><td><code>20</code></td><td><a href="skills/vi/20-brief-client-intake/SKILL.md"><b>Brief Client Intake</b></a> <sup>v2.3</sup></td><td>Form intake 20 nganh + brief 11 phan cho agency</td><td>
 
 ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
 </td></tr>
-<tr><td><code>21</code></td><td><a href="skills/21-audit-ads-performance/SKILL.md"><b>Audit Ads Performance</b></a> <sup>v2.3</sup></td><td>84 checkpoint + Health Score (0-100) + Quality Gates</td><td>
+<tr><td><code>21</code></td><td><a href="skills/vi/21-audit-ads-performance/SKILL.md"><b>Audit Ads Performance</b></a> <sup>v2.3</sup></td><td>84 checkpoint + Health Score (0-100) + Quality Gates</td><td>
 
 ![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square)
 
 </td></tr>
-<tr><td><code>22</code></td><td><a href="skills/22-personal-brand-context/SKILL.md"><b>Personal Brand Context</b></a> <sup>v2.4 ⭐</sup></td><td>Foundation skill cho personal brand (3 variants: founder/coach/creator)</td><td>
+<tr><td><code>22</code></td><td><a href="modules/personal-branding/vi/22-personal-brand-context/SKILL.md"><b>Personal Brand Context</b></a> <sup>v2.4 ⭐</sup></td><td>Foundation skill cho personal brand (3 variants: founder/coach/creator)</td><td>
 
 ![Foundation](https://img.shields.io/badge/-Foundation-be185d?style=flat-square)
 
 </td></tr>
-<tr><td><code>23</code></td><td><a href="skills/23-personal-brand-strategy/SKILL.md"><b>Personal Brand Strategy</b></a> <sup>v2.4</sup></td><td>Chien luoc 12 thang: niche + positioning + content pillars + authority ladder</td><td>
+<tr><td><code>23</code></td><td><a href="modules/personal-branding/vi/23-personal-brand-strategy/SKILL.md"><b>Personal Brand Strategy</b></a> <sup>v2.4</sup></td><td>Chien luoc 12 thang: niche + positioning + content pillars + authority ladder</td><td>
 
 ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
 
 </td></tr>
-<tr><td><code>24</code></td><td><a href="skills/24-ai-avatar-production/SKILL.md"><b>AI Avatar Production</b></a> <sup>v2.4 🎬</sup></td><td>Deep-dive AI Avatar (3 tier tool, 4 workflow, QA Score 100)</td><td>
+<tr><td><code>24</code></td><td><a href="modules/personal-branding/vi/24-ai-avatar-production/SKILL.md"><b>AI Avatar Production</b></a> <sup>v2.4 🎬</sup></td><td>Deep-dive AI Avatar (3 tier tool, 4 workflow, QA Score 100)</td><td>
 
 ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
 
 </td></tr>
-<tr><td><code>25</code></td><td><a href="skills/25-voice-clone-podcast/SKILL.md"><b>Voice Clone & Podcast</b></a> <sup>v2.4 🎙️</sup></td><td>Audio AI: voice clone, podcast, audiobook, repurpose 1:10</td><td>
+<tr><td><code>25</code></td><td><a href="modules/personal-branding/vi/25-voice-clone-podcast/SKILL.md"><b>Voice Clone & Podcast</b></a> <sup>v2.4 🎙️</sup></td><td>Audio AI: voice clone, podcast, audiobook, repurpose 1:10</td><td>
 
 ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
 
 </td></tr>
-<tr><td><code>26</code></td><td><a href="skills/26-thought-leadership-content/SKILL.md"><b>Thought Leadership Content</b></a> <sup>v2.4</sup></td><td>Long-form text: 3 cau truc, 6 hook, repurpose 1:5</td><td>
+<tr><td><code>26</code></td><td><a href="modules/personal-branding/vi/26-thought-leadership-content/SKILL.md"><b>Thought Leadership Content</b></a> <sup>v2.4</sup></td><td>Long-form text: 3 cau truc, 6 hook, repurpose 1:5</td><td>
 
 ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
 
 </td></tr>
-<tr><td><code>27</code></td><td><a href="skills/27-personal-brand-monetize/SKILL.md"><b>Personal Brand Monetize</b></a> <sup>v2.4</sup></td><td>3 phien ban funnel + pricing psychology + thue VN 2026</td><td>
+<tr><td><code>27</code></td><td><a href="modules/personal-branding/vi/27-personal-brand-monetize/SKILL.md"><b>Personal Brand Monetize</b></a> <sup>v2.4</sup></td><td>3 phien ban funnel + pricing psychology + thue VN 2026</td><td>
 
 ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
 
 </td></tr>
-<tr><td><code>28</code></td><td><a href="skills/28-community-building/SKILL.md"><b>Community Building</b></a> <sup>v2.4</sup></td><td>Blueprint Zalo/Telegram/Skool + cong dong 3 lop</td><td>
+<tr><td><code>28</code></td><td><a href="modules/personal-branding/vi/28-community-building/SKILL.md"><b>Community Building</b></a> <sup>v2.4</sup></td><td>Blueprint Zalo/Telegram/Skool + cong dong 3 lop</td><td>
 
 ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
@@ -371,22 +371,22 @@ Xem them: [examples/personal-brand-coach.md](examples/personal-brand-coach.md) �
 
 <table>
 <tr><th>#</th><th>Skill</th><th>Lam gi</th><th>Category</th></tr>
-<tr><td><b>★</b></td><td><a href="skills-global/product-marketing-context-global/SKILL.md"><b>Product Marketing Context Global</b></a></td><td><b>Foundation</b> — context theo region + tien te + thue + luat privacy</td><td>
+<tr><td><b>★</b></td><td><a href="skills/en/product-marketing-context-global/SKILL.md"><b>Product Marketing Context Global</b></a></td><td><b>Foundation</b> — context theo region + tien te + thue + luat privacy</td><td>
 
 ![Foundation](https://img.shields.io/badge/-Foundation-be185d?style=flat-square)
 
 </td></tr>
-<tr><td><code>00–21</code></td><td><a href="skills-global/"><b>Marketing 22 skills (global)</b></a></td><td>Mirror VN 00–21 voi suffix <code>-global</code> — plan, lich, brief, audit, copy, KPI, kenh, A/B, intake, audit ads</td><td>
+<tr><td><code>00–21</code></td><td><a href="skills/en/"><b>Marketing 22 skills (global)</b></a></td><td>Mirror VN 00–21 voi suffix <code>-global</code> — plan, lich, brief, audit, copy, KPI, kenh, A/B, intake, audit ads</td><td>
 
 ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square) ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square) ![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square) ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
 </td></tr>
-<tr><td><code>22–28</code></td><td><a href="skills-global/"><b>Personal Brand 7 skills (global)</b></a></td><td>Mirror VN 22–28 voi suffix <code>-global</code> — context, strategy, AI Avatar, voice clone, thought leadership, monetize, community</td><td>
+<tr><td><code>22–28</code></td><td><a href="skills/en/"><b>Personal Brand 7 skills (global)</b></a></td><td>Mirror VN 22–28 voi suffix <code>-global</code> — context, strategy, AI Avatar, voice clone, thought leadership, monetize, community</td><td>
 
 ![Foundation](https://img.shields.io/badge/-Foundation-be185d?style=flat-square) ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square) ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square) ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
 </td></tr>
-<tr><td><code>29</code></td><td><a href="skills-global/29-dropshipping-mastery-global/SKILL.md"><b>Dropshipping Mastery</b></a> <sup>v2.5 🚀</sup></td><td><b>Flagship</b> — Shopify + supplier sourcing + winning products + global ads</td><td>
+<tr><td><code>29</code></td><td><a href="modules/dropshipping/en/29-dropshipping-mastery-global/SKILL.md"><b>Dropshipping Mastery</b></a> <sup>v2.5 🚀</sup></td><td><b>Flagship</b> — Shopify + supplier sourcing + winning products + global ads</td><td>
 
 ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
 
@@ -527,14 +527,14 @@ Review lich → 04 Script → Quay/Dung → 05 Copy ads → Len lich dang
 
 | Workflow | Thoi gian | Pipeline |
 |----------|-----------|----------|
-| [client-onboard-global](workflows-global/client-onboard-global.md) | 5-7 ngay | 20 Intake → 09 Insight → 08 Doi thu → 10 KPI → 00 Plan → 02 Brief → 01 Lich (global) |
-| [campaign-launch-global](workflows-global/campaign-launch-global.md) | 14-21 ngay | 08 → 09 → 00 → 02 → 01+04+05 Content → 06 UGC → 11+12 Kenh (global) |
-| [monthly-cycle-global](workflows-global/monthly-cycle-global.md) | 3-5 ngay | 13 Data → 03 Audit → 07 Report → 10 KPI moi → 01 Lich moi (global) |
-| [content-production-global](workflows-global/content-production-global.md) | hang tuan | Review lich → 04 → 05 → schedule (global, 4 region) |
-| [dropshipping-launch-global](workflows-global/dropshipping-launch-global.md) <sup>🚀</sup> | 14-30 ngay | Niche → validate product → store → ads → fulfillment → scale |
-| [personal-brand-launch-global](workflows-global/personal-brand-launch-global.md) | 30 ngay | 22 Context → 23 Strategy → 24 AI Avatar → 26 Long-form → 27 Monetize → 28 Community (global) |
-| [ai-avatar-batch-global](workflows-global/ai-avatar-batch-global.md) | 5 ngay × 5h | 30 video batch trong 5 ngay, da ngon ngu (EN/ES/PT/ID/TH) |
-| [personal-brand-monthly-global](workflows-global/personal-brand-monthly-global.md) | 3-5 ngay | 13 Data → 03 Audit → 07 Report → review pillars → dieu chinh (global) |
+| [client-onboard-global](workflows/en/client-onboard-global.md) | 5-7 ngay | 20 Intake → 09 Insight → 08 Doi thu → 10 KPI → 00 Plan → 02 Brief → 01 Lich (global) |
+| [campaign-launch-global](workflows/en/campaign-launch-global.md) | 14-21 ngay | 08 → 09 → 00 → 02 → 01+04+05 Content → 06 UGC → 11+12 Kenh (global) |
+| [monthly-cycle-global](workflows/en/monthly-cycle-global.md) | 3-5 ngay | 13 Data → 03 Audit → 07 Report → 10 KPI moi → 01 Lich moi (global) |
+| [content-production-global](workflows/en/content-production-global.md) | hang tuan | Review lich → 04 → 05 → schedule (global, 4 region) |
+| [dropshipping-launch-global](modules/dropshipping/workflows/en/dropshipping-launch-global.md) <sup>🚀</sup> | 14-30 ngay | Niche → validate product → store → ads → fulfillment → scale |
+| [personal-brand-launch-global](modules/personal-branding/workflows/en/personal-brand-launch-global.md) | 30 ngay | 22 Context → 23 Strategy → 24 AI Avatar → 26 Long-form → 27 Monetize → 28 Community (global) |
+| [ai-avatar-batch-global](modules/personal-branding/workflows/en/ai-avatar-batch-global.md) | 5 ngay × 5h | 30 video batch trong 5 ngay, da ngon ngu (EN/ES/PT/ID/TH) |
+| [personal-brand-monthly-global](modules/personal-branding/workflows/en/personal-brand-monthly-global.md) | 3-5 ngay | 13 Data → 03 Audit → 07 Report → review pillars → dieu chinh (global) |
 
 ---
 
@@ -571,7 +571,7 @@ Review lich → 04 Script → Quay/Dung → 05 Copy ads → Len lich dang
 ## Project Structure
 
 ```
-fullstack-mkt-skills/
+ai-business-skills/
 │
 ├── .claude-plugin/
 │   └── marketplace.json            # Claude Code plugin spec
@@ -602,7 +602,7 @@ fullstack-mkt-skills/
 │   ├── 27-personal-brand-monetize/  # v2.4
 │   └── 28-community-building/       # v2.4
 │
-├── skills-global/                   # NEW v2.5.0 — 30 skill global
+├── skills/en/                   # NEW v2.5.0 — 30 skill global
 │   ├── product-marketing-context-global/    # Foundation (★)
 │   ├── 00-21 marketing skills (global)      # Mirror VN voi suffix -global
 │   ├── 22-28 personal brand skills (global) # Mirror VN voi suffix -global
@@ -632,7 +632,7 @@ fullstack-mkt-skills/
 │   ├── ai-avatar-batch.md          # v2.4 (batch 5 ngay)
 │   └── personal-brand-monthly.md   # v2.4 (review)
 │
-├── workflows-global/                # NEW v2.5.0 — 8 workflow global
+├── workflows/en/                # NEW v2.5.0 — 8 workflow global
 │   ├── client-onboard-global.md
 │   ├── campaign-launch-global.md
 │   ├── monthly-cycle-global.md
@@ -703,11 +703,11 @@ git commit -m "feat(skill): add ten-skill-moi"
 
 ## Star History
 
-<a href="https://star-history.com/#minhnv0807/fullstack-mkt-skills&Date">
+<a href="https://star-history.com/#minhnv0807/ai-business-skills&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=minhnv0807/fullstack-mkt-skills&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=minhnv0807/fullstack-mkt-skills&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=minhnv0807/fullstack-mkt-skills&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=minhnv0807/ai-business-skills&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=minhnv0807/ai-business-skills&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=minhnv0807/ai-business-skills&type=Date" />
  </picture>
 </a>
 
@@ -717,7 +717,7 @@ Neu thay project huu ich, cho 1 sao de theo doi — giup repo xuat hien trong Gi
 
 ## 💖 Ung Ho Du An
 
-Du an nay **100% mien phi va MIT-licensed**. Neu `fullstack-mkt-skills` giup ban tiet kiem hang gio cong viec marketing hoac giup doanh nghiep ban phat trien, hay can nhac ung ho:
+Du an nay **100% mien phi va MIT-licensed**. Neu `ai-business-skills` giup ban tiet kiem hang gio cong viec marketing hoac giup doanh nghiep ban phat trien, hay can nhac ung ho:
 
 <p align="center">
   <a href="https://www.opa.business/donate">
@@ -733,7 +733,7 @@ Du an nay **100% mien phi va MIT-licensed**. Neu `fullstack-mkt-skills` giup ban
 
 **Cac cach khac de ung ho:**
 - ⭐ Star repo nay
-- 🐛 Bao loi hoac de xuat tinh nang o [Issues](https://github.com/minhnv0807/fullstack-mkt-skills/issues)
+- 🐛 Bao loi hoac de xuat tinh nang o [Issues](https://github.com/minhnv0807/ai-business-skills/issues)
 - 🤝 Submit PR them skills moi hoac cai tien
 - 📣 Chia se voi network cua ban — tag [@OverPowersAgency](https://opa.business)
 

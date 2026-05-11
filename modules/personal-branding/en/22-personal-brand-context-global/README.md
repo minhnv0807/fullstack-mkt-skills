@@ -16,7 +16,7 @@ Each variant covers ALL three audience roles inside (Founder / Coach / Creator):
 | 03 | `variants/03-sea.md` | SG/MY/ID/TH/PH | USD or SGD/MYR/IDR/THB/PHP | PDPA per country |
 | 04 | `variants/04-latam.md` | BR/MX/AR/CO/CL | USD or BRL/MXN/ARS/COP | LGPD (BR) + per country |
 
-> Vietnam-only? Use `skills/22-personal-brand-context/`, NOT this skill.
+> Vietnam-only? Use `modules/personal-branding/vi/22-personal-brand-context/`, NOT this skill.
 
 ---
 

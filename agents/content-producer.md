@@ -80,7 +80,7 @@ brief-ugc-[ten]-[YYYYMMDD].md
 
 ## Cluster Auto-Detect Mode (v2.5.0+)
 
-This agent supports BOTH the VN cluster (`skills/`) and the Global cluster (`skills-global/`). It auto-detects which to use based on context files:
+This agent supports BOTH the VN cluster (`skills/`) and the Global cluster (`skills/en/`). It auto-detects which to use based on context files:
 
 ### Detection logic
 
@@ -89,7 +89,7 @@ Check `.agents/` directory:
 ├── product-marketing-context.md ONLY → MODE VN
 │   └── Use skills/[skill-id]/ paths
 ├── product-marketing-context-global.md ONLY → MODE GLOBAL
-│   └── Use skills-global/[skill-id]-global/ paths
+│   └── Use skills/en/[skill-id]-global/ paths
 ├── BOTH files exist → ASK 1 question
 │   └── "Are you working on Vietnamese market or Global market?"
 └── NEITHER file exists → SUGGEST creating one
@@ -98,7 +98,7 @@ Check `.agents/` directory:
 
 ### Cluster-specific skill mapping
 
-| Task | VN cluster (skills/) | Global cluster (skills-global/) |
+| Task | VN cluster (skills/) | Global cluster (skills/en/) |
 |------|----------------------|---------------------------------|
 | Content calendar | 01-lich-noi-dung | 01-content-calendar-global |
 | Video script | 04-script-video | 04-script-video-global |
@@ -110,12 +110,12 @@ Check `.agents/` directory:
 
 **Example 1: VN context only**
 - User: "Write video scripts for my coffee shop"
-- Agent: reads `.agents/product-marketing-context.md` → MODE VN → uses skills/04-script-video/
+- Agent: reads `.agents/product-marketing-context.md` → MODE VN → uses skills/vi/04-script-video/
 - Output: TikTok/Reels hooks in Vietnamese tone, VN cultural references
 
 **Example 2: Global context only**
 - User: "Write ad copy for my US e-commerce store"
-- Agent: reads `.agents/product-marketing-context-global.md` → MODE GLOBAL → uses skills-global/05-ad-copy-global/
+- Agent: reads `.agents/product-marketing-context-global.md` → MODE GLOBAL → uses skills/en/05-ad-copy-global/
 - Output: English copy, Meta/Google compliance, US cultural fit
 
 **Example 3: Both contexts**

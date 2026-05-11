@@ -6,7 +6,7 @@
 
 Repo nay chua **Agent Skills** theo [Agent Skills Specification](https://agentskills.io) — cai dat duoc vao `.agents/skills/` (hoac `.claude/skills/` voi Claude Code).
 
-Repo cung hoat dong nhu **Claude Code Plugin Marketplace** — cai dat bang `/plugin install minhnv0807/fullstack-mkt-skills`.
+Repo cung hoat dong nhu **Claude Code Plugin Marketplace** — cai dat bang `/plugin install minhnv0807/ai-business-skills`.
 
 ## Cau truc repo
 
@@ -95,7 +95,7 @@ Skills su dung pattern variants:
 Cau truc:
 
 ```
-skills/22-personal-brand-context/
+modules/personal-branding/vi/22-personal-brand-context/
 ├── SKILL.md          ← Entrypoint + router
 ├── README.md         ← Variant guide (decision tree)
 └── variants/
@@ -113,7 +113,7 @@ Skill 22-personal-brand-context-global uses 4 REGION variants (US/EU/SEA/LATAM) 
 Cau truc:
 
 ```
-skills-global/22-personal-brand-context-global/
+modules/personal-branding/en/22-personal-brand-context-global/
 ├── SKILL.md          ← Entrypoint + router
 ├── README.md         ← Region variant guide
 └── variants/
@@ -168,11 +168,11 @@ Used by: 5 agents (mkt-strategist, content-producer, performance-analyst, channe
 
 ```bash
 # Plugin marketplace
-/plugin install minhnv0807/fullstack-mkt-skills
+/plugin install minhnv0807/ai-business-skills
 
 # Hoac clone + install script
-git clone https://github.com/minhnv0807/fullstack-mkt-skills.git
-cd fullstack-mkt-skills
+git clone https://github.com/minhnv0807/ai-business-skills.git
+cd ai-business-skills
 ./install.sh --global
 ```
 

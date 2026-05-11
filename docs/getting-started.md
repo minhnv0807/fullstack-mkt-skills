@@ -22,8 +22,8 @@ Optional but recommended:
 
 ```bash
 # In Claude Code, type:
-/plugin marketplace add minhnv0807/fullstack-mkt-skills
-/plugin install fullstack-mkt-skills
+/plugin marketplace add minhnv0807/ai-business-skills
+/plugin install ai-business-skills
 ```
 
 Skills auto-activate based on trigger phrases. Just describe what you need.
@@ -31,8 +31,8 @@ Skills auto-activate based on trigger phrases. Just describe what you need.
 ### Path B: Clone + Global Install
 
 ```bash
-git clone https://github.com/minhnv0807/fullstack-mkt-skills.git
-cd fullstack-mkt-skills
+git clone https://github.com/minhnv0807/ai-business-skills.git
+cd ai-business-skills
 
 # macOS / Linux
 ./install.sh --global
@@ -49,7 +49,7 @@ If you want the skills only for a specific project (not globally):
 
 ```bash
 cd /path/to/your/project
-/path/to/fullstack-mkt-skills/install.sh --project
+/path/to/ai-business-skills/install.sh --project
 ```
 
 This creates `.claude/skills/marketing/` in your project.
@@ -288,7 +288,7 @@ Check that `.agents/product-marketing-context.md` exists and is filled out. With
 ls ~/.claude/skills/marketing/
 
 # Re-install
-cd fullstack-mkt-skills
+cd ai-business-skills
 ./install.sh --global
 ```
 
@@ -311,4 +311,4 @@ Use benchmarks as reference, not absolute.
 3. **Join discussions** on GitHub Discussions tab
 4. **Contribute** your own skill — see CONTRIBUTING.md
 
-Questions? Open an issue: [github.com/minhnv0807/fullstack-mkt-skills/issues](https://github.com/minhnv0807/fullstack-mkt-skills/issues)
+Questions? Open an issue: [github.com/minhnv0807/ai-business-skills/issues](https://github.com/minhnv0807/ai-business-skills/issues)

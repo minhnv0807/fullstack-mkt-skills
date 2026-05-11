@@ -340,9 +340,9 @@ Rebuild next month's mix recommendation based on this.
 
 ### Reference docs
 
-- `skills-global/13-data-analysis-global/SKILL.md` — analysis templates
-- `skills-global/07-marketing-report-global/SKILL.md` — report 5-section structure
-- `skills-global/references/mcp-ads-integration-global.md` — auto-pull guide
+- `skills/en/13-data-analysis-global/SKILL.md` — analysis templates
+- `skills/en/07-marketing-report-global/SKILL.md` — report 5-section structure
+- `skills/en/references/mcp-ads-integration-global.md` — auto-pull guide
 
 ### YouTube tutorial
 

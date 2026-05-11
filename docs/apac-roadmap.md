@@ -175,4 +175,4 @@ If APAC matters to you, the most useful thing you can do is open a GitHub issue 
 - Region decision guide (current 4 regions): `docs/global-region-guide.md`
 - v2.5.0 release notes (current scope): `docs/release-notes/v2.5.0.md`
 - Vietnam cluster (parallel project): `docs/getting-started.md`
-- Issue tracker (where to flag APAC interest): [github.com/minhnv0807/fullstack-mkt-skills/issues](https://github.com/minhnv0807/fullstack-mkt-skills/issues)
+- Issue tracker (where to flag APAC interest): [github.com/minhnv0807/ai-business-skills/issues](https://github.com/minhnv0807/ai-business-skills/issues)

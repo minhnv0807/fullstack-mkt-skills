@@ -30,7 +30,7 @@ Found a security issue? Thanks for helping keep this project safe.
 **Do NOT open a public issue.** Instead:
 
 1. Email: security@opa.business (or contact repo owner privately)
-2. Subject: `[SECURITY] fullstack-mkt-skills — <brief description>`
+2. Subject: `[SECURITY] ai-business-skills — <brief description>`
 3. Include:
    - Description of the issue
    - Steps to reproduce

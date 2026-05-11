@@ -193,4 +193,4 @@ Why separate? Vietnam's marketing infrastructure (Zalo OA, VietQR, Momo, ShopeeP
 
 ---
 
-Questions? Open an issue: [github.com/minhnv0807/fullstack-mkt-skills/issues](https://github.com/minhnv0807/fullstack-mkt-skills/issues)
+Questions? Open an issue: [github.com/minhnv0807/ai-business-skills/issues](https://github.com/minhnv0807/ai-business-skills/issues)

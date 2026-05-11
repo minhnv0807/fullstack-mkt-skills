@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "AI Business Skills: Production-ready AI Skills for solopreneurs and SMBs"
+message: "If you use this toolkit in research, content, or production work, please cite it as below."
+type: software
+authors:
+  - given-names: "Văn Minh"
+    family-names: "Nguyễn"
+    affiliation: "OPA — Over Powers Agency"
+    website: "https://opa.business"
+    alias: "minhnv0807"
+repository-code: "https://github.com/minhnv0807/ai-business-skills"
+url: "https://github.com/minhnv0807/ai-business-skills"
+abstract: >
+  AI Business Skills is a modular Markdown-based toolkit of AI Skills that transforms
+  general-purpose Large Language Models (Claude, ChatGPT, Gemini, Copilot) into
+  specialized business assistants for online entrepreneurs. Includes 16 production-ready
+  marketing skills calibrated for Vietnamese market (2025–2026 benchmarks) with a
+  Global Edition rolling out Q2–Q4 2026. Three modules: Marketing (live), Dropshipping
+  (Q2 2026), Personal Branding (Q3 2026). MIT licensed.
+keywords:
+  - "ai-skills"
+  - "claude-skills"
+  - "claude-code"
+  - "ai-business"
+  - "ai-marketing"
+  - "ai-dropshipping"
+  - "personal-branding"
+  - "prompt-engineering"
+  - "marketing-automation"
+  - "solopreneur"
+  - "sme"
+  - "vietnamese-marketing"
+  - "generative-engine-optimization"
+license: MIT
+version: "2.0.0"
+date-released: 2026-05-11

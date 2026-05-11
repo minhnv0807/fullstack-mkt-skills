@@ -404,11 +404,11 @@ Justify with the strongest 3 signals.
 
 ### Reference docs
 
-- `skills-global/29-dropshipping-mastery-global/SKILL.md` — full dropshipping playbook
-- `skills-global/12-landing-page-brief-global/SKILL.md` — single-product LP template
-- `skills-global/17-pricing-strategy-global/SKILL.md` — pricing ladder math
-- `skills-global/21-ads-audit-global/SKILL.md` — diagnostic framework
-- `skills-global/references/` — supplier comparison, MCP integration
+- `modules/dropshipping/en/29-dropshipping-mastery-global/SKILL.md` — full dropshipping playbook
+- `skills/en/12-landing-page-brief-global/SKILL.md` — single-product LP template
+- `skills/en/17-pricing-strategy-global/SKILL.md` — pricing ladder math
+- `skills/en/21-ads-audit-global/SKILL.md` — diagnostic framework
+- `skills/en/references/` — supplier comparison, MCP integration
 
 ### YouTube tutorial
 
