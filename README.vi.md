@@ -10,6 +10,15 @@
   <img src="https://img.shields.io/badge/Workflows-15-0f766e?style=for-the-badge&labelColor=1e1033" alt="15 Workflows"/>
   <img src="https://img.shields.io/badge/Market-Vietnam%202025--2026-f97316?style=for-the-badge&labelColor=1e1033" alt="Vietnam Market"/>
   <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&labelColor=1e1033" alt="MIT License"/>
+  <a href="https://www.opa.business/donate"><img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%20Ung%20ho-Donate-ff69b4?style=for-the-badge&labelColor=1e1033" alt="Donate"/></a>
+</p>
+
+<p align="center">
+  <a href="https://www.opa.business/donate">
+    <img src="https://img.shields.io/badge/%E2%98%95%20Moi%20Toi%20Mot%20Coffee-Ung%20ho%20Open%20Source-ff5e5b?style=for-the-badge" alt="Ung ho du an"/>
+  </a>
+  <br/>
+  <sub><b>💖 60 skills, ~28K+ dong, 100% mien phi & MIT — neu giup ban tiet kiem thoi gian, hay ung ho tai <a href="https://www.opa.business/donate">opa.business/donate</a></b></sub>
 </p>
 
 > **🌍 v2.5.0 (2026-05-08)** — Cum Marketing Toan Cau.
@@ -703,6 +712,32 @@ git commit -m "feat(skill): add ten-skill-moi"
 </a>
 
 Neu thay project huu ich, cho 1 sao de theo doi — giup repo xuat hien trong GitHub Trending.
+
+---
+
+## 💖 Ung Ho Du An
+
+Du an nay **100% mien phi va MIT-licensed**. Neu `fullstack-mkt-skills` giup ban tiet kiem hang gio cong viec marketing hoac giup doanh nghiep ban phat trien, hay can nhac ung ho:
+
+<p align="center">
+  <a href="https://www.opa.business/donate">
+    <img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%20Donate-Ung%20ho%20Over%20Powers%20Agency-ff69b4?style=for-the-badge&logo=heart&logoColor=white" alt="Donate"/>
+  </a>
+</p>
+
+**Khoan ung ho cua ban se duoc dung de:**
+- 🌍 Phat trien region variants moi (APAC v2.6.0, India, MENA o v2.7.0+)
+- 🎯 Them skills nganh cu the (B2B export, SaaS, e-commerce vertical)
+- 📚 Docs song ngu & video tutorial
+- 🛠️ Bao tri & ho tro cong dong
+
+**Cac cach khac de ung ho:**
+- ⭐ Star repo nay
+- 🐛 Bao loi hoac de xuat tinh nang o [Issues](https://github.com/minhnv0807/fullstack-mkt-skills/issues)
+- 🤝 Submit PR them skills moi hoac cai tien
+- 📣 Chia se voi network cua ban — tag [@OverPowersAgency](https://opa.business)
+
+→ [**opa.business/donate**](https://www.opa.business/donate)
 
 ---
 

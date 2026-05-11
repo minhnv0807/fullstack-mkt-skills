@@ -10,6 +10,15 @@
   <img src="https://img.shields.io/badge/Workflows-15-0f766e?style=for-the-badge&labelColor=1e1033" alt="15 Workflows"/>
   <img src="https://img.shields.io/badge/Market-Vietnam%202025--2026-f97316?style=for-the-badge&labelColor=1e1033" alt="Vietnam Market"/>
   <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&labelColor=1e1033" alt="MIT License"/>
+  <a href="https://www.opa.business/donate"><img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%20Sponsor-Donate-ff69b4?style=for-the-badge&labelColor=1e1033" alt="Donate"/></a>
+</p>
+
+<p align="center">
+  <a href="https://www.opa.business/donate">
+    <img src="https://img.shields.io/badge/%E2%98%95%20Buy%20Me%20a%20Coffee-Support%20Open%20Source-ff5e5b?style=for-the-badge" alt="Support this project"/>
+  </a>
+  <br/>
+  <sub><b>💖 60 skills, ~28K+ lines, 100% free & MIT — if it saves you time, consider supporting <a href="https://www.opa.business/donate">opa.business/donate</a></b></sub>
 </p>
 
 > **🌍 v2.5.0 (2026-05-08)** — Global Marketing Cluster.
@@ -38,7 +47,8 @@
   <a href="docs/mcp-setup-guide.md"><b>MCP Setup</b></a> &middot;
   <a href="docs/faq.md"><b>FAQ</b></a> &middot;
   <a href="CONTRIBUTING.md"><b>Contributing</b></a> &middot;
-  <a href="CHANGELOG.md"><b>Changelog</b></a>
+  <a href="CHANGELOG.md"><b>Changelog</b></a> &middot;
+  <a href="https://www.opa.business/donate"><b>💖 Donate</b></a>
 </p>
 
 <h1 align="center">Fullstack Marketing Skills</h1>
@@ -743,6 +753,32 @@ Contributions welcome in any language — just make sure to specify target marke
 </a>
 
 If you find this project useful, please star it — helps the repo appear in GitHub Trending.
+
+---
+
+## 💖 Support This Project
+
+This project is **100% free and MIT-licensed**. If `fullstack-mkt-skills` saves you hours of marketing work or helps you grow your business, please consider supporting:
+
+<p align="center">
+  <a href="https://www.opa.business/donate">
+    <img src="https://img.shields.io/badge/%E2%9D%A4%EF%B8%8F%20Donate-Support%20Over%20Powers%20Agency-ff69b4?style=for-the-badge&logo=heart&logoColor=white" alt="Donate"/>
+  </a>
+</p>
+
+**Your support funds:**
+- 🌍 New region variants (APAC v2.6.0, India, MENA in v2.7.0+)
+- 🎯 More industry-specific skills (B2B export, SaaS, e-commerce verticals)
+- 📚 Bilingual docs & video tutorials
+- 🛠️ Maintenance & community support
+
+**Other ways to support:**
+- ⭐ Star this repo
+- 🐛 Report bugs or suggest features in [Issues](https://github.com/minhnv0807/fullstack-mkt-skills/issues)
+- 🤝 Submit PRs for new skills or improvements
+- 📣 Share with your network — tag [@OverPowersAgency](https://opa.business)
+
+→ [**opa.business/donate**](https://www.opa.business/donate)
 
 ---
 
