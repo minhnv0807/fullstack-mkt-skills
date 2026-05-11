@@ -309,8 +309,8 @@ Justify with regional CPM and conversion data.
 
 ### Reference docs
 
-- `skills-global/20-client-intake-brief-global/README.md` — full intake variants
-- `skills-global/references/` — global benchmarks, MCP integration, pricing references
+- `skills/en/20-client-intake-brief-global/README.md` — full intake variants
+- `skills/en/references/` — global benchmarks, MCP integration, pricing references
 - `docs/getting-started-global.md` — onboarding crash course (if available)
 
 ### YouTube tutorial

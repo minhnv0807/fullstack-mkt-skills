@@ -2,9 +2,9 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Mở rộng `fullstack-mkt-skills` từ v2.4.0 (29 skills VN) lên v2.5.0 với cụm 30 skills global song song. Phục vụ 4 regions (US/EU/SEA/LATAM) + flagship dropshipping skill. Zero breaking changes.
+**Goal:** Mở rộng `ai-business-skills` từ v2.4.0 (29 skills VN) lên v2.5.0 với cụm 30 skills global song song. Phục vụ 4 regions (US/EU/SEA/LATAM) + flagship dropshipping skill. Zero breaking changes.
 
-**Architecture:** Folder song song `skills-global/` + variants pattern E selective (11 skills có region variants, 19 skills universal English). 5 agents extended với auto-detect mode (VN / Global / Both ASK). Plugin marketplace 1 entry list 60 skills.
+**Architecture:** Folder song song `skills/en/` + variants pattern E selective (11 skills có region variants, 19 skills universal English). 5 agents extended với auto-detect mode (VN / Global / Both ASK). Plugin marketplace 1 entry list 60 skills.
 
 **Tech Stack:**
 - Markdown (.md) — toàn bộ skills, references, workflows, docs
@@ -75,12 +75,12 @@ ls docs/superpowers/specs/2026-05-10-global-cluster-design.md
 ## Task 1: Foundation skill `product-marketing-context-global` (1 agent, 6 files)
 
 **Files:**
-- Create `skills-global/product-marketing-context-global/SKILL.md` (~150 lines)
-- Create `skills-global/product-marketing-context-global/README.md` (~80 lines)
-- Create `skills-global/product-marketing-context-global/variants/01-us.md` (~280 lines)
-- Create `skills-global/product-marketing-context-global/variants/02-eu.md` (~280 lines)
-- Create `skills-global/product-marketing-context-global/variants/03-sea.md` (~280 lines)
-- Create `skills-global/product-marketing-context-global/variants/04-latam.md` (~280 lines)
+- Create `skills/en/product-marketing-context-global/SKILL.md` (~150 lines)
+- Create `skills/en/product-marketing-context-global/README.md` (~80 lines)
+- Create `skills/en/product-marketing-context-global/variants/01-us.md` (~280 lines)
+- Create `skills/en/product-marketing-context-global/variants/02-eu.md` (~280 lines)
+- Create `skills/en/product-marketing-context-global/variants/03-sea.md` (~280 lines)
+- Create `skills/en/product-marketing-context-global/variants/04-latam.md` (~280 lines)
 
 - [ ] **Step 1.1**: Dispatch agent với context: "create foundation skill global cluster, 4 region variants, mirror VN product-marketing-context structure but adapt for region-specific currency/platforms/regulatory"
 - [ ] **Step 1.2**: Verify line counts: SKILL ≤200, README ≤100, variants ≤350 each
@@ -94,10 +94,10 @@ ls docs/superpowers/specs/2026-05-10-global-cluster-design.md
 Universal English skills, no variants.
 
 **Files:**
-- `skills-global/00-marketing-plan-global/SKILL.md`
-- `skills-global/01-content-calendar-global/SKILL.md`
-- `skills-global/02-campaign-brief-global/SKILL.md`
-- `skills-global/04-script-video-global/SKILL.md`
+- `skills/en/00-marketing-plan-global/SKILL.md`
+- `skills/en/01-content-calendar-global/SKILL.md`
+- `skills/en/02-campaign-brief-global/SKILL.md`
+- `skills/en/04-script-video-global/SKILL.md`
 
 - [ ] **Step 2.1**: Dispatch agent: translate VN skills 00, 01, 02, 04 to International English with global examples
 - [ ] **Step 2.2**: Verify ≤500 lines each
@@ -108,10 +108,10 @@ Universal English skills, no variants.
 ## Task 3: Universal marketing skills batch 2 (1 agent, 4 files)
 
 **Files:**
-- `skills-global/05-ad-copy-global/SKILL.md` (with Dropshipping Mode section)
-- `skills-global/06-ugc-egc-brief-global/SKILL.md`
-- `skills-global/07-marketing-report-global/SKILL.md`
-- `skills-global/08-competitor-research-global/SKILL.md`
+- `skills/en/05-ad-copy-global/SKILL.md` (with Dropshipping Mode section)
+- `skills/en/06-ugc-egc-brief-global/SKILL.md`
+- `skills/en/07-marketing-report-global/SKILL.md`
+- `skills/en/08-competitor-research-global/SKILL.md`
 
 - [ ] **Step 3.1**: Dispatch agent — note skill 05 has +60 line Dropshipping Mode section
 - [ ] **Step 3.2**: Verify ≤500 lines
@@ -122,10 +122,10 @@ Universal English skills, no variants.
 ## Task 4: Universal marketing skills batch 3 (1 agent, 4 files)
 
 **Files:**
-- `skills-global/09-customer-insight-global/SKILL.md`
-- `skills-global/12-landing-page-brief-global/SKILL.md` (with Dropshipping Mode section)
-- `skills-global/13-data-analysis-global/SKILL.md`
-- `skills-global/15-social-listening-global/SKILL.md`
+- `skills/en/09-customer-insight-global/SKILL.md`
+- `skills/en/12-landing-page-brief-global/SKILL.md` (with Dropshipping Mode section)
+- `skills/en/13-data-analysis-global/SKILL.md`
+- `skills/en/15-social-listening-global/SKILL.md`
 
 - [ ] **Step 4.1**: Dispatch agent — skill 12 has +50 line dropshipping LP template
 - [ ] **Step 4.2**: Verify ≤500 lines
@@ -136,9 +136,9 @@ Universal English skills, no variants.
 ## Task 5: Universal marketing skills batch 4 (1 agent, 3 files)
 
 **Files:**
-- `skills-global/16-marketing-psychology-global/SKILL.md`
-- `skills-global/19-ab-test-setup-global/SKILL.md`
-- `skills-global/20-client-intake-brief-global/SKILL.md` (no industry variants for v2.5)
+- `skills/en/16-marketing-psychology-global/SKILL.md`
+- `skills/en/19-ab-test-setup-global/SKILL.md`
+- `skills/en/20-client-intake-brief-global/SKILL.md` (no industry variants for v2.5)
 
 - [ ] **Step 5.1**: Dispatch agent
 - [ ] **Step 5.2**: Verify ≤500 lines
@@ -192,7 +192,7 @@ Universal English skills, no variants.
 ## Task 9: Skill 29 dropshipping-mastery FLAGSHIP (1 agent, 1 file)
 
 **Files:**
-- `skills-global/29-dropshipping-mastery-global/SKILL.md` (~500 lines)
+- `modules/dropshipping/en/29-dropshipping-mastery-global/SKILL.md` (~500 lines)
 
 - [ ] **Step 9.1**: Dispatch agent — 12-section deep dive (newbie, product research, supplier sourcing, Shopify setup, ad pipeline, targeting, pricing math, customer service, scaling, pitfalls, compliance)
 - [ ] **Step 9.2**: Verify ≤500 lines
@@ -203,10 +203,10 @@ Universal English skills, no variants.
 ## Task 10: References — batch 1 (1 agent, 4 files)
 
 **Files:**
-- `skills-global/references/global-platforms-comparison.md` (~280 lines)
-- `skills-global/references/global-legal-compliance.md` (~320 lines)
-- `skills-global/references/global-currency-pricing.md` (~240 lines)
-- `skills-global/references/dropshipping-tools-global.md` (~280 lines)
+- `skills/en/references/global-platforms-comparison.md` (~280 lines)
+- `skills/en/references/global-legal-compliance.md` (~320 lines)
+- `skills/en/references/global-currency-pricing.md` (~240 lines)
+- `skills/en/references/dropshipping-tools-global.md` (~280 lines)
 
 - [ ] **Step 10.1**: Dispatch agent
 - [ ] **Step 10.2**: Verify each ≤500 lines
@@ -217,11 +217,11 @@ Universal English skills, no variants.
 ## Task 11: Workflows — batch 1 (1 agent, 5 files)
 
 **Files:**
-- `workflows-global/client-onboard-global.md` (~400 lines)
-- `workflows-global/campaign-launch-global.md` (~400 lines)
-- `workflows-global/monthly-cycle-global.md` (~400 lines)
-- `workflows-global/content-production-global.md` (~400 lines)
-- `workflows-global/dropshipping-launch-global.md` (~420 lines)
+- `workflows/en/client-onboard-global.md` (~400 lines)
+- `workflows/en/campaign-launch-global.md` (~400 lines)
+- `workflows/en/monthly-cycle-global.md` (~400 lines)
+- `workflows/en/content-production-global.md` (~400 lines)
+- `modules/dropshipping/workflows/en/dropshipping-launch-global.md` (~420 lines)
 
 - [ ] **Step 11.1**: Dispatch agent — 8-section newbie-friendly format mỗi workflow
 - [ ] **Step 11.2**: Verify ≤500 lines each
@@ -258,9 +258,9 @@ Universal English skills, no variants.
 ## Task 14: Personal Brand foundation skill 22 (1 agent, 6 files)
 
 **Files:**
-- `skills-global/22-personal-brand-context-global/SKILL.md`
-- `skills-global/22-personal-brand-context-global/README.md`
-- `skills-global/22-personal-brand-context-global/variants/{01-us,02-eu,03-sea,04-latam}.md`
+- `modules/personal-branding/en/22-personal-brand-context-global/SKILL.md`
+- `modules/personal-branding/en/22-personal-brand-context-global/README.md`
+- `modules/personal-branding/en/22-personal-brand-context-global/variants/{01-us,02-eu,03-sea,04-latam}.md`
 
 **Note:** 4 region variants, mỗi variant cover 3 audience inside (founder/coach/creator). Khác VN structure.
 
@@ -273,10 +273,10 @@ Universal English skills, no variants.
 ## Task 15: Universal personal brand skills (1 agent, 4 files)
 
 **Files:**
-- `skills-global/23-personal-brand-strategy-global/SKILL.md`
-- `skills-global/25-voice-clone-podcast-global/SKILL.md`
-- `skills-global/26-thought-leadership-content-global/SKILL.md`
-- `skills-global/28-community-building-global/SKILL.md`
+- `modules/personal-branding/en/23-personal-brand-strategy-global/SKILL.md`
+- `modules/personal-branding/en/25-voice-clone-podcast-global/SKILL.md`
+- `modules/personal-branding/en/26-thought-leadership-content-global/SKILL.md`
+- `modules/personal-branding/en/28-community-building-global/SKILL.md`
 
 - [ ] **Step 15.1**: Dispatch agent — translate VN skills 23, 25, 26, 28 to global
 - [ ] **Step 15.2**: Verify ≤500 lines
@@ -299,9 +299,9 @@ Universal English skills, no variants.
 ## Task 17: Personal Brand references (1 agent, 3 files)
 
 **Files:**
-- `skills-global/references/ai-video-disclosure-global.md` (~280 lines)
-- `skills-global/references/voice-clone-prompts-global.md` (~220 lines)
-- `skills-global/references/hook-formulas-global.md` (~300 lines)
+- `skills/en/references/ai-video-disclosure-global.md` (~280 lines)
+- `skills/en/references/voice-clone-prompts-global.md` (~220 lines)
+- `skills/en/references/hook-formulas-global.md` (~300 lines)
 
 - [ ] **Step 17.1**: Dispatch agent
 - [ ] **Step 17.2**: Verify each ≤500 lines
@@ -312,9 +312,9 @@ Universal English skills, no variants.
 ## Task 18: Personal Brand workflows (1 agent, 3 files)
 
 **Files:**
-- `workflows-global/personal-brand-launch-global.md` (~400 lines)
-- `workflows-global/ai-avatar-batch-global.md` (~400 lines)
-- `workflows-global/personal-brand-monthly-global.md` (~400 lines)
+- `modules/personal-branding/workflows/en/personal-brand-launch-global.md` (~400 lines)
+- `modules/personal-branding/workflows/en/ai-avatar-batch-global.md` (~400 lines)
+- `modules/personal-branding/workflows/en/personal-brand-monthly-global.md` (~400 lines)
 
 - [ ] **Step 18.1**: Dispatch agent — 8-section newbie-friendly each
 - [ ] **Step 18.2**: Verify ≤500 lines
@@ -354,7 +354,7 @@ Universal English skills, no variants.
 
 Add "Cluster Auto-Detect Mode" section to each:
 - Logic: read `.agents/*-context.md` files
-- Map: VN context → skills/, Global context → skills-global/
+- Map: VN context → skills/, Global context → skills/en/
 - Both context files exist → ASK 1 question
 - Skills mapping per cluster
 
@@ -522,8 +522,8 @@ Add checks:
 - Skill `name:` field: `XX-name-global` matches folder
 - Foundation file: `.agents/product-marketing-context-global.md` (parallel VN)
 - Personal Brand foundation: `.agents/personal-brand-context-global.md`
-- Workflow naming: `*-global.md` in `workflows-global/`
-- References naming: in `skills-global/references/`
+- Workflow naming: `*-global.md` in `workflows/en/`
+- References naming: in `skills/en/references/`
 - Branches: `phase-1-core-global`, `phase-2-personal-brand-global`, `phase-3-polish-release`
 
 ✅ All names consistent.

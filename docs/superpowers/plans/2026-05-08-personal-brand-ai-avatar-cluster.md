@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Mở rộng `fullstack-mkt-skills` từ v2.3.0 (22 skills marketing thương hiệu doanh nghiệp) lên v2.4.0 với cụm 7 skills mới về Personal Branding + AI Avatar, phục vụ Founder/Coach/Creator. Zero breaking changes.
+**Goal:** Mở rộng `ai-business-skills` từ v2.3.0 (22 skills marketing thương hiệu doanh nghiệp) lên v2.4.0 với cụm 7 skills mới về Personal Branding + AI Avatar, phục vụ Founder/Coach/Creator. Zero breaking changes.
 
 **Architecture:** Cluster mới (skills 22–28) chạy SONG SONG với 22 skills cũ. Foundation skill 22 với 3 variants (founder/coach/creator) tạo file `.agents/personal-brand-context.md` — các skills 23–28 đọc file này. Skills 04, 05 cũ được mở rộng "Personal Brand Mode" auto-kích hoạt khi đọc thấy context personal brand. Workflows + agent + references mới hoàn thiện end-to-end pipeline.
 
@@ -27,23 +27,23 @@
 
 | # | Path | Type | Dòng | Phase |
 |---|------|------|------|-------|
-| 1 | `skills/22-personal-brand-context/SKILL.md` | Skill entry | ~250 | 1 |
-| 2 | `skills/22-personal-brand-context/README.md` | Variant guide | ~100 | 1 |
-| 3 | `skills/22-personal-brand-context/variants/01-founder.md` | Variant template | ~200 | 1 |
-| 4 | `skills/22-personal-brand-context/variants/02-coach.md` | Variant template | ~200 | 1 |
-| 5 | `skills/22-personal-brand-context/variants/03-creator.md` | Variant template | ~200 | 1 |
-| 6 | `skills/23-personal-brand-strategy/SKILL.md` | Skill | ~450 | 1 |
-| 7 | `skills/24-ai-avatar-production/SKILL.md` | Skill | ~530 | 1 |
+| 1 | `modules/personal-branding/vi/22-personal-brand-context/SKILL.md` | Skill entry | ~250 | 1 |
+| 2 | `modules/personal-branding/vi/22-personal-brand-context/README.md` | Variant guide | ~100 | 1 |
+| 3 | `modules/personal-branding/vi/22-personal-brand-context/variants/01-founder.md` | Variant template | ~200 | 1 |
+| 4 | `modules/personal-branding/vi/22-personal-brand-context/variants/02-coach.md` | Variant template | ~200 | 1 |
+| 5 | `modules/personal-branding/vi/22-personal-brand-context/variants/03-creator.md` | Variant template | ~200 | 1 |
+| 6 | `modules/personal-branding/vi/23-personal-brand-strategy/SKILL.md` | Skill | ~450 | 1 |
+| 7 | `modules/personal-branding/vi/24-ai-avatar-production/SKILL.md` | Skill | ~530 | 1 |
 | 8 | `skills/references/ai-avatar-tools-vn.md` | Reference | ~280 | 1 |
 | 9 | `skills/references/voice-clone-prompts-vn.md` | Reference | ~220 | 1 |
 | 10 | `skills/references/ai-video-disclosure-vn.md` | Reference | ~200 | 1 |
-| 11 | `workflows/personal-brand-launch.md` | Workflow newbie | ~380 | 1 |
-| 12 | `skills/25-voice-clone-podcast/SKILL.md` | Skill | ~400 | 2 |
-| 13 | `skills/26-thought-leadership-content/SKILL.md` | Skill | ~450 | 2 |
-| 14 | `workflows/ai-avatar-batch.md` | Workflow newbie | ~360 | 2 |
-| 15 | `skills/27-personal-brand-monetize/SKILL.md` | Skill | ~430 | 3 |
-| 16 | `skills/28-community-building/SKILL.md` | Skill | ~390 | 3 |
-| 17 | `workflows/personal-brand-monthly.md` | Workflow newbie | ~350 | 3 |
+| 11 | `modules/personal-branding/workflows/vi/personal-brand-launch.md` | Workflow newbie | ~380 | 1 |
+| 12 | `modules/personal-branding/vi/25-voice-clone-podcast/SKILL.md` | Skill | ~400 | 2 |
+| 13 | `modules/personal-branding/vi/26-thought-leadership-content/SKILL.md` | Skill | ~450 | 2 |
+| 14 | `modules/personal-branding/workflows/vi/ai-avatar-batch.md` | Workflow newbie | ~360 | 2 |
+| 15 | `modules/personal-branding/vi/27-personal-brand-monetize/SKILL.md` | Skill | ~430 | 3 |
+| 16 | `modules/personal-branding/vi/28-community-building/SKILL.md` | Skill | ~390 | 3 |
+| 17 | `modules/personal-branding/workflows/vi/personal-brand-monthly.md` | Workflow newbie | ~350 | 3 |
 | 18 | `agents/personal-brand-builder.md` | Agent persona | ~80 | 3 |
 | 19 | `docs/personal-brand-guide.md` | Cẩm nang 8 chương | ~600 | 3 |
 | 20 | `docs/getting-started-personal-brand.md` | 5-phút quickstart | ~200 | 3 |
@@ -117,13 +117,13 @@ Expected: file exists.
 ## Task 1: Skill 22 — `personal-brand-context` SKILL.md
 
 **Files:**
-- Create: `skills/22-personal-brand-context/SKILL.md`
+- Create: `modules/personal-branding/vi/22-personal-brand-context/SKILL.md`
 
 - [ ] **Step 1.1: Tạo folder + file rỗng**
 
 ```bash
-mkdir -p skills/22-personal-brand-context/variants
-touch skills/22-personal-brand-context/SKILL.md
+mkdir -p modules/personal-branding/vi/22-personal-brand-context/variants
+touch modules/personal-branding/vi/22-personal-brand-context/SKILL.md
 ```
 
 - [ ] **Step 1.2: Write frontmatter + structure**
@@ -208,18 +208,18 @@ Luu vao `.agents/personal-brand-context.md`. Format theo template variant da cho
 
 - [ ] **Step 1.3: Validate frontmatter**
 
-Run: `bash validate-skills.sh skills/22-personal-brand-context/`
+Run: `bash validate-skills.sh modules/personal-branding/vi/22-personal-brand-context/`
 Expected: PASS frontmatter check, name match folder, description has triggers.
 
 - [ ] **Step 1.4: Check line count**
 
-Run: `wc -l skills/22-personal-brand-context/SKILL.md`
+Run: `wc -l modules/personal-branding/vi/22-personal-brand-context/SKILL.md`
 Expected: ≤500, target ~250.
 
 - [ ] **Step 1.5: Commit**
 
 ```bash
-git add skills/22-personal-brand-context/SKILL.md
+git add modules/personal-branding/vi/22-personal-brand-context/SKILL.md
 git commit -m "feat(skill-22): add personal-brand-context foundation skill (entrypoint with newbie section)"
 ```
 
@@ -228,7 +228,7 @@ git commit -m "feat(skill-22): add personal-brand-context foundation skill (entr
 ## Task 2: Skill 22 — README.md (variant guide)
 
 **Files:**
-- Create: `skills/22-personal-brand-context/README.md`
+- Create: `modules/personal-branding/vi/22-personal-brand-context/README.md`
 
 - [ ] **Step 2.1: Write README content**
 
@@ -269,13 +269,13 @@ Variant la **template** — moi 6 thang review/cap nhat 1 lan, hoac khi:
 
 - [ ] **Step 2.2: Validate**
 
-Run: `wc -l skills/22-personal-brand-context/README.md`
+Run: `wc -l modules/personal-branding/vi/22-personal-brand-context/README.md`
 Expected: ~100.
 
 - [ ] **Step 2.3: Commit**
 
 ```bash
-git add skills/22-personal-brand-context/README.md
+git add modules/personal-branding/vi/22-personal-brand-context/README.md
 git commit -m "docs(skill-22): add variant guide README"
 ```
 
@@ -284,7 +284,7 @@ git commit -m "docs(skill-22): add variant guide README"
 ## Task 3: Skill 22 — Variant `01-founder.md`
 
 **Files:**
-- Create: `skills/22-personal-brand-context/variants/01-founder.md`
+- Create: `modules/personal-branding/vi/22-personal-brand-context/variants/01-founder.md`
 
 - [ ] **Step 3.1: Write founder template (12 sections + founder-specific)**
 
@@ -305,13 +305,13 @@ Template gồm 12 sections chuẩn (theo spec Section 3, Skill 22) + sections ri
 
 - [ ] **Step 3.2: Validate**
 
-Run: `wc -l skills/22-personal-brand-context/variants/01-founder.md`
+Run: `wc -l modules/personal-branding/vi/22-personal-brand-context/variants/01-founder.md`
 Expected: ~200.
 
 - [ ] **Step 3.3: Commit**
 
 ```bash
-git add skills/22-personal-brand-context/variants/01-founder.md
+git add modules/personal-branding/vi/22-personal-brand-context/variants/01-founder.md
 git commit -m "feat(skill-22): add founder variant template"
 ```
 
@@ -320,7 +320,7 @@ git commit -m "feat(skill-22): add founder variant template"
 ## Task 4: Skill 22 — Variant `02-coach.md`
 
 **Files:**
-- Create: `skills/22-personal-brand-context/variants/02-coach.md`
+- Create: `modules/personal-branding/vi/22-personal-brand-context/variants/02-coach.md`
 
 - [ ] **Step 4.1: Write coach template**
 
@@ -334,7 +334,7 @@ Template 12 sections + coach-specific:
 - [ ] **Step 4.2: Validate + Commit**
 
 ```bash
-git add skills/22-personal-brand-context/variants/02-coach.md
+git add modules/personal-branding/vi/22-personal-brand-context/variants/02-coach.md
 git commit -m "feat(skill-22): add coach variant template"
 ```
 
@@ -343,7 +343,7 @@ git commit -m "feat(skill-22): add coach variant template"
 ## Task 5: Skill 22 — Variant `03-creator.md`
 
 **Files:**
-- Create: `skills/22-personal-brand-context/variants/03-creator.md`
+- Create: `modules/personal-branding/vi/22-personal-brand-context/variants/03-creator.md`
 
 - [ ] **Step 5.1: Write creator template**
 
@@ -357,7 +357,7 @@ Template 12 sections + creator-specific:
 - [ ] **Step 5.2: Validate + Commit**
 
 ```bash
-git add skills/22-personal-brand-context/variants/03-creator.md
+git add modules/personal-branding/vi/22-personal-brand-context/variants/03-creator.md
 git commit -m "feat(skill-22): add creator variant template"
 ```
 
@@ -366,7 +366,7 @@ git commit -m "feat(skill-22): add creator variant template"
 ## Task 6: Skill 23 — `personal-brand-strategy` SKILL.md
 
 **Files:**
-- Create: `skills/23-personal-brand-strategy/SKILL.md`
+- Create: `modules/personal-branding/vi/23-personal-brand-strategy/SKILL.md`
 
 - [ ] **Step 6.1: Write SKILL.md theo spec Section 3.2**
 
@@ -410,13 +410,13 @@ Plus "Cho nguoi moi" section (50 dong) ở đầu skill.
 
 - [ ] **Step 6.2: Validate**
 
-Run: `bash validate-skills.sh skills/23-personal-brand-strategy/ && wc -l skills/23-personal-brand-strategy/SKILL.md`
+Run: `bash validate-skills.sh modules/personal-branding/vi/23-personal-brand-strategy/ && wc -l modules/personal-branding/vi/23-personal-brand-strategy/SKILL.md`
 Expected: PASS, ~450 dòng.
 
 - [ ] **Step 6.3: Commit**
 
 ```bash
-git add skills/23-personal-brand-strategy/
+git add modules/personal-branding/vi/23-personal-brand-strategy/
 git commit -m "feat(skill-23): add personal-brand-strategy skill (8 sections + newbie)"
 ```
 
@@ -425,7 +425,7 @@ git commit -m "feat(skill-23): add personal-brand-strategy skill (8 sections + n
 ## Task 7: Skill 24 — `ai-avatar-production` SKILL.md (FLAGSHIP)
 
 **Files:**
-- Create: `skills/24-ai-avatar-production/SKILL.md`
+- Create: `modules/personal-branding/vi/24-ai-avatar-production/SKILL.md`
 
 - [ ] **Step 7.1: Write frontmatter + 12 sections theo spec Section 3.3**
 
@@ -473,18 +473,18 @@ related:
 
 - [ ] **Step 7.2: Check line count — nếu vượt 500, chuyển workflow 2 (translate) sang reference**
 
-Run: `wc -l skills/24-ai-avatar-production/SKILL.md`
+Run: `wc -l modules/personal-branding/vi/24-ai-avatar-production/SKILL.md`
 Expected: ≤500. Nếu vượt → chuyển section "Workflow 2: Translate" thành note "Xem `references/ai-avatar-tools-vn.md` chương Translate Workflow".
 
 - [ ] **Step 7.3: Validate frontmatter**
 
-Run: `bash validate-skills.sh skills/24-ai-avatar-production/`
+Run: `bash validate-skills.sh modules/personal-branding/vi/24-ai-avatar-production/`
 Expected: PASS.
 
 - [ ] **Step 7.4: Commit**
 
 ```bash
-git add skills/24-ai-avatar-production/
+git add modules/personal-branding/vi/24-ai-avatar-production/
 git commit -m "feat(skill-24): add ai-avatar-production deep dive skill (12 sections, 3 tier, 4 workflows)"
 ```
 
@@ -583,7 +583,7 @@ git commit -m "feat(refs): add ai-video-disclosure-vn reference (Nghi dinh 147/2
 ## Task 11: Workflow 1 — `personal-brand-launch.md` (NEWBIE-FRIENDLY 380 dòng)
 
 **Files:**
-- Create: `workflows/personal-brand-launch.md`
+- Create: `modules/personal-branding/workflows/vi/personal-brand-launch.md`
 
 - [ ] **Step 11.1: Write 8 sections theo template chuẩn newbie-friendly**
 
@@ -607,13 +607,13 @@ YouTube placeholder ví dụ:
 
 - [ ] **Step 11.2: Validate**
 
-Run: `wc -l workflows/personal-brand-launch.md`
+Run: `wc -l modules/personal-branding/workflows/vi/personal-brand-launch.md`
 Expected: ~380.
 
 - [ ] **Step 11.3: Commit**
 
 ```bash
-git add workflows/personal-brand-launch.md
+git add modules/personal-branding/workflows/vi/personal-brand-launch.md
 git commit -m "feat(workflow): add personal-brand-launch workflow (newbie-friendly 8 sections)"
 ```
 
@@ -633,14 +633,14 @@ Expected: All 25 skills (22 cũ + 3 mới: 22, 23, 24) pass.
 
 Run:
 ```bash
-wc -l skills/22-personal-brand-context/SKILL.md \
-      skills/22-personal-brand-context/variants/*.md \
-      skills/23-personal-brand-strategy/SKILL.md \
-      skills/24-ai-avatar-production/SKILL.md \
+wc -l modules/personal-branding/vi/22-personal-brand-context/SKILL.md \
+      modules/personal-branding/vi/22-personal-brand-context/variants/*.md \
+      modules/personal-branding/vi/23-personal-brand-strategy/SKILL.md \
+      modules/personal-branding/vi/24-ai-avatar-production/SKILL.md \
       skills/references/ai-avatar-tools-vn.md \
       skills/references/voice-clone-prompts-vn.md \
       skills/references/ai-video-disclosure-vn.md \
-      workflows/personal-brand-launch.md
+      modules/personal-branding/workflows/vi/personal-brand-launch.md
 ```
 Expected: Không file nào > 500 dòng.
 
@@ -718,7 +718,7 @@ git checkout -b phase-2-content-production
 ## Task 14: Skill 25 — `voice-clone-podcast` SKILL.md
 
 **Files:**
-- Create: `skills/25-voice-clone-podcast/SKILL.md`
+- Create: `modules/personal-branding/vi/25-voice-clone-podcast/SKILL.md`
 
 - [ ] **Step 14.1: Write SKILL.md theo spec Section 3.4 (8 sections + newbie)**
 
@@ -760,7 +760,7 @@ related:
 - [ ] **Step 14.2: Validate + Commit**
 
 ```bash
-git add skills/25-voice-clone-podcast/
+git add modules/personal-branding/vi/25-voice-clone-podcast/
 git commit -m "feat(skill-25): add voice-clone-podcast skill (audio AI, 3 use cases)"
 ```
 
@@ -769,7 +769,7 @@ git commit -m "feat(skill-25): add voice-clone-podcast skill (audio AI, 3 use ca
 ## Task 15: Skill 26 — `thought-leadership-content` SKILL.md
 
 **Files:**
-- Create: `skills/26-thought-leadership-content/SKILL.md`
+- Create: `modules/personal-branding/vi/26-thought-leadership-content/SKILL.md`
 
 - [ ] **Step 15.1: Write SKILL.md theo spec Section 3.5**
 
@@ -810,7 +810,7 @@ related:
 - [ ] **Step 15.2: Validate + Commit**
 
 ```bash
-git add skills/26-thought-leadership-content/
+git add modules/personal-branding/vi/26-thought-leadership-content/
 git commit -m "feat(skill-26): add thought-leadership-content skill (long-form text, 6 hooks)"
 ```
 
@@ -936,7 +936,7 @@ git commit -m "feat(skill-05): add Personal Brand Mode (v2.2.0 → 2.3.0)"
 ## Task 18: Workflow 2 — `ai-avatar-batch.md`
 
 **Files:**
-- Create: `workflows/ai-avatar-batch.md`
+- Create: `modules/personal-branding/workflows/vi/ai-avatar-batch.md`
 
 - [ ] **Step 18.1: Write 8 sections newbie-friendly (~360 dòng)**
 
@@ -953,7 +953,7 @@ Sections (theo template chuẩn workflow):
 - [ ] **Step 18.2: Validate + Commit**
 
 ```bash
-git add workflows/ai-avatar-batch.md
+git add modules/personal-branding/workflows/vi/ai-avatar-batch.md
 git commit -m "feat(workflow): add ai-avatar-batch workflow (newbie-friendly, 30 video/5 days)"
 ```
 
@@ -1040,7 +1040,7 @@ git checkout -b phase-3-monetize-community
 ## Task 22: Skill 27 — `personal-brand-monetize` SKILL.md
 
 **Files:**
-- Create: `skills/27-personal-brand-monetize/SKILL.md`
+- Create: `modules/personal-branding/vi/27-personal-brand-monetize/SKILL.md`
 
 - [ ] **Step 22.1: Write theo spec Section 3.6**
 
@@ -1082,7 +1082,7 @@ related:
 - [ ] **Step 22.2: Validate + Commit**
 
 ```bash
-git add skills/27-personal-brand-monetize/
+git add modules/personal-branding/vi/27-personal-brand-monetize/
 git commit -m "feat(skill-27): add personal-brand-monetize skill (3 funnel versions + pricing + tax VN)"
 ```
 
@@ -1091,7 +1091,7 @@ git commit -m "feat(skill-27): add personal-brand-monetize skill (3 funnel versi
 ## Task 23: Skill 28 — `community-building` SKILL.md
 
 **Files:**
-- Create: `skills/28-community-building/SKILL.md`
+- Create: `modules/personal-branding/vi/28-community-building/SKILL.md`
 
 - [ ] **Step 23.1: Write theo spec Section 3.7**
 
@@ -1110,7 +1110,7 @@ Frontmatter (đầy đủ triggers từ spec).
 - [ ] **Step 23.2: Commit**
 
 ```bash
-git add skills/28-community-building/
+git add modules/personal-branding/vi/28-community-building/
 git commit -m "feat(skill-28): add community-building skill (Zalo/Telegram/Skool blueprint)"
 ```
 
@@ -1119,7 +1119,7 @@ git commit -m "feat(skill-28): add community-building skill (Zalo/Telegram/Skool
 ## Task 24: Workflow 3 — `personal-brand-monthly.md`
 
 **Files:**
-- Create: `workflows/personal-brand-monthly.md`
+- Create: `modules/personal-branding/workflows/vi/personal-brand-monthly.md`
 
 - [ ] **Step 24.1: Write 8 sections newbie-friendly (~350 dòng)**
 
@@ -1129,7 +1129,7 @@ Theo template chuẩn:
 - [ ] **Step 24.2: Validate + Commit**
 
 ```bash
-git add workflows/personal-brand-monthly.md
+git add modules/personal-branding/workflows/vi/personal-brand-monthly.md
 git commit -m "feat(workflow): add personal-brand-monthly workflow (review + adjust)"
 ```
 
@@ -1396,13 +1396,13 @@ git commit -m "docs(claude-md, agents-md): register 7 new skills + personal-bran
   "plugins": [{
     "skills": [
       ...(existing 22 paths),
-      "./skills/22-personal-brand-context",
-      "./skills/23-personal-brand-strategy",
-      "./skills/24-ai-avatar-production",
-      "./skills/25-voice-clone-podcast",
-      "./skills/26-thought-leadership-content",
-      "./skills/27-personal-brand-monetize",
-      "./skills/28-community-building"
+      "./modules/personal-branding/vi/22-personal-brand-context",
+      "./modules/personal-branding/vi/23-personal-brand-strategy",
+      "./modules/personal-branding/vi/24-ai-avatar-production",
+      "./modules/personal-branding/vi/25-voice-clone-podcast",
+      "./modules/personal-branding/vi/26-thought-leadership-content",
+      "./modules/personal-branding/vi/27-personal-brand-monetize",
+      "./modules/personal-branding/vi/28-community-building"
     ]
   }]
 }
@@ -1521,8 +1521,8 @@ Expected: All 29 skills pass.
 - [ ] **Step 35.2: Gate 2 — Line count check**
 
 ```bash
-wc -l skills/22-personal-brand-context/SKILL.md \
-       skills/22-personal-brand-context/variants/*.md \
+wc -l modules/personal-branding/vi/22-personal-brand-context/SKILL.md \
+       modules/personal-branding/vi/22-personal-brand-context/variants/*.md \
        skills/2[3-8]-*/SKILL.md \
        skills/references/{ai-avatar-tools,voice-clone-prompts,ai-video-disclosure}-vn.md \
        workflows/{personal-brand-launch,ai-avatar-batch,personal-brand-monthly}.md \
@@ -1584,7 +1584,7 @@ Expected: Đủ output, không error, không skill bị thiếu input.
 
 Manual test trên Claude Code fresh:
 ```bash
-/plugin install minhnv0807/fullstack-mkt-skills
+/plugin install minhnv0807/ai-business-skills
 /plugin list
 ```
 
@@ -1694,9 +1694,9 @@ Expected: tag v2.4.0 visible, last 10 commits clean.
 - [ ] **Step 37.2: Upload YouTube + update placeholder links**
 
 Update các file:
-- `workflows/personal-brand-launch.md` (line ~370)
-- `workflows/ai-avatar-batch.md` (line ~350)
-- `workflows/personal-brand-monthly.md` (line ~340)
+- `modules/personal-branding/workflows/vi/personal-brand-launch.md` (line ~370)
+- `modules/personal-branding/workflows/vi/ai-avatar-batch.md` (line ~350)
+- `modules/personal-branding/workflows/vi/personal-brand-monthly.md` (line ~340)
 - `docs/getting-started-personal-brand.md`
 - `docs/release-notes/v2.4.0.md`
 

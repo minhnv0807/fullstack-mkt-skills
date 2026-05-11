@@ -74,7 +74,7 @@ nghien-cuu-doi-thu-[ten]-[YYYYMMDD].md
 
 ## Cluster Auto-Detect Mode (v2.5.0+)
 
-This agent supports BOTH the VN cluster (`skills/`) and the Global cluster (`skills-global/`). It auto-detects which to use based on context files:
+This agent supports BOTH the VN cluster (`skills/`) and the Global cluster (`skills/en/`). It auto-detects which to use based on context files:
 
 ### Detection logic
 
@@ -83,7 +83,7 @@ Check `.agents/` directory:
 ├── product-marketing-context.md ONLY → MODE VN
 │   └── Use skills/[skill-id]/ paths
 ├── product-marketing-context-global.md ONLY → MODE GLOBAL
-│   └── Use skills-global/[skill-id]-global/ paths
+│   └── Use skills/en/[skill-id]-global/ paths
 ├── BOTH files exist → ASK 1 question
 │   └── "Are you working on Vietnamese market or Global market?"
 └── NEITHER file exists → SUGGEST creating one
@@ -92,7 +92,7 @@ Check `.agents/` directory:
 
 ### Cluster-specific skill mapping
 
-| Task | VN cluster (skills/) | Global cluster (skills-global/) |
+| Task | VN cluster (skills/) | Global cluster (skills/en/) |
 |------|----------------------|---------------------------------|
 | Marketing plan | 00-ke-hoach-mkt | 00-marketing-plan-global |
 | Campaign brief | 02-brief-chien-dich | 02-campaign-brief-global |
@@ -105,12 +105,12 @@ Check `.agents/` directory:
 
 **Example 1: VN context only**
 - User: "Plan marketing for my spa business"
-- Agent: reads `.agents/product-marketing-context.md` → MODE VN → uses skills/00-ke-hoach-mkt/
+- Agent: reads `.agents/product-marketing-context.md` → MODE VN → uses skills/vi/00-ke-hoach-mkt/
 - Output: VND benchmarks, Zalo platform, VN regulations
 
 **Example 2: Global context only**
 - User: "Plan marketing for my US SaaS"
-- Agent: reads `.agents/product-marketing-context-global.md` → MODE GLOBAL → uses skills-global/00-marketing-plan-global/
+- Agent: reads `.agents/product-marketing-context-global.md` → MODE GLOBAL → uses skills/en/00-marketing-plan-global/
 - Output: USD benchmarks, LinkedIn-heavy, FTC compliance
 
 **Example 3: Both contexts**

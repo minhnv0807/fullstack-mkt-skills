@@ -77,7 +77,7 @@ community-plan-[ten]-[YYYYMMDD].md (skill 28)
 
 ## Cluster Auto-Detect Mode (v2.5.0+)
 
-This agent supports BOTH the VN cluster (`skills/`) and the Global cluster (`skills-global/`). It auto-detects which to use based on context files:
+This agent supports BOTH the VN cluster (`skills/`) and the Global cluster (`skills/en/`). It auto-detects which to use based on context files:
 
 ### Detection logic (personal brand variant)
 
@@ -86,7 +86,7 @@ Check `.agents/` directory:
 ├── personal-brand-context.md ONLY → MODE VN PB
 │   └── Use skills/[skill-id]/ paths
 ├── personal-brand-context-global.md ONLY → MODE GLOBAL PB
-│   └── Use skills-global/[skill-id]-global/ paths
+│   └── Use skills/en/[skill-id]-global/ paths
 ├── BOTH files exist → ASK 1 question
 │   └── "Are you building a Vietnamese personal brand or a Global personal brand?"
 └── NEITHER file exists → SUGGEST creating one
@@ -95,7 +95,7 @@ Check `.agents/` directory:
 
 ### Cluster-specific skill mapping
 
-| Task | VN cluster (skills/) | Global cluster (skills-global/) |
+| Task | VN cluster (skills/) | Global cluster (skills/en/) |
 |------|----------------------|---------------------------------|
 | Personal brand context | 22-personal-brand-context | 22-personal-brand-context-global |
 | Personal brand strategy | 23-personal-brand-strategy | 23-personal-brand-strategy-global |
@@ -109,12 +109,12 @@ Check `.agents/` directory:
 
 **Example 1: VN PB context only**
 - User: "Help me build my personal brand as a coach"
-- Agent: reads `.agents/personal-brand-context.md` → MODE VN PB → uses skills/23-personal-brand-strategy/
+- Agent: reads `.agents/personal-brand-context.md` → MODE VN PB → uses modules/personal-branding/vi/23-personal-brand-strategy/
 - Output: VN platforms (TikTok/Facebook/Zalo), Nghi dinh 147/2024 disclosure, VN cultural tone
 
 **Example 2: Global PB context only**
 - User: "Help me build my personal brand as a US founder"
-- Agent: reads `.agents/personal-brand-context-global.md` → MODE GLOBAL PB → uses skills-global/23-personal-brand-strategy-global/
+- Agent: reads `.agents/personal-brand-context-global.md` → MODE GLOBAL PB → uses modules/personal-branding/en/23-personal-brand-strategy-global/
 - Output: LinkedIn/X/YouTube focus, FTC AI disclosure, English thought leadership
 
 **Example 3: Both contexts**

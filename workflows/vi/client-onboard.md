@@ -115,7 +115,7 @@ Ngay 1          Ngay 2          Ngay 2-3        Ngay 3-4        Ngay 4-5        
 | Phong kham | `03-healthcare-clinic.md` |
 | Gym / Yoga | `04-fitness-gym-yoga.md` |
 | Giao duc | `05-education-center.md` |
-| ... (20 nganh) | Xem `skills/20-brief-client-intake/README.md` |
+| ... (20 nganh) | Xem `skills/vi/20-brief-client-intake/README.md` |
 
 **Output:** Brief 11 phan (A-K) day du thong tin khach hang
 **Tieu chi chuyen buoc:** Khach hang da tra loi tat ca 11 phan, Agency da review

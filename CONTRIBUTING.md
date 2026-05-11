@@ -1,185 +1,92 @@
-# Contributing
+# Contributing to AI Business Skills
 
-Cam on vi muon dong gop! Day la huong dan chi tiet.
+Thank you for your interest. We welcome contributions across:
 
----
+- 🌏 **Translations** — especially English (Global Edition), then ES/FR/JA/KO/ZH
+- 📊 **Regional benchmarks** — any country/market with verified data sources
+- 🛒 **Dropshipping skills** — for the upcoming Dropshipping module (Q2 2026)
+- 🚀 **Personal branding skills** — for the upcoming Personal Branding module (Q3 2026)
+- 🐛 **Bug fixes** — typos, broken links, outdated information
+- 💡 **New skills** — must fill a clear gap and follow the v2.0 frontmatter standard
 
-## Cach dong gop
-
-### 1. Bao loi / De xuat
-
-- [Open an issue](https://github.com/minhnv0807/fullstack-mkt-skills/issues/new/choose)
-- Mo ta ro: Van de gi? Skill nao? Cai dat sao?
-- Dinh kem screenshot / vi du neu co the
-
-### 2. Cai tien skill hien co
+## Quick Start
 
 ```bash
-# Fork repo → clone → tao branch
-git checkout -b fix/ten-skill-van-de
+# 1. Fork the repo on GitHub
 
-# Sua SKILL.md
-# Chay validator
-./validate-skills.sh
+# 2. Clone your fork
+git clone https://github.com/YOUR-USERNAME/ai-business-skills.git
+cd ai-business-skills
 
-# Commit theo Conventional Commits
-git commit -m "fix(skill-name): fix benchmark number for beauty industry"
+# 3. Create a branch
+git checkout -b feature/your-skill-name
 
-# Push va tao PR
+# 4. Use the template
+cp skills/en/_TEMPLATE.md skills/en/your-skill-name.md
+# Edit the new file following the v2.0 standard
+
+# 5. Test in Claude Code or any AI tool
+# Make sure the skill activates on its triggers and produces structured output
+
+# 6. Commit
+git add skills/en/your-skill-name.md
+git commit -m "feat(skills): add your-skill-name (Global Edition)"
+
+# 7. Push and open a Pull Request
+git push origin feature/your-skill-name
 ```
 
-### 3. Them skill moi
+## Skill Quality Standards
 
-Skill moi phai co:
-- **Foundation read:** Doc `product-marketing-context` truoc tien
-- **Frontmatter day du:** name, description (trigger phrases!), metadata.version, category, related
-- **4 cau thu thap thong tin** (toi da)
-- **Core framework** voi bang bieu
-- **Output template** co cau truc
-- **Cross-references** den skill lien quan
-- **Quality checklist**
-- **Duoi 500 dong** (chi tiet day qua `references/`)
+Every new skill must include:
 
----
+- ✅ Frontmatter following v2.0 standard (see `skills/en/_TEMPLATE.md`)
+- ✅ Clear `triggers:` list (3–7 trigger phrases matching user intent)
+- ✅ Information-gathering protocol (max 4 questions)
+- ✅ Structured output template (tables, not pure prose)
+- ✅ Cross-references to related skills
+- ✅ Quality checklist (built-in self-review)
+- ✅ At least 1 example output (in `examples/` or inline)
 
-## Quy tac viet skill
+## Translation Guidelines
 
-### Frontmatter template
+When translating Vietnam Edition → Global Edition:
 
-```yaml
----
-name: ten-skill
-description: "Khi nguoi dung ... [trigger phrases cu the]. Cung dung khi nguoi dung nhac 'A', 'B', 'C'. Skill nay ... [lam gi + ket qua]."
-metadata:
-  version: 1.0.0
-  category: strategy | content | performance | operations | foundation
-license: MIT
-related:
-  - skill-1
-  - skill-2
----
-```
+### Translate literally
+- ✅ Frameworks (5 Whys, JTBD, RACI, persona templates, funnel stages)
+- ✅ Methodology (question protocol, output structure, quality checklist)
+- ✅ Cross-reference logic
 
-**description quan trong:**
-- 1-1024 ky tu
-- Chua trigger phrases cu the (de AI nhan dien khi nao kich hoat)
-- Mo ta dau ra (lam gi, ket qua gi)
-- Tham chieu skill lien quan neu co
+### Adapt, don't translate
+- 🔄 **Currency** — VND → USD with regional context (not just exchange rate; rebase to local purchasing power)
+- 🔄 **Benchmarks** — Pull from `references/benchmarks-global.md` instead of literal VN numbers
+- 🔄 **Channels** — Zalo OA → Email/SMS; Shopee VN → Shopify/Amazon; TikTok Shop VN → TikTok Shop US/UK
+- 🔄 **Examples** — Spa VN → DTC skincare US; F&B VN → DTC food brand US/UK
+- 🔄 **Compliance** — VN advertising law → FTC, GDPR, CCPA references
+- 🔄 **Cultural context** — VN buying behavior (COD-heavy, Zalo trust) → US/EU (credit card, review-driven)
 
-### Cau truc noi dung
+## Benchmark Contributions
 
-```markdown
-# Ten Skill
+If you add regional benchmarks (e.g., for a country not yet covered):
 
-## Thu thap thong tin
+1. **Cite at least 2 independent sources** with publication dates
+2. **Use medians, not averages** (unless explicitly noted otherwise)
+3. **Specify date ranges** (e.g., "Q4 2025 data")
+4. **Format consistently** with existing `references/benchmarks-*.md` files
+5. **Include both "poor/average/good/excellent" bands** where applicable
 
-### Buoc 0: Kiem tra context
-Doc `.agents/product-marketing-context.md` neu co.
+## Pull Request Process
 
-### Buoc 1: Hoi user (toi da 4 cau)
-1. ...
-
-## Nguyen tac cot loi
-[Framework / Quy tac quan trong]
-
-## Cau truc ket qua
-[Template output voi bang bieu]
-
-## Cross-references
-[Skill lien quan va khi nao goi]
-
-## Checklist chat luong
-- [ ] ...
-```
-
-### Ngon ngu
-
-- **Mac dinh: Tieng Viet** (khong dau hoac co dau deu duoc)
-- **Thuat ngu chuyen mon:** Giu tieng Anh (ROAS, CPMess, UGC, TOFU/MOFU/BOFU)
-- **Ngan gon, active voice**
-- **Khong emoji** (tru khi user yeu cau)
-- **So lieu: VN 2025-2026** — co trich dan `references/benchmarks-vietnam.md`
-
----
-
-## Conventional Commits
-
-```
-<type>(<scope>): <description>
-
-[body]
-```
-
-**Types:**
-- `feat` — Them skill moi hoac tinh nang moi
-- `fix` — Sua loi
-- `docs` — Cap nhat documentation
-- `refactor` — Restructure ma khong thay doi behavior
-- `chore` — Cap nhat tool, config
-- `test` — Them/sua test
-
-**Vi du:**
-```
-feat(skill): add pricing-strategy skill
-fix(03-danh-gia): correct CPMess TikTok benchmark
-docs: update README install instructions
-refactor: move references into per-skill folders
-```
-
----
-
-## Branch naming
-
-- `feature/ten-skill-moi` — skill moi
-- `fix/ten-skill-van-de` — sua loi
-- `docs/phan-cap-nhat` — cap nhat doc
-- `refactor/phan-restructure` — restructure
-
----
-
-## PR Checklist
-
-- [ ] Branch tu `master` moi nhat
-- [ ] Chay `./validate-skills.sh` → khong co error
-- [ ] Frontmatter du: name, description (trigger), version
-- [ ] SKILL.md duoi 500 dong
-- [ ] Co cross-reference den skill lien quan (neu applicable)
-- [ ] Cap nhat `VERSIONS.md` voi version moi + ngay
-- [ ] Cap nhat `.claude-plugin/marketplace.json` neu them skill moi
-- [ ] Commit message theo Conventional Commits
-- [ ] Mo ta PR day du: thay doi gi, ly do, anh huong
-
----
-
-## Code review
-
-PR se duoc review trong 3-5 ngay lam viec. Tieu chi:
-
-1. **Tuan thu spec** — frontmatter, dung dinh dang
-2. **Chat luong noi dung** — insight that, so lieu co nguon
-3. **Vietnam-first** — benchmark VN, tranh copy paste nguoi nuoc ngoai
-4. **Foundation integration** — co doc `product-marketing-context` truoc
-5. **Cross-reference** — skill noi voi skill khac co hop ly
-
----
-
-## Khong dong gop
-
-- Skill "copy y chang tieng Anh" — khong gia tri cho thi truong VN
-- Skill spam quang cao san pham/dich vu cua ban
-- Noi dung vi pham thuan phong my tuc / quy dinh phap luat VN
-- So lieu khong co nguon / bia dat
-
----
+1. Update your branch with latest `master`
+2. Ensure your PR description explains: what, why, testing done
+3. Tag with relevant labels (`translation`, `new-skill`, `bug`, etc.)
+4. We review within 1 week
+5. Merged PRs get credit in `CONTRIBUTORS.md` and changelog
 
 ## Code of Conduct
 
-Ton trong, xay dung, giup do. Khong ton cong, phan biet, thieu chuyen nghiep.
+Be kind. Be specific. Be useful. Disagree on technical merit, never on identity.
 
-PR bi reject hoac issue bi close khong phai do tac gia — la do tieu chuan. Dung ngai hoi / thao luan.
+## Questions?
 
----
-
-## License
-
-Dong gop cua ban se tu dong theo MIT License cua repo.
+Open a [Discussion](https://github.com/minhnv0807/ai-business-skills/discussions) or reach out to [@minhnv0807](https://github.com/minhnv0807).

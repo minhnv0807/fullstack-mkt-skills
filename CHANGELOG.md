@@ -36,7 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - PB universal (4): skills 23, 25, 26, 28
   - PB variants (2): skills 24 (ai-avatar — disclosure law per region), 27 (monetize — tax/legal per region)
   - **Flagship**: `29-dropshipping-mastery-global` (12 sections, US/EU focus, 10 ads/week pipeline)
-- **7 new references** in `skills-global/references/`:
+- **7 new references** in `skills/en/references/`:
   - `global-platforms-comparison.md` — 10 platforms × 4 regions matrix
   - `global-legal-compliance.md` — GDPR/CCPA/CAN-SPAM/TCPA/PDPA/LGPD comprehensive
   - `global-currency-pricing.md` — currency psychology + VAT/GST/Sales tax
@@ -44,7 +44,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `ai-video-disclosure-global.md` — FTC/EU AI Act/regional disclosure
   - `voice-clone-prompts-global.md` — US/UK/AU/SEA accent samples
   - `hook-formulas-global.md` — 6 hook types × 5 English examples
-- **8 new workflows (newbie-friendly)** in `workflows-global/`:
+- **8 new workflows (newbie-friendly)** in `workflows/en/`:
   - Marketing: client-onboard, campaign-launch, monthly-cycle, content-production, dropshipping-launch
   - Personal Brand: personal-brand-launch, ai-avatar-batch, personal-brand-monthly
 - **5 new docs** in `docs/`:
@@ -163,7 +163,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **New docs:** `docs/workflow-guide.md` — unified workflow selection guide
 - **New docs:** `docs/update-guide.md` — maintenance and versioning guide
 - **New docs:** `docs/faq.md` — FAQ + troubleshooting (20+ Q&As)
-- **New workflow:** `workflows/client-onboard.md` — agency client onboarding (5-7 days, 7 skills)
+- **New workflow:** `workflows/vi/client-onboard.md` — agency client onboarding (5-7 days, 7 skills)
 - UML sequence diagrams added to all 4 workflow files
 - MCP Ads Integration section added to `CLAUDE.md`
 
@@ -184,7 +184,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - **Foundation skill:** `product-marketing-context` — all skills read `.agents/product-marketing-context.md` first. Saves ~70% time per conversation.
-- **Plugin manifest:** `.claude-plugin/marketplace.json` — install via `/plugin install minhnv0807/fullstack-mkt-skills`
+- **Plugin manifest:** `.claude-plugin/marketplace.json` — install via `/plugin install minhnv0807/ai-business-skills`
 - `AGENTS.md` — universal agent compatibility spec
 - `VERSIONS.md` — per-skill version tracking
 - `validate-skills.sh` + `validate-skills.ps1` — spec validators
@@ -240,12 +240,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Minor (1.X.0):** New skill added, new major feature
 - **Patch (1.0.X):** Bug fixes, benchmark updates, syntax corrections
 
-[Unreleased]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.5.0...HEAD
-[2.5.0]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.4.0...v2.5.0
-[2.4.0]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.3.0...v2.4.0
-[2.3.0]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.2.0...v2.3.0
-[2.2.0]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.1.0...v2.2.0
-[2.1.0]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v2.0.0...v2.1.0
-[2.0.0]: https://github.com/minhnv0807/fullstack-mkt-skills/releases/tag/v2.0.0
-[1.1.0]: https://github.com/minhnv0807/fullstack-mkt-skills/compare/v1.0.0...v1.1.0
-[1.0.0]: https://github.com/minhnv0807/fullstack-mkt-skills/releases/tag/v1.0.0
+[Unreleased]: https://github.com/minhnv0807/ai-business-skills/compare/v2.5.0...HEAD
+[2.5.0]: https://github.com/minhnv0807/ai-business-skills/compare/v2.4.0...v2.5.0
+[2.4.0]: https://github.com/minhnv0807/ai-business-skills/compare/v2.3.0...v2.4.0
+[2.3.0]: https://github.com/minhnv0807/ai-business-skills/compare/v2.2.0...v2.3.0
+[2.2.0]: https://github.com/minhnv0807/ai-business-skills/compare/v2.1.0...v2.2.0
+[2.1.0]: https://github.com/minhnv0807/ai-business-skills/compare/v2.0.0...v2.1.0
+[2.0.0]: https://github.com/minhnv0807/ai-business-skills/releases/tag/v2.0.0
+[1.1.0]: https://github.com/minhnv0807/ai-business-skills/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/minhnv0807/ai-business-skills/releases/tag/v1.0.0

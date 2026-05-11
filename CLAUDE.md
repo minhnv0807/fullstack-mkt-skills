@@ -51,7 +51,7 @@ Workflow = chuoi skill chay lien tuc:
 
 ### Global Workflows (v2.5.0)
 
-Workflows phuc vu cluster Global (skills-global/):
+Workflows phuc vu cluster Global (skills/en/):
 - `client-onboard-global` = 20 → 09 → 08 → 10 → 00 → 02 → 01 (all global)
 - `campaign-launch-global` = 08 → 09 → 00 → 02 → 01 + 04 + 05 → 06 → 11 + 12 (all global)
 - `monthly-cycle-global` = 13 → 03 → 07 → 10 → 01 (all global)
@@ -122,7 +122,7 @@ Khong can config thu cong — auto-detect.
 
 5 agents (mkt-strategist, content-producer, performance-analyst, channel-operator, personal-brand-builder) tu dong detect cluster (VN vs Global) dua tren `.agents/` context files:
 - `product-marketing-context.md` only → MODE VN (skills/)
-- `product-marketing-context-global.md` only → MODE GLOBAL (skills-global/)
+- `product-marketing-context-global.md` only → MODE GLOBAL (skills/en/)
 - Both → ASK 1 question
 - None → SUGGEST creating context
 

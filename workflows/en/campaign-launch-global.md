@@ -343,9 +343,9 @@ Should we scale, hold, kill, or pivot? Justify with the 3 strongest signals.
 
 ### Reference docs
 
-- `skills-global/references/` — global benchmarks, MCP integration
-- `skills-global/02-campaign-brief-global/SKILL.md` — full brief template
-- `skills-global/11-channel-setup-global/SKILL.md` — pixel + UTM conventions
+- `skills/en/references/` — global benchmarks, MCP integration
+- `skills/en/02-campaign-brief-global/SKILL.md` — full brief template
+- `skills/en/11-channel-setup-global/SKILL.md` — pixel + UTM conventions
 
 ### YouTube tutorial
 

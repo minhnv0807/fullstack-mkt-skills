@@ -264,7 +264,7 @@ Don't edit `skills/*/SKILL.md` unless you know what you're doing. Fork instead:
 vim skills/05-copy-quang-cao/SKILL.md
 
 # Right: fork and customize
-gh repo fork minhnv0807/fullstack-mkt-skills
+gh repo fork minhnv0807/ai-business-skills
 ```
 
 ### 4. Ignoring benchmarks
@@ -284,7 +284,7 @@ Context written 6 months ago = misaligned with current reality. Update quarterly
 Fork → add skill for your specific industry:
 
 ```
-skills/20-niche-skill/SKILL.md
+skills/vi/20-niche-skill/SKILL.md
 ```
 
 Example niches: real estate (BDS), crypto, B2B SaaS VN, food delivery, online courses.
@@ -343,4 +343,4 @@ Workflow combines skill + shell + CRM export.
 - [Getting Started](getting-started.md) — new user onboarding
 - [CONTRIBUTING.md](../CONTRIBUTING.md) — how to contribute
 - [Agent Skills Spec](https://agentskills.io) — official spec
-- [GitHub Discussions](https://github.com/minhnv0807/fullstack-mkt-skills/discussions) — community Q&A
+- [GitHub Discussions](https://github.com/minhnv0807/ai-business-skills/discussions) — community Q&A

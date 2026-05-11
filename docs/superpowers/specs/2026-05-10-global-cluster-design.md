@@ -9,7 +9,7 @@
 
 ## Executive Summary
 
-Mở rộng `fullstack-mkt-skills` từ v2.4.0 (29 skills VN market) lên v2.5.0 với cụm **30 skills global** song song (`skills-global/`). Phục vụ 4 regions (US/EU/SEA/LATAM), với dropshipping flagship cho US market. Zero breaking changes — VN cluster (`skills/`) giữ nguyên.
+Mở rộng `ai-business-skills` từ v2.4.0 (29 skills VN market) lên v2.5.0 với cụm **30 skills global** song song (`skills/en/`). Phục vụ 4 regions (US/EU/SEA/LATAM), với dropshipping flagship cho US market. Zero breaking changes — VN cluster (`skills/`) giữ nguyên.
 
 **Scope:** ~107 files, ~28,800 lines, ~13 ngày (parallel execution).
 
@@ -37,14 +37,14 @@ Mở rộng `fullstack-mkt-skills` từ v2.4.0 (29 skills VN market) lên v2.5.0
 ### Cấu trúc tổng thể
 
 ```
-fullstack-mkt-skills/
+ai-business-skills/
 ├── skills/                                   # VN cluster (UNCHANGED — 29 skills + foundation)
 │   ├── product-marketing-context/
 │   ├── 00-21 marketing skills/
 │   ├── 22-28 personal brand skills/
 │   └── references/
 │
-├── skills-global/                            # NEW Global cluster (30 skills + foundation)
+├── skills/en/                            # NEW Global cluster (30 skills + foundation)
 │   ├── product-marketing-context-global/     # Foundation (HAS 4 region variants)
 │   │   ├── SKILL.md
 │   │   ├── README.md
@@ -92,7 +92,7 @@ fullstack-mkt-skills/
 │       ├── hook-formulas-global.md
 │       └── dropshipping-tools-global.md
 │
-├── workflows-global/                         # NEW (8 workflows)
+├── workflows/en/                         # NEW (8 workflows)
 │   ├── client-onboard-global.md
 │   ├── campaign-launch-global.md
 │   ├── monthly-cycle-global.md
@@ -147,7 +147,7 @@ fullstack-mkt-skills/
 #### Foundation: `product-marketing-context-global`
 
 ```
-skills-global/product-marketing-context-global/
+skills/en/product-marketing-context-global/
 ├── SKILL.md              # ~150 lines (router + decision tree)
 ├── README.md             # ~80 lines (region variant guide)
 └── variants/
@@ -376,7 +376,7 @@ Sections:
 ```
 Agent reads `.agents/`:
 ├── product-marketing-context.md only → MODE VN (skills/ cluster)
-├── product-marketing-context-global.md only → MODE GLOBAL (skills-global/ cluster)
+├── product-marketing-context-global.md only → MODE GLOBAL (skills/en/ cluster)
 ├── Both → ASK 1 question: "VN or Global?"
 └── None → SUGGEST creating context first
 

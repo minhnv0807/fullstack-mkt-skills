@@ -84,7 +84,7 @@ kpi-thang-[M]-[YYYYMMDD].md
 
 ## Cluster Auto-Detect Mode (v2.5.0+)
 
-This agent supports BOTH the VN cluster (`skills/`) and the Global cluster (`skills-global/`). It auto-detects which to use based on context files:
+This agent supports BOTH the VN cluster (`skills/`) and the Global cluster (`skills/en/`). It auto-detects which to use based on context files:
 
 ### Detection logic
 
@@ -93,7 +93,7 @@ Check `.agents/` directory:
 ├── product-marketing-context.md ONLY → MODE VN
 │   └── Use skills/[skill-id]/ paths
 ├── product-marketing-context-global.md ONLY → MODE GLOBAL
-│   └── Use skills-global/[skill-id]-global/ paths
+│   └── Use skills/en/[skill-id]-global/ paths
 ├── BOTH files exist → ASK 1 question
 │   └── "Are you working on Vietnamese market or Global market?"
 └── NEITHER file exists → SUGGEST creating one
@@ -102,7 +102,7 @@ Check `.agents/` directory:
 
 ### Cluster-specific skill mapping
 
-| Task | VN cluster (skills/) | Global cluster (skills-global/) |
+| Task | VN cluster (skills/) | Global cluster (skills/en/) |
 |------|----------------------|---------------------------------|
 | Performance eval | 03-danh-gia-hieu-suat | 03-performance-eval-global |
 | Marketing report | 07-bao-cao-marketing | 07-marketing-report-global |
@@ -116,12 +116,12 @@ Check `.agents/` directory:
 
 **Example 1: VN context only**
 - User: "CPMess of my Meta ads is too high"
-- Agent: reads `.agents/product-marketing-context.md` → MODE VN → uses skills/03-danh-gia-hieu-suat/
+- Agent: reads `.agents/product-marketing-context.md` → MODE VN → uses skills/vi/03-danh-gia-hieu-suat/
 - Output: VND benchmarks, Vietnamese audience targeting tips
 
 **Example 2: Global context only**
 - User: "ROAS dropped from 4x to 2x last week"
-- Agent: reads `.agents/product-marketing-context-global.md` → MODE GLOBAL → uses skills-global/03-performance-eval-global/
+- Agent: reads `.agents/product-marketing-context-global.md` → MODE GLOBAL → uses skills/en/03-performance-eval-global/
 - Output: USD benchmarks, Global platform diagnostics (Meta/Google/TikTok US)
 
 **Example 3: Both contexts**

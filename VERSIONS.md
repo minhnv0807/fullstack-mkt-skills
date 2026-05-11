@@ -214,7 +214,7 @@
 - `docs/faq.md` — FAQ + troubleshooting
 
 **New workflow:**
-- `workflows/client-onboard.md` — Agency client onboarding (5-7 days, 7 skills)
+- `workflows/vi/client-onboard.md` — Agency client onboarding (5-7 days, 7 skills)
 
 **Workflow updates:**
 - All 4 workflow files now include UML sequence diagrams
@@ -252,7 +252,7 @@
 
 **Plugin compat:**
 - Repo is now an official Claude Code Plugin Marketplace
-- Install via: `/plugin install minhnv0807/fullstack-mkt-skills`
+- Install via: `/plugin install minhnv0807/ai-business-skills`
 
 ### 2026-04-23 — v1.1.0
 
@@ -280,7 +280,7 @@
 
 ```bash
 # Check if local is outdated
-curl -s https://raw.githubusercontent.com/minhnv0807/fullstack-mkt-skills/master/VERSIONS.md | head -30
+curl -s https://raw.githubusercontent.com/minhnv0807/ai-business-skills/master/VERSIONS.md | head -30
 
 # Update all skills
 cd ~/.claude/skills/marketing && git pull

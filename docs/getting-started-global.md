@@ -8,8 +8,8 @@
 ## Step 1: Install the plugin (1 minute)
 
 ```bash
-/plugin marketplace add minhnv0807/fullstack-mkt-skills
-/plugin install fullstack-mkt-skills
+/plugin marketplace add minhnv0807/ai-business-skills
+/plugin install ai-business-skills
 ```
 
 Expected terminal output:
@@ -18,7 +18,7 @@ Expected terminal output:
 Loading marketplace...
 Found 60+ skills (Vietnam + Global), 5 agents, 8 global workflows
 Installing v2.5.0...
-[OK] Installed: fullstack-mkt-skills@2.5.0
+[OK] Installed: ai-business-skills@2.5.0
 [OK] 30 global skills loaded (00-29 + product-marketing-context-global)
 [OK] 8 global workflows registered (incl. dropshipping-launch)
 [OK] 5 agents now universal (auto-detect VN vs Global context)
@@ -184,7 +184,7 @@ Reads from skill `29-dropshipping-mastery-global` — covers product research, s
 
 ### 1. Skill does not trigger after install
 
-- Check: did the plugin install? `/plugin list` should show `fullstack-mkt-skills`.
+- Check: did the plugin install? `/plugin list` should show `ai-business-skills`.
 - Restart Claude Code: quit and re-open.
 - Try the explicit form: `/skill product-marketing-context-global`.
 
@@ -192,7 +192,7 @@ Reads from skill `29-dropshipping-mastery-global` — covers product research, s
 
 The Global foundation skill is designed for 4 questions minimum.
 
-- If it asks 8+ questions, you are probably on an older snapshot. Run `/plugin update fullstack-mkt-skills`.
+- If it asks 8+ questions, you are probably on an older snapshot. Run `/plugin update ai-business-skills`.
 - If it still asks too many, type "skip optional" — the skill will draft from defaults.
 
 ### 3. `.agents/product-marketing-context-global.md` not created
@@ -221,7 +221,7 @@ The Global foundation skill is designed for 4 questions minimum.
 - **APAC roadmap:** `docs/apac-roadmap.md` (Japan, Korea, Australia in v2.6.0+)
 - **v2.5.0 release notes:** `docs/release-notes/v2.5.0.md`
 - **Vietnam cluster (parallel):** `docs/getting-started.md`, `docs/personal-brand-guide.md`
-- **Workflows folder:** `workflows-global/` — 8 workflows including dropshipping-launch, campaign-launch, monthly-cycle
+- **Workflows folder:** `workflows/en/` — 8 workflows including dropshipping-launch, campaign-launch, monthly-cycle
 
 ---
 
@@ -232,10 +232,10 @@ The Global foundation skill is designed for 4 questions minimum.
 | Today | Run `product-marketing-context-global` -> get region-tagged context file | `product-marketing-context-global` |
 | Tomorrow | Run `00-marketing-plan-global` -> get 90-day plan | `00-marketing-plan-global` |
 | This week | Read region decision guide and dropshipping handbook | `docs/global-region-guide.md`, `docs/dropshipping-guide.md` |
-| Next 2 weeks | Pick a workflow (campaign-launch, dropshipping-launch, or content-production) | `workflows-global/` |
+| Next 2 weeks | Pick a workflow (campaign-launch, dropshipping-launch, or content-production) | `workflows/en/` |
 | Next month | Add personal-brand-global cluster (skills 22-28) if relevant | `22-personal-brand-context-global` |
-| Next quarter | Run monthly-cycle workflow + KPI reverse calc + audit | `workflows-global/monthly-cycle-global.md` |
+| Next quarter | Run monthly-cycle workflow + KPI reverse calc + audit | `workflows/en/monthly-cycle-global.md` |
 
 ---
 
-Questions or feedback? Open an issue: [github.com/minhnv0807/fullstack-mkt-skills/issues](https://github.com/minhnv0807/fullstack-mkt-skills/issues)
+Questions or feedback? Open an issue: [github.com/minhnv0807/ai-business-skills/issues](https://github.com/minhnv0807/ai-business-skills/issues)

@@ -364,10 +364,10 @@ Where does attention drop? What 2 edits would tighten it?
 
 ### Reference docs
 
-- `skills-global/01-content-calendar-global/SKILL.md` — calendar template
-- `skills-global/04-script-video-global/SKILL.md` — script structures
-- `skills-global/05-ad-copy-global/SKILL.md` — copy templates per funnel
-- `skills-global/06-ugc-egc-brief-global/SKILL.md` — creator briefing
+- `skills/en/01-content-calendar-global/SKILL.md` — calendar template
+- `skills/en/04-script-video-global/SKILL.md` — script structures
+- `skills/en/05-ad-copy-global/SKILL.md` — copy templates per funnel
+- `skills/en/06-ugc-egc-brief-global/SKILL.md` — creator briefing
 
 ### YouTube tutorial
 

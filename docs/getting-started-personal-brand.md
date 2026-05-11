@@ -8,8 +8,8 @@
 ## Buoc 1: Cai plugin (1 phut)
 
 ```bash
-/plugin marketplace add minhnv0807/fullstack-mkt-skills
-/plugin install fullstack-mkt-skills
+/plugin marketplace add minhnv0807/ai-business-skills
+/plugin install ai-business-skills
 ```
 
 Output mong doi trong terminal:
@@ -18,7 +18,7 @@ Output mong doi trong terminal:
 Loading marketplace...
 Found 29 skills, 5 agents, 7 workflows
 Installing v2.4.0...
-[OK] Installed: fullstack-mkt-skills@2.4.0
+[OK] Installed: ai-business-skills@2.4.0
 [OK] 7 personal-brand skills loaded (22-28)
 [OK] 4 newbie workflows registered
 Restart Claude Code to activate.
@@ -152,7 +152,7 @@ Phu hop neu ban da co chien luoc roi, chi can helper viet noi dung.
 
 ### C. Theo workflow newbie 30 ngay
 
-Doc `workflows/personal-brand-launch.md` — chuoi day du tu setup den launch.
+Doc `modules/personal-branding/workflows/vi/personal-brand-launch.md` — chuoi day du tu setup den launch.
 
 ---
 
@@ -162,7 +162,7 @@ Doc `workflows/personal-brand-launch.md` — chuoi day du tu setup den launch.
 
 1. **Skill khong trigger**
    - Kiem tra: ban da cai plugin chua?
-   - Try: `/plugin list` xem co `fullstack-mkt-skills` khong
+   - Try: `/plugin list` xem co `ai-business-skills` khong
    - Restart Claude Code: thoat va mo lai
 
 2. **Skill hoi qua nhieu cau**
@@ -188,7 +188,7 @@ Doc `workflows/personal-brand-launch.md` — chuoi day du tu setup den launch.
 ## Resources
 
 - **Cam nang day du:** `docs/personal-brand-guide.md` (8 chuong, ~600 dong)
-- **Workflow 30 ngay:** `workflows/personal-brand-launch.md`
+- **Workflow 30 ngay:** `modules/personal-branding/workflows/vi/personal-brand-launch.md`
 - **AI Avatar tools VN:** `references/ai-avatar-tools-vn.md`
 - **Voice clone samples:** `references/voice-clone-prompts-vn.md`
 - **Disclosure compliance:** `references/ai-video-disclosure-vn.md`
@@ -205,10 +205,10 @@ Goi y lo trinh hoc:
 | Hom nay | Chay skill 22 -> co context file | 22-personal-brand-context |
 | Mai | Chay skill 23 -> co strategy 12 thang | 23-personal-brand-strategy |
 | Tuan toi | Doc cam nang day du | docs/personal-brand-guide.md |
-| 2 tuan toi | Dung workflow 30 ngay | workflows/personal-brand-launch.md |
+| 2 tuan toi | Dung workflow 30 ngay | modules/personal-branding/workflows/vi/personal-brand-launch.md |
 | Thang sau | Setup AI Avatar + Voice Clone | 24-ai-avatar-production, 25-voice-clone-podcast |
 | Quy sau | Monetize + Community | 27-personal-brand-monetize, 28-community-building |
 
 ---
 
-Cau hoi them? Mo issue tren GitHub: [github.com/minhnv0807/fullstack-mkt-skills/issues](https://github.com/minhnv0807/fullstack-mkt-skills/issues)
+Cau hoi them? Mo issue tren GitHub: [github.com/minhnv0807/ai-business-skills/issues](https://github.com/minhnv0807/ai-business-skills/issues)

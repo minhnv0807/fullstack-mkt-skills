@@ -1,0 +1,72 @@
+# AI Business Skills
+
+> Production-ready AI Skills for solopreneurs and SMBs — a modular toolkit of Markdown-based prompts that transforms Claude, ChatGPT, Gemini, or Copilot into a specialized business assistant for Marketing, Dropshipping, and Personal Branding. Built on Vietnamese market data (2025–2026), expanding to global markets through 2026. MIT licensed. Maintained by OPA — Over Powers Agency, Vietnam.
+
+## Core Documentation
+
+- [README](https://github.com/minhnv0807/ai-business-skills/blob/master/README.md): Project overview, modules, quick start, FAQ, comparison tables
+- [Contributing Guide](https://github.com/minhnv0807/ai-business-skills/blob/master/CONTRIBUTING.md): How to add skills, translations, benchmarks
+- [Citation Metadata](https://github.com/minhnv0807/ai-business-skills/blob/master/CITATION.cff): Machine-readable citation format
+- [License](https://github.com/minhnv0807/ai-business-skills/blob/master/LICENSE): MIT — free for commercial use
+
+## Skills — Vietnam Edition (16 Skills, Production)
+
+- [Marketing Plan (Master)](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/00-ke-hoach-mkt.md): Comprehensive 5-section marketing plan generator
+- [Content Calendar](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/01-lich-noi-dung.md): Monthly content calendar with repurposing matrix
+- [Campaign Brief](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/02-brief-chien-dich.md): 9-section creative brief with RACI matrix
+- [Ad Performance Diagnosis](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/03-danh-gia-hieu-suat.md): Ad diagnostic with 5 Whys root cause analysis
+- [Video Script](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/04-script-video.md): TikTok/Reels/Shorts scripts with A/B variants
+- [Ad Copy](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/05-copy-quang-cao.md): 6 ad copy variants across funnel stages
+- [UGC Brief](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/06-brief-ugc-egc.md): Creator/employee video brief with legal template
+- [Monthly Marketing Report](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/07-bao-cao-marketing.md): Insights-first monthly report
+- [Competitor Research](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/08-nghien-cuu-doi-thu.md): 3-tier competitor analysis with SWOT
+- [Customer Insight](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/09-insight-khach-hang.md): Persona + JTBD + customer journey
+- [Reverse KPI Math](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/10-tinh-kpi-nguoc.md): Reverse-calculate budget from revenue target
+- [Channel Setup](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/11-thiet-lap-kenh.md): 7-channel setup with 30-day launch plan
+- [Landing Page Brief](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/12-brief-landing-page.md): 7-section LP brief with conversion checklist
+- [Data Analysis](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/13-phan-tich-du-lieu.md): Meta/TikTok/GA4 data interpretation
+- [Email Marketing](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/14-email-marketing.md): Welcome/nurture/re-engage sequences
+- [Social Listening](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/vi/15-social-listening.md): Brand monitoring + sentiment + crisis protocol
+
+## Skills — Global Edition (In Translation, Q2–Q4 2026)
+
+- [Global Edition Status](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/en/README.md): Translation roadmap and contribution guide
+- [Skill Template v2.0](https://github.com/minhnv0807/ai-business-skills/blob/master/skills/en/_TEMPLATE.md): Frontmatter standard for new skills
+
+## Reference Data
+
+- [Vietnam Benchmarks 2025–2026](https://github.com/minhnv0807/ai-business-skills/blob/master/references/benchmarks-vietnam.md): CPM, ROAS, conversion rates for Vietnamese market
+- [Global Benchmarks 2026](https://github.com/minhnv0807/ai-business-skills/blob/master/references/benchmarks-global.md): US, EU, SEA benchmarks with cited sources
+- [Channel System](https://github.com/minhnv0807/ai-business-skills/blob/master/references/channel-system.md): Channel ecosystem overview
+- [Content Angles](https://github.com/minhnv0807/ai-business-skills/blob/master/references/content-angles.md): Funnel-stage content angles
+- [KPI Formulas](https://github.com/minhnv0807/ai-business-skills/blob/master/references/kpi-formulas.md): Marketing KPI calculation reference
+- [Tool Stack](https://github.com/minhnv0807/ai-business-skills/blob/master/references/tool-stack.md): Recommended tools by category
+
+## Modules (Beyond Marketing)
+
+- [Dropshipping Module](https://github.com/minhnv0807/ai-business-skills/blob/master/modules/dropshipping/README.md): AI skills for dropshipping (Q2 2026)
+- [Personal Branding Module](https://github.com/minhnv0807/ai-business-skills/blob/master/modules/personal-branding/README.md): AI skills for personal branding (Q3 2026)
+
+## AI Agents (Pre-Configured Roles)
+
+- [MKT Strategist](https://github.com/minhnv0807/ai-business-skills/blob/master/agents/mkt-strategist.md): Strategy, research, positioning
+- [Content Producer](https://github.com/minhnv0807/ai-business-skills/blob/master/agents/content-producer.md): Scripts, copy, content calendars
+- [Performance Analyst](https://github.com/minhnv0807/ai-business-skills/blob/master/agents/performance-analyst.md): Data analysis, reporting, KPI math
+- [Channel Operator](https://github.com/minhnv0807/ai-business-skills/blob/master/agents/channel-operator.md): Channel setup, landing pages, email
+
+## Workflows (Multi-Skill Sequences)
+
+- [Campaign Launch (14-21 days)](https://github.com/minhnv0807/ai-business-skills/blob/master/workflows/vi/campaign-launch.md): End-to-end campaign workflow
+- [Monthly Cycle (3-5 days)](https://github.com/minhnv0807/ai-business-skills/blob/master/workflows/vi/monthly-cycle.md): Recurring monthly marketing cycle
+- [Content Production (weekly)](https://github.com/minhnv0807/ai-business-skills/blob/master/workflows/vi/content-production.md): Weekly content production flow
+
+## Optional
+
+- [Example Outputs](https://github.com/minhnv0807/ai-business-skills/tree/master/examples): Sample outputs by industry (spa, ecommerce, etc.)
+- [Issue Tracker](https://github.com/minhnv0807/ai-business-skills/issues): Bug reports and feature requests
+- [Discussions](https://github.com/minhnv0807/ai-business-skills/discussions): Community Q&A
+
+## About the Maintainer
+
+- [OPA — Over Powers Agency](https://opa.business): Vietnamese marketing, technology, and AI consultancy
+- [Founder: Văn Minh](https://github.com/minhnv0807): Maintainer of this toolkit

@@ -430,8 +430,8 @@ Multi-region note: if community spans regions, segment top themes per region.
 ### Reference docs
 
 - `docs/getting-started-personal-brand-global.md` — 8-chapter newbie playbook
-- `skills-global/references/mcp-ads-integration.md` — MCP ads for auto data pull
-- `skills-global/references/hook-formulas-global.md` — Reuse for next month's content
+- `skills/en/references/mcp-ads-integration.md` — MCP ads for auto data pull
+- `skills/en/references/hook-formulas-global.md` — Reuse for next month's content
 
 ### YouTube tutorial
 

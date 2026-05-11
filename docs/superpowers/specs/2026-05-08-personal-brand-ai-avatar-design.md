@@ -11,7 +11,7 @@
 
 ## Executive Summary
 
-Mở rộng dự án `fullstack-mkt-skills` (đang ở v2.3.0 với 22 skills marketing thương hiệu doanh nghiệp) bằng cụm skill mới chuyên về **Personal Branding với AI Avatar**, phục vụ 3 nhóm đối tượng: Founder/CEO, Coach/Consultant, Creator/KOL.
+Mở rộng dự án `ai-business-skills` (đang ở v2.3.0 với 22 skills marketing thương hiệu doanh nghiệp) bằng cụm skill mới chuyên về **Personal Branding với AI Avatar**, phục vụ 3 nhóm đối tượng: Founder/CEO, Coach/Consultant, Creator/KOL.
 
 **Phạm vi:**
 - 7 skills mới (22–28) trong cluster `personal-brand`
@@ -104,7 +104,7 @@ v2.3.0 (hiện tại)              v2.4.0 (sau khi build)
 ### Cấu trúc folder sau khi build
 
 ```
-fullstack-mkt-skills/
+ai-business-skills/
 ├── skills/
 │   ├── product-marketing-context/         (giữ nguyên)
 │   ├── 00-ke-hoach-mkt/ ... 21-audit-ads-performance/  (giữ nguyên)
@@ -982,7 +982,7 @@ Thêm 1 dòng "Phan biet voi `personal-brand-builder`" vào:
 | Gate | Check | Pass criteria |
 |------|-------|---------------|
 | 1. Validate scripts | `./validate-skills.sh` | All 29 skills pass |
-| 2. Line count | `wc -l skills/22-28/*` | Không file > 500 dòng |
+| 2. Line count | `wc -l modules/personal-branding/vi/22-28/*` | Không file > 500 dòng |
 | 3. Frontmatter | All `name` match folder | 100% match |
 | 4. Cross-reference | All `related:` skills exist | 0 broken refs |
 | 5. README sync | README.md vs README.vi.md | 100% nội dung khớp |
@@ -1092,7 +1092,7 @@ Sau v2.4.0 release ~30–60 ngày, đánh giá:
 
 **v2.6.0 — i18n & EN version (~60 ngày sau v2.4)**
 - Translate 7 skills + 3 references sang tiếng Anh
-- Tách thành 2 plugin: `fullstack-mkt-skills` (VN) + `fullstack-mkt-skills-en` (EN)
+- Tách thành 2 plugin: `ai-business-skills` (VN) + `ai-business-skills-en` (EN)
 - Update marketplace.json để hỗ trợ multi-language
 
 **v2.7.0 — Tool upgrade (~90 ngày sau v2.4)**

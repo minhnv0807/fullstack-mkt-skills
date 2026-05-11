@@ -122,7 +122,7 @@ Ngay 1-2        Ngay 2-3        Ngay 3-5        Ngay 5-7        Ngay 7-12       
 └──────────┘   └──────────┘   └──────────┘   └──────────┘   └──────────┘   └──────────┘   └──────────┘
 ```
 
-> Chi tiet: xem `workflows/campaign-launch.md`
+> Chi tiet: xem `workflows/vi/campaign-launch.md`
 
 **Cach chay:**
 ```
@@ -157,7 +157,7 @@ Ngay 28          Ngay 29          Ngay 30          Ngay 1-2         Ngay 2-3
 └──────────┘   └──────────┘   └──────────┘   └──────────┘   └──────────┘
 ```
 
-> Chi tiet: xem `workflows/monthly-cycle.md`
+> Chi tiet: xem `workflows/vi/monthly-cycle.md`
 
 **Cach chay:**
 ```
@@ -192,7 +192,7 @@ Thu 2            Thu 3            Thu 4-5          Thu 6            Thu 7-CN
   AI + Owner     AI              Team            AI             Team
 ```
 
-> Chi tiet: xem `workflows/content-production.md`
+> Chi tiet: xem `workflows/vi/content-production.md`
 
 **Cach chay:**
 ```
@@ -238,7 +238,7 @@ Tuan 1 (Foundation)    Tuan 2 (Content)       Tuan 3 (Amplify)       Tuan 4 (Mon
 22 → 23 → 24 → 26  →  04(personal) → 25  →  Engage + 26 + 04  →  27 → 05(personal) → 28
 ```
 
-Chi tiet: `workflows/personal-brand-launch.md`
+Chi tiet: `modules/personal-branding/workflows/vi/personal-brand-launch.md`
 
 ### 6. AI Avatar Batch (5 ngay × 25 gio)
 
@@ -255,7 +255,7 @@ Day 1: 26 → 04   Day 2: ElevenLabs   Day 3-4: HeyGen render   Day 5: QA + sche
 Script batch     Voice batch          Avatar render             Distribution
 ```
 
-Chi tiet: `workflows/ai-avatar-batch.md`
+Chi tiet: `modules/personal-branding/workflows/vi/ai-avatar-batch.md`
 
 ### 7. Personal Brand Monthly (Phase 3 — coming soon)
 
@@ -286,7 +286,7 @@ Skills 04, 05 tu dong chuyen Mode khi doc context file:
 
 ## Global Workflows (v2.5.0)
 
-8 workflow moi cho thi truong quoc te (US/EU/SEA/LATAM). File goc trong `workflows-global/`.
+8 workflow moi cho thi truong quoc te (US/EU/SEA/LATAM). File goc trong `workflows/en/`.
 
 ### 8. Client Onboard Global (Agency quoc te)
 
@@ -296,7 +296,7 @@ Dung khi:  Agency nhan khach hang quoc te (B2B/B2C)
 Output:    Brief + Plan trong tieng Anh, USD/EUR pricing
 Skills:    20 → 09 → 08 → 10 → 00 → 02 → 01 (all global)
 ```
-Chi tiet: `workflows-global/client-onboard-global.md`
+Chi tiet: `workflows/en/client-onboard-global.md`
 
 ### 9. Campaign Launch Global (Launch quoc te)
 
@@ -306,7 +306,7 @@ Dung khi:  Launch SP/dich vu tren thi truong US/EU/SEA/LATAM
 Output:    10+ file .md tieng Anh, region-specific
 Skills:    08 → 09 → 00 → 02 → 01+04+05 → 06 → 11+12 (all global)
 ```
-Chi tiet: `workflows-global/campaign-launch-global.md`
+Chi tiet: `workflows/en/campaign-launch-global.md`
 
 ### 10. Monthly Cycle Global (Bao cao thang quoc te)
 
@@ -316,7 +316,7 @@ Dung khi:  Monthly review cho campaign quoc te
 Output:    Report + KPI + content calendar tieng Anh
 Skills:    13 → 03 → 07 → 10 → 01 (all global)
 ```
-Chi tiet: `workflows-global/monthly-cycle-global.md`
+Chi tiet: `workflows/en/monthly-cycle-global.md`
 
 ### 11. Content Production Global
 
@@ -326,7 +326,7 @@ Dung khi:  San xuat content tieng Anh hang tuan
 Output:    Script + Copy tieng Anh san sang dang
 Skills:    01 → 04 → 05 (global, Mode A/B auto-detect)
 ```
-Chi tiet: `workflows-global/content-production-global.md`
+Chi tiet: `workflows/en/content-production-global.md`
 
 ### 12. Personal Brand Launch Global (30 ngay)
 
@@ -336,7 +336,7 @@ Dung khi:  Founder/Coach/Creator launch PB quoc te tu 0
 Output:    Profile + 10+ posts + 500-1500 followers
 Skills:    22 → 23 → 26 → 24 → 27 (all global)
 ```
-Chi tiet: `workflows-global/personal-brand-launch-global.md`
+Chi tiet: `modules/personal-branding/workflows/en/personal-brand-launch-global.md`
 
 ### 13. AI Avatar Batch Global (30 videos / 5 ngay)
 
@@ -346,7 +346,7 @@ Dung khi:  Dump 30 AI Avatar videos tieng Anh
 Output:    30 videos + FTC/EU AI Act disclosure compliance
 Skills:    22 → 24 (×30) → 26 → 28 (all global)
 ```
-Chi tiet: `workflows-global/ai-avatar-batch-global.md`
+Chi tiet: `modules/personal-branding/workflows/en/ai-avatar-batch-global.md`
 
 ### 14. Personal Brand Monthly Global
 
@@ -356,7 +356,7 @@ Dung khi:  Monthly review + adjust PB quoc te
 Output:    Report + adjustments + next-month plan
 Skills:    27 → 28 → 14 → 18 (all global)
 ```
-Chi tiet: `workflows-global/personal-brand-monthly-global.md`
+Chi tiet: `modules/personal-branding/workflows/en/personal-brand-monthly-global.md`
 
 ### 15. Dropshipping Launch Global (FLAGSHIP)
 
@@ -368,7 +368,7 @@ Skill:     29-dropshipping-mastery-global (12 phases)
 ```
 **Phases:** Research → Sourcing → Shopify setup → Product page → Ad creative → Launch → Optimize → Scale → Retention → Reorder strategy → Brand build → Exit prep
 
-Chi tiet: `workflows-global/dropshipping-launch-global.md`
+Chi tiet: `modules/dropshipping/workflows/en/dropshipping-launch-global.md`
 
 ---
 
