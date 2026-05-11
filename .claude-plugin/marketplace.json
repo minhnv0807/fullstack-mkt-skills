@@ -5,7 +5,7 @@
     "url": "https://opa.business"
   },
   "metadata": {
-    "description": "Bo skill marketing toan dien cho AI agent — 60 skills (29 VN + 30 Global + 1 foundation per cluster). Chien luoc, noi dung, hieu suat, van hanh, personal brand, AI avatar, dropshipping. Thi truong Viet Nam 2025-2026 + Global (US/EU/SEA/LATAM).",
+    "description": "Bo skill marketing toan dien cho AI agent — 61 skills (30 VN + 30 Global + 1 foundation per cluster). Chien luoc, noi dung, hieu suat, van hanh, personal brand, AI avatar, dropshipping. Thi truong Viet Nam 2025-2026 + Global (US/EU/SEA/LATAM).",
     "version": "2.5.0",
     "repository": "https://github.com/minhnv0807/fullstack-mkt-skills"
   },
@@ -46,6 +46,7 @@
         "./skills/26-thought-leadership-content",
         "./skills/27-personal-brand-monetize",
         "./skills/28-community-building",
+        "./skills/29-xuat-khau-b2b",
         "./skills-global/product-marketing-context-global",
         "./skills-global/00-marketing-plan-global",
         "./skills-global/01-content-calendar-global",

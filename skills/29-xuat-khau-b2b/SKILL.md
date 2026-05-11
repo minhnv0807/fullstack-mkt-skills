@@ -23,6 +23,7 @@ related:
   - 08-nghien-cuu-doi-thu
   - 09-insight-khach-hang
   - 14-email-marketing
+  - references/export-benchmarks-vn
 ---
 
 # Xuat Khau B2B — Export Marketing Intelligence
