@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **Skill `29-xuat-khau-b2b`** — Export B2B Marketing for Vietnamese exporters (CN, EU, US, JP, KR markets). 5 modules: export context, company profile (EN), email templates 3-variant, trade show prep, price analysis. Contributed by [@ttran87](https://github.com/ttran87).
+- **Reference `references/export-benchmarks-vn.md`** — FOB price benchmarks Q1/2026, VN export market share, certifications by market (HACCP/BRC/FDA/Halal/GACC/ASC/GlobalGAP), payment terms risk guide, 2026 seafood trade show calendar, email outreach benchmarks.
 - Dynamic badges (stars, issues, last commit, contributors) in README
 - CHANGELOG.md following Keep a Changelog format
 - CODE_OF_CONDUCT.md (Contributor Covenant 2.1)
