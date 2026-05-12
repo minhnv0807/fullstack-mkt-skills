@@ -31,7 +31,7 @@
 > [Xem release notes →](docs/release-notes/v2.4.0.md) ·
 > [Bat dau nhanh →](docs/getting-started-personal-brand.md)
 
-<h1 align="center">Fullstack Marketing Skills</h1>
+<h1 align="center">AI Business Skills</h1>
 
 <p align="center">
   <strong>Bien AI thanh tro ly marketing chuyen nghiep — thiet ke cho thi truong Viet Nam.</strong>
