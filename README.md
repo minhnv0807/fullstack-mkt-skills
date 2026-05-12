@@ -190,7 +190,7 @@ Copy `.md` files as Custom Instructions or context. Each file is a standalone pr
 
 <table>
 <tr><th>#</th><th>Skill</th><th>What it does</th><th>Category</th></tr>
-<tr><td><b>★</b></td><td><a href="skills/product-marketing-context/SKILL.md"><b>Product Marketing Context</b></a></td><td><b>Foundation</b> — read first, avoids repeating info</td><td>
+<tr><td><b>★</b></td><td><a href="skills/vi/product-marketing-context/SKILL.md"><b>Product Marketing Context</b></a></td><td><b>Foundation</b> — read first, avoids repeating info</td><td>
 
 ![Foundation](https://img.shields.io/badge/-Foundation-be185d?style=flat-square)
 
@@ -305,37 +305,37 @@ Copy `.md` files as Custom Instructions or context. Each file is a standalone pr
 ![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square)
 
 </td></tr>
-<tr><td><code>22</code></td><td><a href="skills/vi/22-personal-brand-context/SKILL.md"><b>Personal Brand Context</b></a> <sup>v2.4 ⭐</sup></td><td>Foundation skill for personal brand (3 variants: founder/coach/creator)</td><td>
+<tr><td><code>22</code></td><td><a href="modules/personal-branding/vi/22-personal-brand-context/SKILL.md"><b>Personal Brand Context</b></a> <sup>v2.4 ⭐</sup></td><td>Foundation skill for personal brand (3 variants: founder/coach/creator)</td><td>
 
 ![Foundation](https://img.shields.io/badge/-Foundation-be185d?style=flat-square)
 
 </td></tr>
-<tr><td><code>23</code></td><td><a href="skills/vi/23-personal-brand-strategy/SKILL.md"><b>Personal Brand Strategy</b></a> <sup>v2.4</sup></td><td>12-month strategy: niche + positioning + content pillars + authority ladder</td><td>
+<tr><td><code>23</code></td><td><a href="modules/personal-branding/vi/23-personal-brand-strategy/SKILL.md"><b>Personal Brand Strategy</b></a> <sup>v2.4</sup></td><td>12-month strategy: niche + positioning + content pillars + authority ladder</td><td>
 
 ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
 
 </td></tr>
-<tr><td><code>24</code></td><td><a href="skills/vi/24-ai-avatar-production/SKILL.md"><b>AI Avatar Production</b></a> <sup>v2.4 🎬</sup></td><td>Deep-dive AI Avatar (3-tier tools, 4 workflows, QA Score 100)</td><td>
+<tr><td><code>24</code></td><td><a href="modules/personal-branding/vi/24-ai-avatar-production/SKILL.md"><b>AI Avatar Production</b></a> <sup>v2.4 🎬</sup></td><td>Deep-dive AI Avatar (3-tier tools, 4 workflows, QA Score 100)</td><td>
 
 ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
 
 </td></tr>
-<tr><td><code>25</code></td><td><a href="skills/vi/25-voice-clone-podcast/SKILL.md"><b>Voice Clone & Podcast</b></a> <sup>v2.4 🎙️</sup></td><td>Audio AI: voice clone, podcast, audiobook, 1:10 repurpose</td><td>
+<tr><td><code>25</code></td><td><a href="modules/personal-branding/vi/25-voice-clone-podcast/SKILL.md"><b>Voice Clone & Podcast</b></a> <sup>v2.4 🎙️</sup></td><td>Audio AI: voice clone, podcast, audiobook, 1:10 repurpose</td><td>
 
 ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
 
 </td></tr>
-<tr><td><code>26</code></td><td><a href="skills/vi/26-thought-leadership-content/SKILL.md"><b>Thought Leadership Content</b></a> <sup>v2.4</sup></td><td>Long-form text: 3 structures, 6 hooks, 1:5 repurpose</td><td>
+<tr><td><code>26</code></td><td><a href="modules/personal-branding/vi/26-thought-leadership-content/SKILL.md"><b>Thought Leadership Content</b></a> <sup>v2.4</sup></td><td>Long-form text: 3 structures, 6 hooks, 1:5 repurpose</td><td>
 
 ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
 
 </td></tr>
-<tr><td><code>27</code></td><td><a href="skills/vi/27-personal-brand-monetize/SKILL.md"><b>Personal Brand Monetize</b></a> <sup>v2.4</sup></td><td>3 funnel versions + pricing psychology + VN tax 2026</td><td>
+<tr><td><code>27</code></td><td><a href="modules/personal-branding/vi/27-personal-brand-monetize/SKILL.md"><b>Personal Brand Monetize</b></a> <sup>v2.4</sup></td><td>3 funnel versions + pricing psychology + VN tax 2026</td><td>
 
 ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
 
 </td></tr>
-<tr><td><code>28</code></td><td><a href="skills/vi/28-community-building/SKILL.md"><b>Community Building</b></a> <sup>v2.4</sup></td><td>Zalo/Telegram/Skool blueprint + 3-layer community</td><td>
+<tr><td><code>28</code></td><td><a href="modules/personal-branding/vi/28-community-building/SKILL.md"><b>Community Building</b></a> <sup>v2.4</sup></td><td>Zalo/Telegram/Skool blueprint + 3-layer community</td><td>
 
 ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
@@ -403,7 +403,7 @@ See: [examples/personal-brand-coach.md](examples/personal-brand-coach.md) ·
 ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square) ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square) ![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square) ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
 </td></tr>
-<tr><td><code>22–28</code></td><td><a href="skills/en/"><b>Personal Brand 7 skills (global)</b></a></td><td>Mirror VN 22–28 with <code>-global</code> suffix — context, strategy, AI Avatar, voice clone, thought leadership, monetize, community</td><td>
+<tr><td><code>22–28</code></td><td><a href="modules/personal-branding/en/"><b>Personal Brand 7 skills (global)</b></a></td><td>Mirror VN 22–28 with <code>-global</code> suffix — context, strategy, AI Avatar, voice clone, thought leadership, monetize, community</td><td>
 
 ![Foundation](https://img.shields.io/badge/-Foundation-be185d?style=flat-square) ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square) ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square) ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
@@ -602,65 +602,40 @@ ai-business-skills/
 │   ├── ISSUE_TEMPLATE/              # Bug report + skill request
 │   └── PULL_REQUEST_TEMPLATE/       # New skill + skill update
 │
-├── skills/                          # 29 VN skills (folder per skill)
-│   ├── product-marketing-context/   # Foundation skill (★)
-│   │   └── SKILL.md
-│   ├── 00-ke-hoach-mkt/
-│   │   └── SKILL.md
-│   ├── ... (skills 01-21 — Marketing SP cluster)
-│   ├── 22-personal-brand-context/   # NEW v2.4: Foundation with 3 variants
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   └── variants/
-│   │       ├── 01-founder.md
-│   │       ├── 02-coach.md
-│   │       └── 03-creator.md
-│   ├── 23-personal-brand-strategy/  # NEW v2.4
-│   ├── 24-ai-avatar-production/     # NEW v2.4: Flagship deep-dive
-│   ├── 25-voice-clone-podcast/      # NEW v2.4
-│   ├── 26-thought-leadership-content/ # NEW v2.4
-│   ├── 27-personal-brand-monetize/  # NEW v2.4
-│   └── 28-community-building/       # NEW v2.4
+├── skills/                              # Dual-edition (v3.0)
+│   ├── vi/                              # 🇻🇳 VN Edition — 23 skills + foundation
+│   │   ├── product-marketing-context/   # Foundation skill (★)
+│   │   ├── 00-21 marketing skills/      # 22 marketing skills (folders per skill)
+│   │   ├── 29-xuat-khau-b2b/            # Export B2B (community contribution)
+│   │   └── references/                  # 8 VN-specific references (benchmarks, hooks, MCP, etc.)
+│   │
+│   └── en/                              # 🌏 Global Edition — 22 marketing + foundation
+│       ├── product-marketing-context-global/  # Foundation (4 region variants: US/EU/SEA/LATAM)
+│       ├── 00-21 marketing skills (global)/   # Mirror VN 00-21 with -global suffix
+│       └── references/                  # 7 global references (legal, currency, dropship-tools, etc.)
 │
-├── references/                      # Shared references
-│   ├── benchmarks-vietnam.md
-│   ├── channel-system.md
-│   ├── content-angles.md
-│   ├── copy-frameworks-vn.md       # 6 copy frameworks (v2.3)
-│   ├── kpi-formulas.md
-│   ├── mcp-ads-integration.md      # MCP server guide (v2.3)
-│   ├── quality-gates-vn.md         # 10 hard rules (v2.3)
-│   ├── hook-formulas-vn.md         # 6 hook types for VN (v2.3)
-│   ├── ai-avatar-tools-vn.md       # NEW v2.4
-│   ├── voice-clone-prompts-vn.md   # NEW v2.4
-│   ├── ai-video-disclosure-vn.md   # NEW v2.4
-│   └── tool-stack.md
+├── modules/                             # NEW v3.0 — Topic modules (cross-language)
+│   ├── personal-branding/               # 🚀 Personal Brand module
+│   │   ├── vi/                          # 7 PB skills VN (22-28)
+│   │   ├── en/                          # 7 PB skills Global (22-28-global)
+│   │   └── workflows/{vi,en}/           # 3+3 PB workflows
+│   │
+│   └── dropshipping/                    # 🛒 Dropshipping module
+│       ├── en/29-dropshipping-mastery-global/  # Flagship (12 sections)
+│       └── workflows/en/dropshipping-launch-global.md
 │
-├── skills/en/                   # NEW v2.5.0 — 30 global skills
-│   ├── product-marketing-context-global/    # Foundation (★)
-│   ├── 00-21 marketing skills (global)      # Mirror VN with -global suffix
-│   ├── 22-28 personal brand skills (global) # Mirror VN with -global suffix
-│   ├── 29-dropshipping-mastery-global/      # NEW v2.5 flagship (🚀)
-│   └── references/                          # 7 global references
-│
-├── workflows/                       # 7 VN workflows
-│   ├── campaign-launch.md
-│   ├── client-onboard.md           # Agency workflow (v2.3)
-│   ├── content-production.md
-│   ├── monthly-cycle.md
-│   ├── personal-brand-launch.md    # v2.4 (30-day)
-│   ├── ai-avatar-batch.md          # v2.4 (5-day batch)
-│   └── personal-brand-monthly.md   # v2.4 (review)
-│
-├── workflows/en/                # NEW v2.5.0 — 8 global workflows
-│   ├── client-onboard-global.md
-│   ├── campaign-launch-global.md
-│   ├── monthly-cycle-global.md
-│   ├── content-production-global.md
-│   ├── dropshipping-launch-global.md       # 🚀 flagship workflow
-│   ├── personal-brand-launch-global.md
-│   ├── ai-avatar-batch-global.md
-│   └── personal-brand-monthly-global.md
+├── workflows/                           # Cross-cutting workflows (dual-edition)
+│   ├── vi/                              # 4 VN marketing workflows
+│   │   ├── campaign-launch.md
+│   │   ├── client-onboard.md
+│   │   ├── content-production.md
+│   │   └── monthly-cycle.md
+│   │
+│   └── en/                              # 4 Global marketing workflows
+│       ├── campaign-launch-global.md
+│       ├── client-onboard-global.md
+│       ├── content-production-global.md
+│       └── monthly-cycle-global.md
 │
 ├── docs/                            # Documentation
 │   ├── best-practices.md

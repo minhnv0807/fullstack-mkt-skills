@@ -168,107 +168,107 @@ Copy file `.md` lam Custom Instructions hoac context. Moi file la 1 prompt doc l
 
 <table>
 <tr><th>#</th><th>Skill</th><th>Lam gi</th><th>Category</th></tr>
-<tr><td><b>★</b></td><td><a href="skills/product-marketing-context/SKILL.md"><b>Product Marketing Context</b></a></td><td><b>Foundation</b> — doc truoc moi skill, tranh lap lai thong tin</td><td>
+<tr><td><b>★</b></td><td><a href="skills/vi/product-marketing-context/SKILL.md"><b>Product Marketing Context</b></a></td><td><b>Foundation</b> — doc truoc moi skill, tranh lap lai thong tin</td><td>
 
 ![Foundation](https://img.shields.io/badge/-Foundation-be185d?style=flat-square)
 
 </td></tr>
-<tr><td><code>00</code></td><td><a href="skills/00-ke-hoach-mkt/SKILL.md"><b>Ke Hoach MKT</b></a></td><td>Ke hoach toan dien 7 phan + SAVE framework + risk matrix</td><td>
+<tr><td><code>00</code></td><td><a href="skills/vi/00-ke-hoach-mkt/SKILL.md"><b>Ke Hoach MKT</b></a></td><td>Ke hoach toan dien 7 phan + SAVE framework + risk matrix</td><td>
 
 ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
 
 </td></tr>
-<tr><td><code>01</code></td><td><a href="skills/01-lich-noi-dung/SKILL.md"><b>Lich Noi Dung</b></a></td><td>Lich thang + repurposing matrix 1:9 + AI scoring</td><td>
+<tr><td><code>01</code></td><td><a href="skills/vi/01-lich-noi-dung/SKILL.md"><b>Lich Noi Dung</b></a></td><td>Lich thang + repurposing matrix 1:9 + AI scoring</td><td>
 
 ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
 
 </td></tr>
-<tr><td><code>02</code></td><td><a href="skills/02-brief-chien-dich/SKILL.md"><b>Brief Chien Dich</b></a></td><td>Brief 9 phan + RACI matrix + risk mitigation</td><td>
+<tr><td><code>02</code></td><td><a href="skills/vi/02-brief-chien-dich/SKILL.md"><b>Brief Chien Dich</b></a></td><td>Brief 9 phan + RACI matrix + risk mitigation</td><td>
 
 ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
 
 </td></tr>
-<tr><td><code>03</code></td><td><a href="skills/03-danh-gia-hieu-suat/SKILL.md"><b>Danh Gia Hieu Suat</b></a></td><td>Diagnostic tree + 5 Whys + 48h action plan</td><td>
+<tr><td><code>03</code></td><td><a href="skills/vi/03-danh-gia-hieu-suat/SKILL.md"><b>Danh Gia Hieu Suat</b></a></td><td>Diagnostic tree + 5 Whys + 48h action plan</td><td>
 
 ![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square)
 
 </td></tr>
-<tr><td><code>04</code></td><td><a href="skills/04-script-video/SKILL.md"><b>Script Video</b></a></td><td>Script A/B + 5 hook types + viral score + filming guide</td><td>
+<tr><td><code>04</code></td><td><a href="skills/vi/04-script-video/SKILL.md"><b>Script Video</b></a></td><td>Script A/B + 5 hook types + viral score + filming guide</td><td>
 
 ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
 
 </td></tr>
-<tr><td><code>05</code></td><td><a href="skills/05-copy-quang-cao/SKILL.md"><b>Copy Quang Cao</b></a></td><td>6 variations 3 tang pheu + emotional triggers</td><td>
+<tr><td><code>05</code></td><td><a href="skills/vi/05-copy-quang-cao/SKILL.md"><b>Copy Quang Cao</b></a></td><td>6 variations 3 tang pheu + emotional triggers</td><td>
 
 ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
 
 </td></tr>
-<tr><td><code>06</code></td><td><a href="skills/06-brief-ugc-egc/SKILL.md"><b>Brief UGC/EGC</b></a></td><td>Brief creator + legal + payment + batch management</td><td>
+<tr><td><code>06</code></td><td><a href="skills/vi/06-brief-ugc-egc/SKILL.md"><b>Brief UGC/EGC</b></a></td><td>Brief creator + legal + payment + batch management</td><td>
 
 ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
 
 </td></tr>
-<tr><td><code>07</code></td><td><a href="skills/07-bao-cao-marketing/SKILL.md"><b>Bao Cao Marketing</b></a></td><td>Bao cao thang doc 5 phut — nhan dinh truoc, so lieu sau</td><td>
+<tr><td><code>07</code></td><td><a href="skills/vi/07-bao-cao-marketing/SKILL.md"><b>Bao Cao Marketing</b></a></td><td>Bao cao thang doc 5 phut — nhan dinh truoc, so lieu sau</td><td>
 
 ![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square)
 
 </td></tr>
-<tr><td><code>08</code></td><td><a href="skills/08-nghien-cuu-doi-thu/SKILL.md"><b>Nghien Cuu Doi Thu</b></a></td><td>3 tang doi thu + SWOT + positioning map + gaps</td><td>
+<tr><td><code>08</code></td><td><a href="skills/vi/08-nghien-cuu-doi-thu/SKILL.md"><b>Nghien Cuu Doi Thu</b></a></td><td>3 tang doi thu + SWOT + positioning map + gaps</td><td>
 
 ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
 
 </td></tr>
-<tr><td><code>09</code></td><td><a href="skills/09-insight-khach-hang/SKILL.md"><b>Insight Khach Hang</b></a></td><td>Persona + customer journey + JTBD + validation</td><td>
+<tr><td><code>09</code></td><td><a href="skills/vi/09-insight-khach-hang/SKILL.md"><b>Insight Khach Hang</b></a></td><td>Persona + customer journey + JTBD + validation</td><td>
 
 ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
 
 </td></tr>
-<tr><td><code>10</code></td><td><a href="skills/10-tinh-kpi-nguoc/SKILL.md"><b>Tinh KPI Nguoc</b></a></td><td>Doanh thu → ngan sach + 3 kich ban + sensitivity</td><td>
+<tr><td><code>10</code></td><td><a href="skills/vi/10-tinh-kpi-nguoc/SKILL.md"><b>Tinh KPI Nguoc</b></a></td><td>Doanh thu → ngan sach + 3 kich ban + sensitivity</td><td>
 
 ![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square)
 
 </td></tr>
-<tr><td><code>11</code></td><td><a href="skills/11-thiet-lap-kenh/SKILL.md"><b>Thiet Lap Kenh</b></a></td><td>Setup 7 kenh + checklist 4 phase + 30-day plan</td><td>
+<tr><td><code>11</code></td><td><a href="skills/vi/11-thiet-lap-kenh/SKILL.md"><b>Thiet Lap Kenh</b></a></td><td>Setup 7 kenh + checklist 4 phase + 30-day plan</td><td>
 
 ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
 </td></tr>
-<tr><td><code>12</code></td><td><a href="skills/12-brief-landing-page/SKILL.md"><b>Brief Landing Page</b></a></td><td>Brief 7 section + conversion checklist + A/B plan</td><td>
+<tr><td><code>12</code></td><td><a href="skills/vi/12-brief-landing-page/SKILL.md"><b>Brief Landing Page</b></a></td><td>Brief 7 section + conversion checklist + A/B plan</td><td>
 
 ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
 </td></tr>
-<tr><td><code>13</code></td><td><a href="skills/13-phan-tich-du-lieu/SKILL.md"><b>Phan Tich Du Lieu</b></a></td><td>Meta/TikTok/GA4 → insight + trend + anomaly</td><td>
+<tr><td><code>13</code></td><td><a href="skills/vi/13-phan-tich-du-lieu/SKILL.md"><b>Phan Tich Du Lieu</b></a></td><td>Meta/TikTok/GA4 → insight + trend + anomaly</td><td>
 
 ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
 </td></tr>
-<tr><td><code>14</code></td><td><a href="skills/14-email-marketing/SKILL.md"><b>Email Marketing</b></a></td><td>Welcome/nurture/re-engage + automation + deliverability</td><td>
+<tr><td><code>14</code></td><td><a href="skills/vi/14-email-marketing/SKILL.md"><b>Email Marketing</b></a></td><td>Welcome/nurture/re-engage + automation + deliverability</td><td>
 
 ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
 </td></tr>
-<tr><td><code>15</code></td><td><a href="skills/15-social-listening/SKILL.md"><b>Social Listening</b></a></td><td>Brand monitoring + sentiment + crisis protocol</td><td>
+<tr><td><code>15</code></td><td><a href="skills/vi/15-social-listening/SKILL.md"><b>Social Listening</b></a></td><td>Brand monitoring + sentiment + crisis protocol</td><td>
 
 ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square)
 
 </td></tr>
-<tr><td><code>16</code></td><td><a href="skills/16-marketing-psychology/SKILL.md"><b>Marketing Psychology</b></a> <sup>NEW</sup></td><td>7 Cialdini principles + VN cultural adaptation</td><td>
+<tr><td><code>16</code></td><td><a href="skills/vi/16-marketing-psychology/SKILL.md"><b>Marketing Psychology</b></a> <sup>NEW</sup></td><td>7 Cialdini principles + VN cultural adaptation</td><td>
 
 ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
 
 </td></tr>
-<tr><td><code>17</code></td><td><a href="skills/17-pricing-strategy/SKILL.md"><b>Pricing Strategy</b></a> <sup>NEW</sup></td><td>Pricing tier + charm/anchor/bundle + break-even</td><td>
+<tr><td><code>17</code></td><td><a href="skills/vi/17-pricing-strategy/SKILL.md"><b>Pricing Strategy</b></a> <sup>NEW</sup></td><td>Pricing tier + charm/anchor/bundle + break-even</td><td>
 
 ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square)
 
 </td></tr>
-<tr><td><code>18</code></td><td><a href="skills/18-referral-program/SKILL.md"><b>Referral Program</b></a> <sup>NEW</sup></td><td>1-way/2-way/affiliate + VN channels + anti-fraud</td><td>
+<tr><td><code>18</code></td><td><a href="skills/vi/18-referral-program/SKILL.md"><b>Referral Program</b></a> <sup>NEW</sup></td><td>1-way/2-way/affiliate + VN channels + anti-fraud</td><td>
 
 ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
 </td></tr>
-<tr><td><code>19</code></td><td><a href="skills/19-ab-test-setup/SKILL.md"><b>A/B Test Setup</b></a></td><td>Sample size + 8 what-to-test + significance analysis</td><td>
+<tr><td><code>19</code></td><td><a href="skills/vi/19-ab-test-setup/SKILL.md"><b>A/B Test Setup</b></a></td><td>Sample size + 8 what-to-test + significance analysis</td><td>
 
 ![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square)
 
@@ -381,7 +381,7 @@ Xem them: [examples/personal-brand-coach.md](examples/personal-brand-coach.md) �
 ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square) ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square) ![Performance](https://img.shields.io/badge/-Performance-c2410c?style=flat-square) ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
 </td></tr>
-<tr><td><code>22–28</code></td><td><a href="skills/en/"><b>Personal Brand 7 skills (global)</b></a></td><td>Mirror VN 22–28 voi suffix <code>-global</code> — context, strategy, AI Avatar, voice clone, thought leadership, monetize, community</td><td>
+<tr><td><code>22–28</code></td><td><a href="modules/personal-branding/en/"><b>Personal Brand 7 skills (global)</b></a></td><td>Mirror VN 22–28 voi suffix <code>-global</code> — context, strategy, AI Avatar, voice clone, thought leadership, monetize, community</td><td>
 
 ![Foundation](https://img.shields.io/badge/-Foundation-be185d?style=flat-square) ![Strategy](https://img.shields.io/badge/-Strategy-6d28d9?style=flat-square) ![Content](https://img.shields.io/badge/-Content-b45309?style=flat-square) ![Operations](https://img.shields.io/badge/-Operations-1d4ed8?style=flat-square)
 
@@ -580,67 +580,40 @@ ai-business-skills/
 │   ├── ISSUE_TEMPLATE/              # Bug report + skill request
 │   └── PULL_REQUEST_TEMPLATE/       # New skill + skill update
 │
-├── skills/                          # 29 skill VN (folder per skill)
-│   ├── product-marketing-context/   # Foundation skill (★)
-│   │   └── SKILL.md
-│   ├── 00-ke-hoach-mkt/
-│   │   └── SKILL.md
-│   ├── 01-lich-noi-dung/
-│   │   └── SKILL.md
-│   ├── ... (skill 02-21 — cum Marketing SP)
-│   ├── 22-personal-brand-context/   # v2.4: Foundation co 3 variants
-│   │   ├── SKILL.md
-│   │   ├── README.md
-│   │   └── variants/
-│   │       ├── 01-founder.md
-│   │       ├── 02-coach.md
-│   │       └── 03-creator.md
-│   ├── 23-personal-brand-strategy/  # v2.4
-│   ├── 24-ai-avatar-production/     # v2.4: Flagship deep-dive
-│   ├── 25-voice-clone-podcast/      # v2.4
-│   ├── 26-thought-leadership-content/ # v2.4
-│   ├── 27-personal-brand-monetize/  # v2.4
-│   └── 28-community-building/       # v2.4
+├── skills/                              # Dual-edition (v3.0)
+│   ├── vi/                              # 🇻🇳 VN Edition — 23 skill + foundation
+│   │   ├── product-marketing-context/   # Foundation skill (★)
+│   │   ├── 00-21 marketing skills/      # 22 marketing skill (folder per skill)
+│   │   ├── 29-xuat-khau-b2b/            # Export B2B (community contribution)
+│   │   └── references/                  # 8 reference VN (benchmarks, hooks, MCP, etc.)
+│   │
+│   └── en/                              # 🌏 Global Edition — 22 marketing + foundation
+│       ├── product-marketing-context-global/  # Foundation (4 region variants: US/EU/SEA/LATAM)
+│       ├── 00-21 marketing skills (global)/   # Mirror VN 00-21 voi suffix -global
+│       └── references/                  # 7 reference global (legal, currency, dropship-tools, etc.)
 │
-├── skills/en/                   # NEW v2.5.0 — 30 skill global
-│   ├── product-marketing-context-global/    # Foundation (★)
-│   ├── 00-21 marketing skills (global)      # Mirror VN voi suffix -global
-│   ├── 22-28 personal brand skills (global) # Mirror VN voi suffix -global
-│   ├── 29-dropshipping-mastery-global/      # NEW v2.5 flagship (🚀)
-│   └── references/                          # 7 reference global
+├── modules/                             # NEW v3.0 — Topic modules (cross-language)
+│   ├── personal-branding/               # 🚀 Module Personal Brand
+│   │   ├── vi/                          # 7 PB skill VN (22-28)
+│   │   ├── en/                          # 7 PB skill Global (22-28-global)
+│   │   └── workflows/{vi,en}/           # 3+3 PB workflows
+│   │
+│   └── dropshipping/                    # 🛒 Module Dropshipping
+│       ├── en/29-dropshipping-mastery-global/  # Flagship (12 sections)
+│       └── workflows/en/dropshipping-launch-global.md
 │
-├── references/                      # Shared references
-│   ├── benchmarks-vietnam.md
-│   ├── channel-system.md
-│   ├── content-angles.md
-│   ├── copy-frameworks-vn.md       # 6 copy framework (v2.3)
-│   ├── kpi-formulas.md
-│   ├── mcp-ads-integration.md      # MCP server guide (v2.3)
-│   ├── quality-gates-vn.md         # 10 hard rules (v2.3)
-│   ├── hook-formulas-vn.md         # 6 hook type cho VN (v2.3)
-│   ├── ai-avatar-tools-vn.md       # v2.4
-│   ├── voice-clone-prompts-vn.md   # v2.4
-│   ├── ai-video-disclosure-vn.md   # v2.4
-│   └── tool-stack.md
-│
-├── workflows/                       # 7 workflow VN
-│   ├── campaign-launch.md
-│   ├── client-onboard.md           # Agency workflow (v2.3)
-│   ├── content-production.md
-│   ├── monthly-cycle.md
-│   ├── personal-brand-launch.md    # v2.4 (30 ngay)
-│   ├── ai-avatar-batch.md          # v2.4 (batch 5 ngay)
-│   └── personal-brand-monthly.md   # v2.4 (review)
-│
-├── workflows/en/                # NEW v2.5.0 — 8 workflow global
-│   ├── client-onboard-global.md
-│   ├── campaign-launch-global.md
-│   ├── monthly-cycle-global.md
-│   ├── content-production-global.md
-│   ├── dropshipping-launch-global.md       # 🚀 flagship workflow
-│   ├── personal-brand-launch-global.md
-│   ├── ai-avatar-batch-global.md
-│   └── personal-brand-monthly-global.md
+├── workflows/                           # Workflow xuyen-tang (dual-edition)
+│   ├── vi/                              # 4 workflow marketing VN
+│   │   ├── campaign-launch.md
+│   │   ├── client-onboard.md
+│   │   ├── content-production.md
+│   │   └── monthly-cycle.md
+│   │
+│   └── en/                              # 4 workflow marketing Global
+│       ├── campaign-launch-global.md
+│       ├── client-onboard-global.md
+│       ├── content-production-global.md
+│       └── monthly-cycle-global.md
 │
 ├── agents/                          # Agent personas (universal trong v2.5)
 │   └── personal-brand-builder.md   # v2.4
